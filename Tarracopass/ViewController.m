@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
+    self.navigationItem.backBarButtonItem = backButton;
 }
 
 - (void)didReceiveMemoryWarning {
