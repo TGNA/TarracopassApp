@@ -17,11 +17,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *temperatureLabel;
 @property (weak, nonatomic) IBOutlet UILabel *currentDescriptionLabel;
 @property (weak, nonatomic) IBOutlet UILabel *updatedLabel;
-@property (weak, nonatomic) IBOutlet UILabel *forecastDayOneLabel;
-@property (weak, nonatomic) IBOutlet UILabel *forecastIconOneLabel;
-@property (weak, nonatomic) IBOutlet UILabel *forecastDayTwoLabel;
-@property (weak, nonatomic) IBOutlet UILabel *forecastIconTwoLabel;
-@property (weak, nonatomic) IBOutlet UILabel *forecastDayThreeLabel;
-@property (weak, nonatomic) IBOutlet UILabel *forecastIconThreeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *currentHumidityLabel;
 
 @end

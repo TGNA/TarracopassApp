@@ -239,5 +239,120 @@
 			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/museum/gallery/323126940museu%20arqueologic%201.jpg?itok=_67TFNaZ</string>
 		</array>
 	</dict>
+	<dict>
+		<key>name</key>
+		<string>Castell de Tamarit</string>
+		<key>latitude</key>
+		<string>41.130112311900</string>
+		<key>longitude</key>
+		<string>1.361371278760</string>
+		<key>text</key>
+		<string>textCastellTamarit</string>
+		<key>price</key>
+		<string>-</string>
+		<key>horari</key>
+		<string>horariCastellTamarit</string>
+		<key>direction</key>
+		<string>N-340 Km 1171 (a 10 Km de Tarragona) 43008 Tarragona-Altafulla</string>
+		<key>image_menu</key>
+		<string>castellTamarit.jpg</string>
+		<key>image</key>
+		<string>castellTamarit.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar el Castell de Tamarit!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/67328746304.jpg?itok=CYp76cAc</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Hospital medieval</string>
+		<key>latitude</key>
+		<string>41.119036160600</string>
+		<key>longitude</key>
+		<string>1.258487105370</string>
+		<key>text</key>
+		<string>textHospitalMedieval</string>
+		<key>price</key>
+		<string>Gratuïta</string>
+		<key>horari</key>
+		<string>horariHospitalMedieval</string>
+		<key>direction</key>
+		<string>C. Les Coques, 3 43003 Tarragona</string>
+		<key>image_menu</key>
+		<string>hospitalMedieval.jpg</string>
+		<key>image</key>
+		<string>hospitalMedieval.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar el Hospital medieval!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/1919721667ANTIGUO%20HOSPITAL%20STA%20TECLA%2010.jpg?itok=fypg8R2-</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/1207941268img_9161.jpg?itok=ioqU5hb8</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Pedrera del Mèdol</string>
+		<key>latitude</key>
+		<string>41.138491929500</string>
+		<key>longitude</key>
+		<string>1.339087486270</string>
+		<key>text</key>
+		<string>textPedreraMedol</string>
+		<key>price</key>
+		<string>Gratuïta</string>
+		<key>horari</key>
+		<string>horariPedreraMedol</string>
+		<key>direction</key>
+		<string>N-340 a Barcelona - Àrea de Servei del Mèdol (a 8 km de Tarragona) 43007 Tarragona</string>
+		<key>image_menu</key>
+		<string>pedreraMedol.jpg</string>
+		<key>image</key>
+		<string>pedreraMedol.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar la Pedrera del Mèdol!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/1708707062medol.jpg?itok=4QEJkxyb</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Portal de SantAntoni</string>
+		<key>latitude</key>
+		<string>41.118842180000</string>
+		<key>longitude</key>
+		<string>1.260933279990</string>
+		<key>text</key>
+		<string>textPortalSantAntoni</string>
+		<key>price</key>
+		<string>Gratuïta</string>
+		<key>horari</key>
+		<string>horariPortalSantAntoni</string>
+		<key>direction</key>
+		<string>Passeig de Sant Antoni 43003 Tarragona</string>
+		<key>image_menu</key>
+		<string>portalSantAntoni.jpg</string>
+		<key>image</key>
+		<string>portalSantAntoni.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar el Portal de Sant Antoni!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/72868392124%20-%20CIUTAT%20-%20part%20alta.jpg?itok=7kQndkdn</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/283392699img_9180.jpg?itok=EN0yHVJ9</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/116497467img_9206.jpg?itok=tXrNbiHP</string>
+		</array>
+	</dict>
 </array>
 </plist>

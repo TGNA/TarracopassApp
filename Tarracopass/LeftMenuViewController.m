@@ -13,6 +13,7 @@
 #import "AgendaCulturalViewController.h"
 #import "LlocsTableViewController.h"
 #import "TempsViewController.h"
+#import "ContacteTableViewController.h"
 
 @interface LeftMenuViewController ()
 

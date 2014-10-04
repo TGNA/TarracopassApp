@@ -59,7 +59,30 @@
 		0CB1866719E01B5A002E4AE5 /* museuNacionalArqueologic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1866619E01B5A002E4AE5 /* museuNacionalArqueologic.jpg */; };
 		0CB1866A19E01B8F002E4AE5 /* textMuseuNacionalArqueologic.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1866819E01B8F002E4AE5 /* textMuseuNacionalArqueologic.txt */; };
 		0CB1866D19E01B9B002E4AE5 /* horariMuseuNacionalArqueologic.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1866C19E01B9B002E4AE5 /* horariMuseuNacionalArqueologic.txt */; };
-		0CB1866E19E01EDB002E4AE5 /* Climacons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D6A819D87CD0002A8AC1 /* Climacons.ttf */; };
+		0CB1866E19E01EDB002E4AE5 /* Climacons-Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D6A819D87CD0002A8AC1 /* Climacons-Font.ttf */; };
+		0CB1867119E05532002E4AE5 /* ContacteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB1867019E05532002E4AE5 /* ContacteTableViewController.m */; };
+		0CB186A719E060C3002E4AE5 /* SVWebViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1868819E060C3002E4AE5 /* SVWebViewController.strings */; };
+		0CB186A819E060C3002E4AE5 /* SVModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB1869219E060C3002E4AE5 /* SVModalWebViewController.m */; };
+		0CB186A919E060C3002E4AE5 /* SVWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1869319E060C3002E4AE5 /* SVWebViewController.bundle */; };
+		0CB186AA19E060C3002E4AE5 /* SVWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB1869519E060C3002E4AE5 /* SVWebViewController.m */; };
+		0CB186AB19E060C3002E4AE5 /* SVWebViewControllerActivityChrome-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1869819E060C3002E4AE5 /* SVWebViewControllerActivityChrome-iPad.png */; };
+		0CB186AC19E060C3002E4AE5 /* SVWebViewControllerActivityChrome-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1869919E060C3002E4AE5 /* SVWebViewControllerActivityChrome-iPad@2x.png */; };
+		0CB186AD19E060C3002E4AE5 /* SVWebViewControllerActivityChrome.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB1869B19E060C3002E4AE5 /* SVWebViewControllerActivityChrome.m */; };
+		0CB186AE19E060C3002E4AE5 /* SVWebViewControllerActivityChrome@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1869C19E060C3002E4AE5 /* SVWebViewControllerActivityChrome@2x.png */; };
+		0CB186AF19E060C3002E4AE5 /* SVWebViewControllerActivitySafari-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1869E19E060C3002E4AE5 /* SVWebViewControllerActivitySafari-iPad.png */; };
+		0CB186B019E060C3002E4AE5 /* SVWebViewControllerActivitySafari-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1869F19E060C3002E4AE5 /* SVWebViewControllerActivitySafari-iPad@2x.png */; };
+		0CB186B119E060C3002E4AE5 /* SVWebViewControllerActivitySafari.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB186A119E060C3002E4AE5 /* SVWebViewControllerActivitySafari.m */; };
+		0CB186B219E060C3002E4AE5 /* SVWebViewControllerActivitySafari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB186A219E060C3002E4AE5 /* SVWebViewControllerActivitySafari@2x.png */; };
+		0CB186B319E060C3002E4AE5 /* SVWebViewControllerActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB186A419E060C3002E4AE5 /* SVWebViewControllerActivity.m */; };
+		0CB186B719E06278002E4AE5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB186B619E06278002E4AE5 /* MessageUI.framework */; };
+		0CB186D019E062FF002E4AE5 /* CTFeedbackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB186C719E062FF002E4AE5 /* CTFeedbackCell.m */; };
+		0CB186D119E062FF002E4AE5 /* CTFeedbackCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB186C919E062FF002E4AE5 /* CTFeedbackCellItem.m */; };
+		0CB186D219E062FF002E4AE5 /* CTFeedbackTopicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB186CB19E062FF002E4AE5 /* CTFeedbackTopicsViewController.m */; };
+		0CB186D319E062FF002E4AE5 /* CTFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB186CD19E062FF002E4AE5 /* CTFeedbackViewController.m */; };
+		0CB186D419E062FF002E4AE5 /* NSBundle+CTFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB186CF19E062FF002E4AE5 /* NSBundle+CTFeedback.m */; };
+		0CB186D819E069BF002E4AE5 /* LicenciesTercersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB186D719E069BF002E4AE5 /* LicenciesTercersTableViewController.m */; };
+		0CB186DA19E06A13002E4AE5 /* Llicencies.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0CB186D919E06A13002E4AE5 /* Llicencies.plist */; };
+		0CB186DD19E06B9E002E4AE5 /* LicenciesTercersDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB186DC19E06B9E002E4AE5 /* LicenciesTercersDetailViewController.m */; };
 		0CD6D64219D75BBF002A8AC1 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D61919D75BBF002A8AC1 /* AFHTTPRequestOperation.m */; };
 		0CD6D64319D75BBF002A8AC1 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D61B19D75BBF002A8AC1 /* AFHTTPRequestOperationManager.m */; };
 		0CD6D64419D75BBF002A8AC1 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D61D19D75BBF002A8AC1 /* AFHTTPSessionManager.m */; };
@@ -265,6 +288,51 @@
 		0CB1866619E01B5A002E4AE5 /* museuNacionalArqueologic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = museuNacionalArqueologic.jpg; sourceTree = "<group>"; };
 		0CB1866819E01B8F002E4AE5 /* textMuseuNacionalArqueologic.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textMuseuNacionalArqueologic.txt; sourceTree = "<group>"; };
 		0CB1866C19E01B9B002E4AE5 /* horariMuseuNacionalArqueologic.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horariMuseuNacionalArqueologic.txt; sourceTree = "<group>"; };
+		0CB1866F19E05532002E4AE5 /* ContacteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContacteTableViewController.h; sourceTree = "<group>"; };
+		0CB1867019E05532002E4AE5 /* ContacteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContacteTableViewController.m; sourceTree = "<group>"; };
+		0CB1868919E060C3002E4AE5 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		0CB1868A19E060C3002E4AE5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		0CB1868B19E060C3002E4AE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		0CB1868C19E060C3002E4AE5 /* es-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-ES"; path = "es-ES.lproj/SVWebViewController.strings"; sourceTree = "<group>"; };
+		0CB1868D19E060C3002E4AE5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		0CB1868E19E060C3002E4AE5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		0CB1868F19E060C3002E4AE5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		0CB1869019E060C3002E4AE5 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		0CB1869119E060C3002E4AE5 /* SVModalWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVModalWebViewController.h; sourceTree = "<group>"; };
+		0CB1869219E060C3002E4AE5 /* SVModalWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVModalWebViewController.m; sourceTree = "<group>"; };
+		0CB1869319E060C3002E4AE5 /* SVWebViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVWebViewController.bundle; sourceTree = "<group>"; };
+		0CB1869419E060C3002E4AE5 /* SVWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewController.h; sourceTree = "<group>"; };
+		0CB1869519E060C3002E4AE5 /* SVWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewController.m; sourceTree = "<group>"; };
+		0CB1869819E060C3002E4AE5 /* SVWebViewControllerActivityChrome-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityChrome-iPad.png"; sourceTree = "<group>"; };
+		0CB1869919E060C3002E4AE5 /* SVWebViewControllerActivityChrome-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityChrome-iPad@2x.png"; sourceTree = "<group>"; };
+		0CB1869A19E060C3002E4AE5 /* SVWebViewControllerActivityChrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewControllerActivityChrome.h; sourceTree = "<group>"; };
+		0CB1869B19E060C3002E4AE5 /* SVWebViewControllerActivityChrome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivityChrome.m; sourceTree = "<group>"; };
+		0CB1869C19E060C3002E4AE5 /* SVWebViewControllerActivityChrome@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityChrome@2x.png"; sourceTree = "<group>"; };
+		0CB1869E19E060C3002E4AE5 /* SVWebViewControllerActivitySafari-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivitySafari-iPad.png"; sourceTree = "<group>"; };
+		0CB1869F19E060C3002E4AE5 /* SVWebViewControllerActivitySafari-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivitySafari-iPad@2x.png"; sourceTree = "<group>"; };
+		0CB186A019E060C3002E4AE5 /* SVWebViewControllerActivitySafari.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewControllerActivitySafari.h; sourceTree = "<group>"; };
+		0CB186A119E060C3002E4AE5 /* SVWebViewControllerActivitySafari.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivitySafari.m; sourceTree = "<group>"; };
+		0CB186A219E060C3002E4AE5 /* SVWebViewControllerActivitySafari@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivitySafari@2x.png"; sourceTree = "<group>"; };
+		0CB186A319E060C3002E4AE5 /* SVWebViewControllerActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewControllerActivity.h; sourceTree = "<group>"; };
+		0CB186A419E060C3002E4AE5 /* SVWebViewControllerActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivity.m; sourceTree = "<group>"; };
+		0CB186A519E060C3002E4AE5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SVWebViewController.strings"; sourceTree = "<group>"; };
+		0CB186A619E060C3002E4AE5 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/SVWebViewController.strings"; sourceTree = "<group>"; };
+		0CB186B619E06278002E4AE5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0CB186C619E062FF002E4AE5 /* CTFeedbackCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFeedbackCell.h; sourceTree = "<group>"; };
+		0CB186C719E062FF002E4AE5 /* CTFeedbackCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFeedbackCell.m; sourceTree = "<group>"; };
+		0CB186C819E062FF002E4AE5 /* CTFeedbackCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFeedbackCellItem.h; sourceTree = "<group>"; };
+		0CB186C919E062FF002E4AE5 /* CTFeedbackCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFeedbackCellItem.m; sourceTree = "<group>"; };
+		0CB186CA19E062FF002E4AE5 /* CTFeedbackTopicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFeedbackTopicsViewController.h; sourceTree = "<group>"; };
+		0CB186CB19E062FF002E4AE5 /* CTFeedbackTopicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFeedbackTopicsViewController.m; sourceTree = "<group>"; };
+		0CB186CC19E062FF002E4AE5 /* CTFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFeedbackViewController.h; sourceTree = "<group>"; };
+		0CB186CD19E062FF002E4AE5 /* CTFeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFeedbackViewController.m; sourceTree = "<group>"; };
+		0CB186CE19E062FF002E4AE5 /* NSBundle+CTFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+CTFeedback.h"; sourceTree = "<group>"; };
+		0CB186CF19E062FF002E4AE5 /* NSBundle+CTFeedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+CTFeedback.m"; sourceTree = "<group>"; };
+		0CB186D619E069BF002E4AE5 /* LicenciesTercersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LicenciesTercersTableViewController.h; sourceTree = "<group>"; };
+		0CB186D719E069BF002E4AE5 /* LicenciesTercersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LicenciesTercersTableViewController.m; sourceTree = "<group>"; };
+		0CB186D919E06A13002E4AE5 /* Llicencies.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Llicencies.plist; sourceTree = "<group>"; };
+		0CB186DB19E06B9E002E4AE5 /* LicenciesTercersDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LicenciesTercersDetailViewController.h; sourceTree = "<group>"; };
+		0CB186DC19E06B9E002E4AE5 /* LicenciesTercersDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LicenciesTercersDetailViewController.m; sourceTree = "<group>"; };
 		0CD6D61819D75BBF002A8AC1 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		0CD6D61919D75BBF002A8AC1 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		0CD6D61A19D75BBF002A8AC1 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -331,7 +399,7 @@
 		0CD6D69F19D86DA3002A8AC1 /* LlocsTimeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LlocsTimeTableViewController.h; sourceTree = "<group>"; };
 		0CD6D6A019D86DA3002A8AC1 /* LlocsTimeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LlocsTimeTableViewController.m; sourceTree = "<group>"; };
 		0CD6D6A319D86EAD002A8AC1 /* Llocs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Llocs.plist; sourceTree = "<group>"; };
-		0CD6D6A819D87CD0002A8AC1 /* Climacons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Climacons.ttf; sourceTree = "<group>"; };
+		0CD6D6A819D87CD0002A8AC1 /* Climacons-Font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Climacons-Font.ttf"; sourceTree = "<group>"; };
 		0CD6D6AA19D87CEA002A8AC1 /* Climacons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Climacons.h; sourceTree = "<group>"; };
 		0CD6D6AB19D87CEA002A8AC1 /* CZWeatherKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZWeatherKit.h; sourceTree = "<group>"; };
 		0CD6D6AD19D87CEA002A8AC1 /* CZWeatherCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZWeatherCondition.h; sourceTree = "<group>"; };
@@ -435,6 +503,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CB186B719E06278002E4AE5 /* MessageUI.framework in Frameworks */,
 				0CD6D67319D76695002A8AC1 /* UIKit.framework in Frameworks */,
 				0CD6D65719D75C14002A8AC1 /* Security.framework in Frameworks */,
 				0CD6D65519D75C0A002A8AC1 /* CFNetwork.framework in Frameworks */,
@@ -663,6 +732,85 @@
 			name = "Museu Nacional Arqueològic";
 			sourceTree = "<group>";
 		};
+		0CB1867219E05536002E4AE5 /* Contacte */ = {
+			isa = PBXGroup;
+			children = (
+				0CB1866F19E05532002E4AE5 /* ContacteTableViewController.h */,
+				0CB1867019E05532002E4AE5 /* ContacteTableViewController.m */,
+				0CB186D619E069BF002E4AE5 /* LicenciesTercersTableViewController.h */,
+				0CB186D719E069BF002E4AE5 /* LicenciesTercersTableViewController.m */,
+				0CB186DB19E06B9E002E4AE5 /* LicenciesTercersDetailViewController.h */,
+				0CB186DC19E06B9E002E4AE5 /* LicenciesTercersDetailViewController.m */,
+			);
+			name = Contacte;
+			sourceTree = "<group>";
+		};
+		0CB1868719E060C3002E4AE5 /* SVWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0CB1868819E060C3002E4AE5 /* SVWebViewController.strings */,
+				0CB1869119E060C3002E4AE5 /* SVModalWebViewController.h */,
+				0CB1869219E060C3002E4AE5 /* SVModalWebViewController.m */,
+				0CB1869319E060C3002E4AE5 /* SVWebViewController.bundle */,
+				0CB1869419E060C3002E4AE5 /* SVWebViewController.h */,
+				0CB1869519E060C3002E4AE5 /* SVWebViewController.m */,
+				0CB1869619E060C3002E4AE5 /* UIActivities */,
+			);
+			path = SVWebViewController;
+			sourceTree = "<group>";
+		};
+		0CB1869619E060C3002E4AE5 /* UIActivities */ = {
+			isa = PBXGroup;
+			children = (
+				0CB1869719E060C3002E4AE5 /* Chrome */,
+				0CB1869D19E060C3002E4AE5 /* Safari */,
+				0CB186A319E060C3002E4AE5 /* SVWebViewControllerActivity.h */,
+				0CB186A419E060C3002E4AE5 /* SVWebViewControllerActivity.m */,
+			);
+			path = UIActivities;
+			sourceTree = "<group>";
+		};
+		0CB1869719E060C3002E4AE5 /* Chrome */ = {
+			isa = PBXGroup;
+			children = (
+				0CB1869819E060C3002E4AE5 /* SVWebViewControllerActivityChrome-iPad.png */,
+				0CB1869919E060C3002E4AE5 /* SVWebViewControllerActivityChrome-iPad@2x.png */,
+				0CB1869A19E060C3002E4AE5 /* SVWebViewControllerActivityChrome.h */,
+				0CB1869B19E060C3002E4AE5 /* SVWebViewControllerActivityChrome.m */,
+				0CB1869C19E060C3002E4AE5 /* SVWebViewControllerActivityChrome@2x.png */,
+			);
+			path = Chrome;
+			sourceTree = "<group>";
+		};
+		0CB1869D19E060C3002E4AE5 /* Safari */ = {
+			isa = PBXGroup;
+			children = (
+				0CB1869E19E060C3002E4AE5 /* SVWebViewControllerActivitySafari-iPad.png */,
+				0CB1869F19E060C3002E4AE5 /* SVWebViewControllerActivitySafari-iPad@2x.png */,
+				0CB186A019E060C3002E4AE5 /* SVWebViewControllerActivitySafari.h */,
+				0CB186A119E060C3002E4AE5 /* SVWebViewControllerActivitySafari.m */,
+				0CB186A219E060C3002E4AE5 /* SVWebViewControllerActivitySafari@2x.png */,
+			);
+			path = Safari;
+			sourceTree = "<group>";
+		};
+		0CB186C519E062FF002E4AE5 /* CTFeedback */ = {
+			isa = PBXGroup;
+			children = (
+				0CB186C619E062FF002E4AE5 /* CTFeedbackCell.h */,
+				0CB186C719E062FF002E4AE5 /* CTFeedbackCell.m */,
+				0CB186C819E062FF002E4AE5 /* CTFeedbackCellItem.h */,
+				0CB186C919E062FF002E4AE5 /* CTFeedbackCellItem.m */,
+				0CB186CA19E062FF002E4AE5 /* CTFeedbackTopicsViewController.h */,
+				0CB186CB19E062FF002E4AE5 /* CTFeedbackTopicsViewController.m */,
+				0CB186CC19E062FF002E4AE5 /* CTFeedbackViewController.h */,
+				0CB186CD19E062FF002E4AE5 /* CTFeedbackViewController.m */,
+				0CB186CE19E062FF002E4AE5 /* NSBundle+CTFeedback.h */,
+				0CB186CF19E062FF002E4AE5 /* NSBundle+CTFeedback.m */,
+			);
+			path = CTFeedback;
+			sourceTree = "<group>";
+		};
 		0CD6D61619D75BBF002A8AC1 /* FSImageViewer */ = {
 			isa = PBXGroup;
 			children = (
@@ -803,6 +951,7 @@
 				0CD6D6A219D86DAA002A8AC1 /* Llocs */,
 				0CD6D68E19D86B04002A8AC1 /* Temps */,
 				0CD6D68D19D86AFC002A8AC1 /* Transport */,
+				0CB1867219E05536002E4AE5 /* Contacte */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -810,7 +959,9 @@
 		0CD6D69119D86B54002A8AC1 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				0CD6D6A819D87CD0002A8AC1 /* Climacons.ttf */,
+				0CB186C519E062FF002E4AE5 /* CTFeedback */,
+				0CB1868719E060C3002E4AE5 /* SVWebViewController */,
+				0CD6D6A819D87CD0002A8AC1 /* Climacons-Font.ttf */,
 				0CD87F1819CC99350038DD4F /* Open_Sans */,
 				0CD6D6A919D87CEA002A8AC1 /* CZWeatherKit */,
 				0CD6D66819D7642E002A8AC1 /* RESideMenu */,
@@ -826,6 +977,7 @@
 		0CD6D69219D86B7B002A8AC1 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				0CB186D919E06A13002E4AE5 /* Llicencies.plist */,
 				0CD6D6C819D9B899002A8AC1 /* Monuments.plist */,
 				0CD6D6A319D86EAD002A8AC1 /* Llocs.plist */,
 				0CD6D69319D86B83002A8AC1 /* Monuments */,
@@ -861,6 +1013,7 @@
 		0CD6D69419D86BAD002A8AC1 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				0CB186B619E06278002E4AE5 /* MessageUI.framework */,
 				0CD6D67219D76695002A8AC1 /* UIKit.framework */,
 				0CD6D65619D75C14002A8AC1 /* Security.framework */,
 				0CD6D65419D75C0A002A8AC1 /* CFNetwork.framework */,
@@ -1215,6 +1368,17 @@
 			knownRegions = (
 				en,
 				Base,
+				da,
+				de,
+				"es-ES",
+				es,
+				fr,
+				ja,
+				pt,
+				"zh-Hans",
+				"zh-Hant",
+				ko,
+				ru,
 			);
 			mainGroup = 0C7BDB9619CC79E1001C2907;
 			productRefGroup = 0C7BDBA019CC79E1001C2907 /* Products */;
@@ -1232,7 +1396,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CB1866E19E01EDB002E4AE5 /* Climacons.ttf in Resources */,
+				0CB1866E19E01EDB002E4AE5 /* Climacons-Font.ttf in Resources */,
 				0CD6D6F819D9DB5C002A8AC1 /* balcoMediterrani.jpg in Resources */,
 				0CB1865219E0134B002E4AE5 /* horariCasaFesta.txt in Resources */,
 				0CD6D75019DEEF4A002A8AC1 /* textPortalSantAntoni.txt in Resources */,
@@ -1241,13 +1405,17 @@
 				0CD6D6C919D9B899002A8AC1 /* Monuments.plist in Resources */,
 				0CD6D74319DAE8A7002A8AC1 /* pedreraMedol.jpg in Resources */,
 				0CD6D70E19D9EF4D002A8AC1 /* textCatedral.txt in Resources */,
+				0CB186A919E060C3002E4AE5 /* SVWebViewController.bundle in Resources */,
 				0CB1864C19E01338002E4AE5 /* casaFesta.jpg in Resources */,
 				0CB1866119E019F6002E4AE5 /* textMuseuPortTarragona.txt in Resources */,
 				0CB1864F19E01345002E4AE5 /* textCasaFesta.txt in Resources */,
+				0CB186AC19E060C3002E4AE5 /* SVWebViewControllerActivityChrome-iPad@2x.png in Resources */,
 				0CB1863D19E00ED4002E4AE5 /* textVoltesMerceria.txt in Resources */,
 				0CD6D6FF19D9DC93002A8AC1 /* horariCallJueu.txt in Resources */,
+				0CB186AF19E060C3002E4AE5 /* SVWebViewControllerActivitySafari-iPad.png in Resources */,
 				0CD87F2E19CC99350038DD4F /* OpenSans-SemiboldItalic.ttf in Resources */,
 				0CD6D73719DA02FB002A8AC1 /* hospitalMedieval.jpg in Resources */,
+				0CB186B219E060C3002E4AE5 /* SVWebViewControllerActivitySafari@2x.png in Resources */,
 				0CD6D74D19DEEF35002A8AC1 /* horariPortalSantAntoni.txt in Resources */,
 				0CD6D72219D9FCE4002A8AC1 /* textForumColonia.txt in Resources */,
 				0CD6D72519D9FCEF002A8AC1 /* horariForumColonia.txt in Resources */,
@@ -1268,6 +1436,7 @@
 				0C7BDBAE19CC79E1001C2907 /* Main.storyboard in Resources */,
 				0CD6D6EF19D9D0D2002A8AC1 /* arcBera.jpg in Resources */,
 				0C7BDBB319CC79E1001C2907 /* LaunchScreen.xib in Resources */,
+				0CB186AB19E060C3002E4AE5 /* SVWebViewControllerActivityChrome-iPad.png in Resources */,
 				0CD87F2A19CC99350038DD4F /* OpenSans-Light.ttf in Resources */,
 				0CD6D71619D9F9BE002A8AC1 /* conjuntPaleocristiaFrancoli.jpg in Resources */,
 				0C7BDBB019CC79E1001C2907 /* Images.xcassets in Resources */,
@@ -1278,6 +1447,7 @@
 				0CB1865819E0173F002E4AE5 /* textCasaCastellarnau.txt in Resources */,
 				0CF9E69D19D6D916003CED6C /* textAmfiteatre.txt in Resources */,
 				0CF9E6A419D7087F003CED6C /* horariAmfiteatre.txt in Resources */,
+				0CB186DA19E06A13002E4AE5 /* Llicencies.plist in Resources */,
 				0CD6D72B19DA0013002A8AC1 /* textForumProvincial.txt in Resources */,
 				0CD6D75219DEEFAF002A8AC1 /* portalSantAntoni.jpg in Resources */,
 				0CD6D73119DA02C4002A8AC1 /* textHospitalMedieval.txt in Resources */,
@@ -1290,6 +1460,7 @@
 				0CD87F2D19CC99350038DD4F /* OpenSans-Semibold.ttf in Resources */,
 				0CD6D74919DAE8C0002A8AC1 /* horariPedreraMedol.txt in Resources */,
 				0CD6D6F619D9DADE002A8AC1 /* horariBalcoMediterrani.txt in Resources */,
+				0CB186B019E060C3002E4AE5 /* SVWebViewControllerActivitySafari-iPad@2x.png in Resources */,
 				0CD6D6DB19D9CAD1002A8AC1 /* pontDiable.jpg in Resources */,
 				0CD6D76319DEF6C7002A8AC1 /* horariTeatre.txt in Resources */,
 				0CD6D75B19DEF2ED002A8AC1 /* horariPretoriCirc.txt in Resources */,
@@ -1309,11 +1480,13 @@
 				0CAE077219D09BCA00CD9CB0 /* Icons.xcassets in Resources */,
 				0CB1863A19E00E9D002E4AE5 /* voltesMerceria.jpg in Resources */,
 				0CD6D76F19DFF62B002A8AC1 /* horariTorreEscipions.txt in Resources */,
+				0CB186A719E060C3002E4AE5 /* SVWebViewController.strings in Resources */,
 				0CD87F2C19CC99350038DD4F /* OpenSans-Regular.ttf in Resources */,
 				0CB1864019E00EE7002E4AE5 /* horariVoltesMerceria.txt in Resources */,
 				0CD6D73E19DAE588002A8AC1 /* horariMuralles.txt in Resources */,
 				0CD6D6D919D9C45B002A8AC1 /* amfiteatre.jpg in Resources */,
 				0CD87F2619CC99350038DD4F /* OpenSans-BoldItalic.ttf in Resources */,
+				0CB186AE19E060C3002E4AE5 /* SVWebViewControllerActivityChrome@2x.png in Resources */,
 				0CD6D72819D9FFAD002A8AC1 /* forumProvincial.jpg in Resources */,
 				0CB1865519E0172F002E4AE5 /* casaCastellarnau.jpg in Resources */,
 				0CD6D71919D9FA0B002A8AC1 /* textConjuntPaleocristiaFrancoli.txt in Resources */,
@@ -1338,13 +1511,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CB186DD19E06B9E002E4AE5 /* LicenciesTercersDetailViewController.m in Sources */,
 				0CAE041319CCC93000CD9CB0 /* JPBFloatingTextViewController.m in Sources */,
 				0CD6D64319D75BBF002A8AC1 /* AFHTTPRequestOperationManager.m in Sources */,
 				0CAE08F719D1B98800CD9CB0 /* TransportPoint.m in Sources */,
 				0CD6D68A19D8567F002A8AC1 /* AgendaCulturalViewController.m in Sources */,
+				0CB186AA19E060C3002E4AE5 /* SVWebViewController.m in Sources */,
 				0CAE08F119D0D4E400CD9CB0 /* SVProgressHUD.m in Sources */,
 				0C14C23D19D598D400197D4A /* MZFormSheetBackgroundWindow.m in Sources */,
 				0CD6D64D19D75BBF002A8AC1 /* FSBasicImageSource.m in Sources */,
+				0CB186D819E069BF002E4AE5 /* LicenciesTercersTableViewController.m in Sources */,
 				0C14C24019D598D400197D4A /* MZFormSheetSegue.m in Sources */,
 				0CAE041419CCC93000CD9CB0 /* JPBParallaxBlurViewController.m in Sources */,
 				0CD6D64A19D75BBF002A8AC1 /* AFURLSessionManager.m in Sources */,
@@ -1354,10 +1530,12 @@
 				0CD6D66419D7607E002A8AC1 /* RootViewController.m in Sources */,
 				0CD6D64919D75BBF002A8AC1 /* AFURLResponseSerialization.m in Sources */,
 				0CD6D64219D75BBF002A8AC1 /* AFHTTPRequestOperation.m in Sources */,
+				0CB186A819E060C3002E4AE5 /* SVModalWebViewController.m in Sources */,
 				0CF9E66C19D611A3003CED6C /* MonumentAudioViewController.m in Sources */,
 				0CD6D6C719D87CEA002A8AC1 /* CZWundergroundService.m in Sources */,
 				0CD6D64819D75BBF002A8AC1 /* AFURLRequestSerialization.m in Sources */,
 				0C7BDBA819CC79E1001C2907 /* AppDelegate.m in Sources */,
+				0CB186AD19E060C3002E4AE5 /* SVWebViewControllerActivityChrome.m in Sources */,
 				0CD6D6C419D87CEA002A8AC1 /* CZWeatherRequest.m in Sources */,
 				0CD6D67019D7642E002A8AC1 /* RESideMenu.m in Sources */,
 				0C14C1F119D3512400197D4A /* TempsViewController.m in Sources */,
@@ -1371,12 +1549,15 @@
 				0C7BDBE119CC84EE001C2907 /* MonumentsTableViewController.m in Sources */,
 				0CAE08FA19D1BA2200CD9CB0 /* TransportViewController.m in Sources */,
 				0CD6D6C319D87CEA002A8AC1 /* CZWeatherLocation.m in Sources */,
+				0CB186D419E062FF002E4AE5 /* NSBundle+CTFeedback.m in Sources */,
 				0C14C2AE19D5A3D600197D4A /* MonumentsTimeTableViewController.m in Sources */,
 				0CD87F3519CCB4540038DD4F /* MonumentsDetailViewController.m in Sources */,
 				0CD6D6C519D87CEA002A8AC1 /* CZForecastioService.m in Sources */,
+				0CB186B319E060C3002E4AE5 /* SVWebViewControllerActivity.m in Sources */,
 				0CD6D64519D75BBF002A8AC1 /* AFNetworkReachabilityManager.m in Sources */,
 				0CF9E69A19D6D812003CED6C /* FTCoreTextStyle.m in Sources */,
 				0CD6D69819D86D5E002A8AC1 /* LlocsTableViewController.m in Sources */,
+				0CB1867119E05532002E4AE5 /* ContacteTableViewController.m in Sources */,
 				0CD6D65219D75BBF002A8AC1 /* FSImageViewerViewController.m in Sources */,
 				0CD6D65319D75BBF002A8AC1 /* FSPlaceholderImages.m in Sources */,
 				0CD6D66F19D7642E002A8AC1 /* RECommonFunctions.m in Sources */,
@@ -1389,6 +1570,7 @@
 				0CD6D6C219D87CEA002A8AC1 /* NSString+CZWeatherKit_Substring.m in Sources */,
 				0C14C24219D598D400197D4A /* UIImage+Additional.m in Sources */,
 				0CAE077919D09E3B00CD9CB0 /* MonumentsMapViewController.m in Sources */,
+				0CB186D319E062FF002E4AE5 /* CTFeedbackViewController.m in Sources */,
 				0CAE041C19CCE16100CD9CB0 /* JPBParallaxTableViewController.m in Sources */,
 				0CD6D64E19D75BBF002A8AC1 /* FSImageLoader.m in Sources */,
 				0CAE041919CCC99500CD9CB0 /* FXBlurView.m in Sources */,
@@ -1399,7 +1581,11 @@
 				0CD6D64619D75BBF002A8AC1 /* AFSecurityPolicy.m in Sources */,
 				0C14C24A19D5991300197D4A /* NSInvocation+Copy.m in Sources */,
 				0CD6D67119D7642E002A8AC1 /* UIViewController+RESideMenu.m in Sources */,
+				0CB186D119E062FF002E4AE5 /* CTFeedbackCellItem.m in Sources */,
+				0CB186D219E062FF002E4AE5 /* CTFeedbackTopicsViewController.m in Sources */,
+				0CB186D019E062FF002E4AE5 /* CTFeedbackCell.m in Sources */,
 				0CD6D69E19D86D83002A8AC1 /* LlocsMapViewController.m in Sources */,
+				0CB186B119E060C3002E4AE5 /* SVWebViewControllerActivitySafari.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1436,6 +1622,23 @@
 				0C7BDBB219CC79E1001C2907 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		0CB1868819E060C3002E4AE5 /* SVWebViewController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CB1868919E060C3002E4AE5 /* da */,
+				0CB1868A19E060C3002E4AE5 /* de */,
+				0CB1868B19E060C3002E4AE5 /* en */,
+				0CB1868C19E060C3002E4AE5 /* es-ES */,
+				0CB1868D19E060C3002E4AE5 /* es */,
+				0CB1868E19E060C3002E4AE5 /* fr */,
+				0CB1868F19E060C3002E4AE5 /* ja */,
+				0CB1869019E060C3002E4AE5 /* pt */,
+				0CB186A519E060C3002E4AE5 /* zh-Hans */,
+				0CB186A619E060C3002E4AE5 /* zh-Hant */,
+			);
+			name = SVWebViewController.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
