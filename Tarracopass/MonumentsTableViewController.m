@@ -190,7 +190,6 @@
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         MonumentsDetailViewController *destViewController = segue.destinationViewController;
         destViewController.monumentsName = [_monument objectAtIndex:indexPath.row];
-        NSLog(@"monumentsName: %@", [_monument objectAtIndex:indexPath.row]);
     }
 }
 

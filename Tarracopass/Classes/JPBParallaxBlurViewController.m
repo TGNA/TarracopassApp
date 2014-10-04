@@ -92,7 +92,7 @@ static CGFloat IMAGE_HEIGHT = 320.0f;
     if (self.navigationController && !self.navigationController.navigationBarHidden) {
         return CGRectGetHeight(self.navigationController.navigationBar.frame) + 20; //include 20 for the status bar
     }
-    return 0.0f;
+    return 20.0f;
 }
 
 - (CGFloat)offsetHeight{
