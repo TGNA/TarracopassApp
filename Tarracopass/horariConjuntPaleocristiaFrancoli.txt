@@ -1,0 +1,11 @@
+<title>Horari d'estiu</title>
+<_bullet>Visites concertades amb reserva prèvia al tel.: 977 22 87 97</_bullet>
+
+<title>Horari d'hivern:</title>
+<_bullet>Visites concertades amb reserva prèvia al tel.: 977 22 87 97</_bullet>
+
+<title>Festius d'estiu:</title>
+<_bullet>TANCAT</_bullet>
+
+<title>Festius d'hivern:</title>
+<_bullet>TANCAT</_bullet>

@@ -1,0 +1,10 @@
+<title>Horari d'estiu</title>
+<_bullet>Del 14 de maig al 30 de setembre, i durant la Setmana Santa (del 26 de març a l'1 d'abril de 2013).</_bullet>
+<_bullet>De dimarts a dissabte de 10 a 21 h.</_bullet>
+<_bullet>Diumenges de 10 a 15 h.</_bullet>
+<_bullet>Tancat dilluns (excepte l'1 d'abril de 10 a 15 h) i els dies 1 i 6 de gener, 24 de juny, 19 d'agost, 23 de setembre, 25 i 26 de desembre i 1 de gener de 2014.</_bullet>
+<title>Horari d'hivern</title>
+<_bullet>De l'1 de gener al 12 de maig, excepte Setmana Santa que tindrà horari d'estiu (del 26 de març a l'1 d'abril).</_bullet>
+<_bullet>De dimarts a dissabte, de 10 a 19 h.</_bullet>
+<_bullet>Diumenges de 10 a 15 h.</_bullet>
+<_bullet>Tancat dilluns i els dies 1 i 6 de gener, 24 de juny, 19 d'agost, 23 de setembre, 25 i 26 de desembre i 1 de gener de 2014.</_bullet>

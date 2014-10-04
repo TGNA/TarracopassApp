@@ -1,0 +1,11 @@
+<title>Horari d'estiu</title>
+<_bullet>De juny a setembre i Setmana Santa: 9.30 h - 20.30 h</_bullet>
+
+<title>Horari d'hivern</title>
+<_bullet>D'octubre a maig: 9.30 h - 18 h</_bullet>
+
+<title>Festius d'estiu</title>
+<_bullet>10 h - 14 h</_bullet>
+
+<title>Festius d'hivern</title>
+<_bullet>10 h - 14 h</_bullet>

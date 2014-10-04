@@ -36,7 +36,6 @@
     
     UIImage *iconMenu = [UIImage imageNamed:@"menu"];
     iconMenu = [iconMenu imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
-
     UIImage *background = iconMenu;
     UIImage *backgroundSelected = iconMenu;
     UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
@@ -47,12 +46,59 @@
     
     UIBarButtonItem *barButton = [[UIBarButtonItem alloc] initWithCustomView:button];
     self.navigationItem.leftBarButtonItem = barButton;
+    /*
+    UIImage *iconFilter = [UIImage imageNamed:@"filled_filter"];
+    iconFilter = [iconFilter imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+    UIImage *filterBackground = iconFilter;
+    UIImage *filterBackgroundSelected = iconFilter;
+    UIButton *filter = [UIButton buttonWithType:UIButtonTypeSystem];
+    [filter addTarget:self action:@selector(filter:) forControlEvents:UIControlEventTouchUpInside]; //adding action
+    [filter setBackgroundImage:filterBackground forState:UIControlStateNormal];
+    [filter setBackgroundImage:filterBackgroundSelected forState:UIControlStateSelected];
+    filter.frame = CGRectMake(0 ,0, 24, 24);
+    
+    UIBarButtonItem *filterButton = [[UIBarButtonItem alloc] initWithCustomView:filter];
+    self.navigationItem.rightBarButtonItem = filterButton;*/
 }
 -(void)menu{
     
     [self.sideMenuViewController presentLeftMenuViewController];
     
 }
+/*
+- (IBAction)filter:(id)sender {
+    
+    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:@"Seleccioni un filtre"
+                                                             delegate:self
+                                                    cancelButtonTitle:@"No vul filtrar."
+                                               destructiveButtonTitle:nil                                                    otherButtonTitles:@"Alfabetic", @"nose", nil];
+    [actionSheet showInView:self.view];
+}
+
+-(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex{
+    if(buttonIndex == 0)
+    {
+        [self sortArray];
+    }
+    else if(buttonIndex == 1)
+    {
+        
+        NSLog(@"Create Button Clicked");
+        
+    }
+}
+
+- (void)sortArray
+{
+    NSSortDescriptor *nameDescriptor = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:YES];
+    NSArray *sortDescriptors = [NSArray arrayWithObject:nameDescriptor];
+    NSArray *sortedArray = [_monument sortedArrayUsingDescriptors:sortDescriptors];
+    
+    _monument = nil;
+    _monument = [[NSMutableArray alloc] arrayByAddingObjectsFromArray:sortedArray];
+    [self.tableView reloadData];
+}*/
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -101,20 +147,22 @@
     
     namelabel = (UILabel *)[cell viewWithTag:1];
     namelabel.text = [item objectForKey:@"name"];
+    namelabel.adjustsFontSizeToFitWidth = YES;
     
     distancelabel = (UILabel *)[cell viewWithTag:2];
     distancelabel.text = distance;
+    distancelabel.adjustsFontSizeToFitWidth = YES;
     
     NSLog(@"User location: Latitude: %f longitude: %f", locationManager.location.coordinate.latitude, locationManager.location.coordinate.longitude);
-    
-    
     NSLog(@"ID: %ld Name: %@ Latitude: %f Longitude: %f Distance %@", (long)indexPath.row, [item objectForKey:@"name"], latitude, longitude, distance);
     
     
-    UIImage *image;
+    UIImageView *imageView;
     
-    image = (UIImage*)[cell viewWithTag:4];
-    image = [UIImage imageNamed:[NSString stringWithString:[item objectForKey:@"image"]]];
+    imageView = (UIImageView*)[cell viewWithTag:4];
+    imageView.image = [UIImage imageNamed:[NSString stringWithString:[item objectForKey:@"image_menu"]]];
+    imageView.contentMode = UIViewContentModeScaleAspectFill;
+    imageView.clipsToBounds = YES;
     
     UIView *blurimage;
     

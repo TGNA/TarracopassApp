@@ -1,18 +1,23 @@
 
 <title>Amfiteatre romà</title>
+L'Amfiteatre de Tarragona és una edificació romana de l'antiga Tàrraco que actualment es conserva relativament restaurada. La seva gestió depèn del Museu d'Història de Tarragona. Cap al segle VI s'hi edificà al bell mig una basílica visigòtica dedicada a sant Fructuós, martiritzat al mateix amfiteatre. Sobre aquesta basílica s'hi superposà al segle XII l'església romànica de Santa Maria del Miracle. És part del conjunt arqueològic de Tàrraco, declarat el 2000 Patrimoni de la Humanitat per la UNESCO. Té la consideració de Bé Cultural d'Interès Nacional.
+
 L'amfiteatre fou construït al sud-est de la ciutat de Tàrraco, fora del recinte emmurallat al sud de la via Augusta, al costat del mar i prop de la porta d'accés a la ciutat.
 
 L'existència de l'Amfiteatre palesa la importància assolida per Tàrraco dintre del conjunt de colònies de l'Imperi. De fet, Tàrraco va ser una de les poques ciutats d'Hispània on es va construir un amfiteatre quan ja es disposava d'un circ i d'un teatre, privilegi que només tenien les principals ciutats de l'Imperi.
 
-Edificat en l'època de la dinastia Flàvia (segona meitat del segle I dC), es va reformar l'any 221, durant el govern de l'emperador Heliogàbal, i el 21 de gener 259 fou l'escenari de l'execució del bisbe cristià Fructuós amb els seus diaques Auguri i Eulogi, fet que motivà, al segle VI, la construcció d'una basílica visigòtica de culte dedicada a aquests màrtirs, a la qual se superposà, al segle XII, l'església romànica de Santa Maria del Miracle.Tàrraco va ésser una de les poques ciutats d'Hispània on es va bastir un amfiteatre, fet que confirma la importància i representativitat política de la colònia en el decurs dels dos primers segles de la nostra Era. Ubicat fora del primitiu recinte emmurallat, al costat de l'actual platja del Miracle. Les excavacions arqueològiques permeten datar la seva construcció en l'època de la dinastia Flàvia (segona meitat del segle I dC).
+Edificat en l'època de la dinastia Flàvia (segona meitat del segle I dC), es va reformar l'any 221, durant el govern de l'emperador Heliogàbal, i el 21 de gener 259 fou l'escenari de l'execució del bisbe cristià Fructuós amb els seus diaques Auguri i Eulogi, fet que motivà, al segle VI, la construcció d'una basílica visigòtica de culte dedicada a aquests màrtirs, a la qual se superposà, al segle XII, l'església romànica de Santa Maria del Miracle.
 
-De planta el·liptica; les dimensions màximes del mateix són 130 x 102 m. Presenta dos elements funcionals fonamentals: l' arena, en el centre, i on es desenvolupava l'espectacle (on encara s'aprecia una fossa i dependències subterrànies, que segurament devien servir per tancar les feres destinades als jocs), i la cavea, o graderia, on s'ubicava el públic.
+<subtitle>L'amfiteatre de Tàrraco</subtitle>
+Tàrraco va ésser una de les poques ciutats d'Hispània on es va bastir un amfiteatre, fet que confirma la importància i representativitat política de la colònia en el decurs dels dos primers segles de la nostra Era. Ubicat fora del primitiu recinte emmurallat, al costat de l'actual platja del Miracle. Les excavacions arqueològiques permeten datar la seva construcció en l'època de la dinastia Flàvia (segona meitat del segle I dC).
+
+De planta el·liptica; les dimensions màximes del mateix són 130 x 102 m. Presenta dos elements funcionals fonamentals: l'arena, en el centre, i on es desenvolupava l'espectacle (on encara s'aprecia una fossa i dependències subterrànies, que segurament devien servir per tancar les feres destinades als jocs), i la cavea, o graderia, on s'ubicava el públic.
 
 Les grades eren construïdes damunt d'un pòdium, fet de carreus, per protegir els espectadors en els espectacles amb participació de feres. La situació de l'amfiteatre a la vessant del turó que baixa fins a la mar va permetre aprofitar la pròpia roca natural per a la construcció de les grades, la imma i media cavea, del sector N.O. Per a la resta es van bastir grans estructures mitjançant monumentals arcs i voltes, en formigó, opus caementicium i amb blocs d'opus quadratum.
 
 Dos murets dividien les graderies en tres sectors on se situaven els espectadors segons la seva categoria social. Les places preferents eren les situades més a prop de l'arena. A cada sector (maenianum) hi havia un passadís per facilitar el desplaçament dels assistents. Per sota les grades discorrien, també, una sèrie de passadissos que es comunicaven amb els distints maenianum, o sectors, mitjançant unes obertures o vomitoria. Davant les vomitores es troben petites escales que baixen entre les grades, dividint cada maenianum en seccions en forma de falca. És a dir, el sistema és molt funcional i encara ara s'empra en els grans edificis d'espectacles.
 
-El podi es conserva parcialment, tindria una alçada de 3'25m i la seva decoració original era de pintura sobre dels blocs de pedra local, revestit amb lloses de marbre (possiblement durant la restauració de l'edifici l'any 218). Tant la primera decoració pintada, com la segona amb lloses es conserven en la zona nordoriental. A aquesta reforma correspon la inscripció considerada més llarga de la península ibèrica, en commemoració de la restauració. Estava formada per 52 blocs i se situava en el podi de l'edifici, coronant-lo.
+El podi es conserva parcialment, tindria una alçada de 3'25m i la seva decoració original era de pintura sobre dels blocs de pedra local, revestit amb lloses de marbre (possiblement durant la restauració de l'edifici l'any 218). Tant la primera decoració pintada, com la segona amb lloses es conserven en la zona nordoriental. A aquesta reforma correspon la inscripció considerada més llarga de la península Ibèrica, en commemoració de la restauració. Estava formada per 52 blocs i se situava en el podi de l'edifici, coronant-lo.
 
 El passadís de servei que anava per darrere del podi, de 0'87m d'ample i 2'50m d'alçada, estava pavimentat amb petites pedres lligades amb argamassa i la paret que el delimitava era d'opus vitattum. S'han conservat diversos carreus que formaven part del revestiment de les grades, amb inscripcions referents als individus que les ocupaven.
 
@@ -21,5 +26,28 @@ Les excavacions arqueològiques dutes a terme a l'amfiteatre han permès recuper
 Les dues portes principals que comunicaven directament l'arena amb les dependències auxiliars i amb l'exterior de l'edifici, s'obrien als extrems del seu eix llarg. Hi ha, també, portes als extrems de l'eix curt, per on sortien gladiadors i feres. En el traçat d'ambdós eixos, per sota del nivell de l'arena, s'obren uns fossats destinats a ubicar serveis auxiliars de l'amfiteatre i dels espectacles que s'hi desenvolupaven. Són visibles actualment.
 
 La construcció de l'amfiteatre comportà l'obliteració de la necròpolis de cronologia augustal relacionada amb el traçat de la Via Augusta. Tenia una capacitat aproximada de 14.000 espectadors, i la seva construcció es degué a un sacerdot del culte imperial "Flamen Romae Divorum et Augustorum", es conserva part de la inscripció de donació de l'edifici per part del flamen, durant el principat de Trajà o Adrià.
+
+<subtitle>Basílica i església</subtitle>
+Amfiteatre de Tarragona. Es pot observar al bell mig de l'arena les restes del temple romànic
+El 21 de gener de l'any 259 dC va patir martiri -fou cremat viu- a l'arena el bisbe de Tarragona, Fructuós, amb els seus diaques Auguri i Eulogi. En commemoració d'aquest fet, hom va bastir en el mateix lloc del martiri una basílica visigòtica de tres naus i absis de ferradura, datada al segle VI dC. A aquesta basílica martirial, s'hi va superposar, en el segle XII, l'església romànica de Santa Maria del Miracle, de planta de creu llatina: les restes visibles en l'actualitat damunt l'arena del sector de Llevant de les grades pertanyen, fonamentalment a aquest temple romànic.
+
+De la basílica visigòtica, construïda en el sector sud-est de l'edifici, se'n conserven els fonaments, part de les portes, paviments, i 10 basaments de columna. És un edifici de tres naus, amb un cor en l'eix longitudinal, i una cambra annexa que formava part del projecte original de l'edifici. Al seu voltant es formà una àrea cementirial amb 48 enterraments i dos recintes funeraris. Les dimensions totals de la basílica eren de 22'75 per 13m.
+
+Les restes de l'església de Santa Maria del Miracle, que se superposà a la visigòtica, pertanyen fonamentalment a la construcció romànica, de planta de creu llatina i cúpula vuitavada sostinguda per trompes còniques. Després d'experimentar noves modificacions durant el període gòtic, l'any 1576 el temple fou cedit per l'arquebisbat de Tarragona als frares trinitaris, que hi van bastir un convent amb un gran pati emmurallat.
+
+<subtitle>Història</subtitle>
+Les investigacions arqueològiques han permès de fixar la cronologia de l'amfiteatre a la segona meitat del segle I dC, fet que palesa la importància assolida per Tàrraco dins de les colònies de l'Imperi.
+
+L'any 259 el bisbe de Tarragona, sant Fructuós, fou cremat viu juntament amb els seus diaques a l'arena de l'amfiteatre. En commemoració del martiri, al segle VI hom va construir al lloc del martiri una basílica visigòtica a la qual se superposà l'església romànica del segle XII.
+
+Després d'experimentar noves modificacions durant el període gòtic, l'any 1576 el temple fou cedit per l'arquebisbat de Tarragona als frares trinitaris, que hi varen bastir un convent amb un gran pati emmurallat.
+
+Entre els anys 1780 i 1911 l'Estat va ser el propietari del conjunt, i durant aquest període va tenir diversos usos (al segle XIX hi van ser allotjats els presos que treballaven a les obres d'ampliació del port de Tarragona) que van ocasionar noves intervencions arquitectòniques.
+
+L'any 1862 la construcció del ferrocarril afectà part del monument, el sector de les grades.
+
+El 1911 la propietat va passar a l'Ajuntament. A partir de 1914 - 1949 es començà a prendre consciència de la importància de la zona, amb la realització d'excavacions puntuals, tot i que no fou fins a 1951 que es realitzà una excavació sistemàtica. L'any 1964 es reconstruí part de la graderia.
+
+Actualment, durant el festival Tàrraco Viva, és l'escenari on es desenvolupen les activitats relacionades amb la reconstrucció històrica de la lluita de gladiadors i també es fan representacions, basades en les actes martirials de Sant Fructuós.
 
 Font: http://ca.wikipedia.org

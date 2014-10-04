@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Casa de la Festa</string>
+		<key>latitude</key>
+		<string>41.115906940600</string>
+		<key>longitude</key>
+		<string>1.258800789750</string>
+		<key>text</key>
+		<string>textCasaFesta</string>
+		<key>price</key>
+		<string>Gratuïta</string>
+		<key>horari</key>
+		<string>horariCasaFesta</string>
+		<key>direction</key>
+		<string>Via Augusta, 4 43003 Tarragona</string>
+		<key>image_menu</key>
+		<string>casaFesta.jpg</string>
+		<key>image</key>
+		<string>casaFesta.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar la Casa de la Festa!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/museum/gallery/1866069413645PE_8812.jpg?itok=Z1oh3tEO</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/museum/gallery/1121475700Bestiari%20I.JPG?itok=tnWa_CP-</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/museum/gallery/90144775Nans%20IV.JPG?itok=LhnTwU48</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/museum/gallery/1719867499Nans%20II.JPG?itok=uP623bvd</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/museum/gallery/1924622517ISP_TUR_TRG_942.jpg?itok=T2AXvj3M</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/museum/gallery/613504085ISP_TUR_TRG_926.jpg?itok=XxeJmRb9</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/museum/gallery/2020632741ISP_TUR_TRG_922.jpg?itok=-PXStVf7</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/museum/gallery/862583578ISP_TUR_TRG_900.jpg?itok=OzO4Cz7m</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Casa Canals</string>
+		<key>latitude</key>
+		<string>41.118236795100</string>
+		<key>longitude</key>
+		<string>1.260091960380</string>
+		<key>text</key>
+		<string>textCasaCanals</string>
+		<key>price</key>
+		<string>3,30 €</string>
+		<key>horari</key>
+		<string>horariCasaCanals</string>
+		<key>direction</key>
+		<string>C. Granada, 11 43003 Tarragona</string>
+		<key>image_menu</key>
+		<string>casaCanals.jpg</string>
+		<key>image</key>
+		<string>casaCanals.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar la Casa Canals!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/museum/gallery/1803460195MRG_2952.jpg?itok=MDKUEaPZ</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/museum/gallery/279058463MRG_3095.jpg?itok=POLfgX9a</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Casa Castellarnau</string>
+		<key>latitude</key>
+		<string>41.117853678100</string>
+		<key>longitude</key>
+		<string>1.255570649990</string>
+		<key>text</key>
+		<string>textCasaCastellarnau</string>
+		<key>price</key>
+		<string>3,30 €</string>
+		<key>horari</key>
+		<string>horariCasaCastellarnau</string>
+		<key>direction</key>
+		<string>C. Cavallers, 14 43003 Tarragona</string>
+		<key>image_menu</key>
+		<string>casaCastellarnau.jpg</string>
+		<key>image</key>
+		<string>casaCastellarnau.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar la Casa Castellarnau!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/museum/gallery/1336509515MRG_2600.jpg?itok=t1RN3bgS</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/museum/gallery/1630996974MRG_2333.jpg?itok=Seium-51</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Voltes del carrer Merceria</string>
+		<key>latitude</key>
+		<string>41.118281249400</string>
+		<key>longitude</key>
+		<string>1.257677972260</string>
+		<key>text</key>
+		<string>textVoltesMerceria</string>
+		<key>price</key>
+		<string>Gratuïta</string>
+		<key>horari</key>
+		<string>horariVoltesMerceria</string>
+		<key>direction</key>
+		<string>C. Merceria 43003 Tarragona</string>
+		<key>image_menu</key>
+		<string>voltesMerceria.jpg</string>
+		<key>image</key>
+		<string>voltesMerceria.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar les Voltes del carrer Merceria!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/1501216545carrer-merceria-0605.jpg?itok=XCwBMQpD</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/370385820img_9477.jpg?itok=3j1BFN9o</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Call jueu</string>
+		<key>latitude</key>
+		<string>41.117110069200</string>
+		<key>longitude</key>
+		<string>1.258896589170</string>
+		<key>text</key>
+		<string>textCallJueu</string>
+		<key>price</key>
+		<string>Gratuïta</string>
+		<key>horari</key>
+		<string>horariCallJueu</string>
+		<key>direction</key>
+		<string>Pl. dels Àngels 43003 Tarragona</string>
+		<key>image_menu</key>
+		<string>callJueu.jpg</string>
+		<key>image</key>
+		<string>callJueu.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar el Call jueu!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/259280692barri%20jueu.jpg?itok=dl6rBpXO</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Balcó del Mediterrani</string>
+		<key>latitude</key>
+		<string>41.113695826100</string>
+		<key>longitude</key>
+		<string>1.256524175380</string>
+		<key>text</key>
+		<string>textBalcoMediterrani</string>
+		<key>price</key>
+		<string>Gratuïta</string>
+		<key>horari</key>
+		<string>horariBalcoMediterrani</string>
+		<key>direction</key>
+		<string>Rambla Nova - Passeig de les Palmeres 43004 Tarragona</string>
+		<key>image_menu</key>
+		<string>balcoMediterrani.jpg</string>
+		<key>image</key>
+		<string>balcoMediterrani.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar el Balcó del Mediterrani!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/2801370255%20-%20Ciutat%20-%20balco%20del%20Mediterrani.jpg?itok=JBX3tOWw</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/1116571841fotos_tcb_166.jpg?itok=M2QZL9XP</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/2072879303035.jpg?itok=HpU9TrGC</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Museu del Port de Tarragona</string>
+		<key>latitude</key>
+		<string>41.109891775200</string>
+		<key>longitude</key>
+		<string>1.246016621480</string>
+		<key>text</key>
+		<string>textMuseuPortTarragona</string>
+		<key>price</key>
+		<string>2,00 €</string>
+		<key>horari</key>
+		<string>horariMuseuPortTarragona</string>
+		<key>direction</key>
+		<string>Refugi 2 del Moll de Costa 43004 Tarragona</string>
+		<key>image_menu</key>
+		<string>museuPortTarragona.jpg</string>
+		<key>image</key>
+		<string>museuPortTarragona.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar el Museu del Port de Tarragona!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/museum/gallery/2014850478museu_port.jpg?itok=pFH2YHGM</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/museum/gallery/1897955085museu%20port.jpg?itok=fZhTMCLa</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Museu Nacional Arqueològic</string>
+		<key>latitude</key>
+		<string>41.116705122100</string>
+		<key>longitude</key>
+		<string>1.258447766250</string>
+		<key>text</key>
+		<string>textMuseuNacionalArqueologic</string>
+		<key>price</key>
+		<string>4,50 €</string>
+		<key>horari</key>
+		<string>horariMuseuNacionalArqueologic</string>
+		<key>direction</key>
+		<string>Pl. del Rei, 5 43003 Tarragona</string>
+		<key>image_menu</key>
+		<string>museuNacionalArqueologic.jpg</string>
+		<key>image</key>
+		<string>museuNacionalArqueologic.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar el Museu del Port de Tarragona!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/museum/gallery/323126940museu%20arqueologic%201.jpg?itok=_67TFNaZ</string>
+		</array>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,13 @@
+<title>Horari d'estiu</title>
+<_bullet>(Del 14 d’abril al 30 de setembre)</_bullet>
+<_bullet>Dimarts a divendres: reserva prèvia per a grups 977 24 22 20 - mht@tarragona.cat </_bullet>
+<_bullet>Dissabte: 10 h - 15 h </_bullet>
+
+<title>Horari d'hivern</title>
+<_bullet>Dimarts a dissabte: 9 h - 14 h</_bullet>
+
+<title>Festius d'estiu</title>
+<_bullet>10 h - 15 h</_bullet>
+
+<title>Festius d'hivern</title>
+<_bullet>9 h - 15 h</_bullet>

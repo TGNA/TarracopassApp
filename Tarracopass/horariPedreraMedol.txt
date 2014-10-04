@@ -1,0 +1,5 @@
+<title>Horari d'estiu</title>
+<_bullet>9 h - 16 h</_bullet>
+
+<title>Horari d'hivern</title>
+<_bullet>9 h - 16 h</_bullet>

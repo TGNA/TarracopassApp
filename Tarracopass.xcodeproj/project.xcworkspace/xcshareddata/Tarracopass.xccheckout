@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4A8935EA-56E6-43F1-9086-1C236E58AA16</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Tarracopass</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>05C06AE6FE02ECC5980C74C2C0B6E44F12100459</key>
+		<string>https://github.com/TGNA/Tarracopass.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Tarracopass.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>05C06AE6FE02ECC5980C74C2C0B6E44F12100459</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/TGNA/Tarracopass.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>05C06AE6FE02ECC5980C74C2C0B6E44F12100459</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>05C06AE6FE02ECC5980C74C2C0B6E44F12100459</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Tarracopass</string>
+		</dict>
+	</array>
+</dict>
+</plist>

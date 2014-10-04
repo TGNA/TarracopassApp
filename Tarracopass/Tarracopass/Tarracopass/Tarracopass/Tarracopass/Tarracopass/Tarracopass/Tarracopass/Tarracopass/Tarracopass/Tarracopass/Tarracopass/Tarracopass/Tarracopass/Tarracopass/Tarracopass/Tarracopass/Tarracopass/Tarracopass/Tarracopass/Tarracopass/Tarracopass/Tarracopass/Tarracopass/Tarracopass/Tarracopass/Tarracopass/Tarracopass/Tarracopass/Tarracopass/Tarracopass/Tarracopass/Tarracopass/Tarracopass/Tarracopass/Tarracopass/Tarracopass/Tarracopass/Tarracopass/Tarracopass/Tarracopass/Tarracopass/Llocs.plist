@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Lloc</string>
+		<key>latitude</key>
+		<string>41.114576077700</string>
+		<key>longitude</key>
+		<string>1.258934140100</string>
+		<key>text</key>
+		<string>textAmfiteatre</string>
+		<key>price</key>
+		<string>3,30 €</string>
+		<key>horari</key>
+		<string>horariAmfiteatre</string>
+		<key>direction</key>
+		<string>Parc de l&apos;Amfiteatre romà 43003 Tarragona</string>
+		<key>image</key>
+		<string>image.jpg</string>
+		<key>short_url</key>
+		<string>http://bit.ly/catedral_tgn</string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar la Catedral!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://tarracopass.com/img/ios/monuments/amfiteatre/1.jpg</string>
+			<string>http://tarracopass.com/img/ios/monuments/amfiteatre/2.jpg</string>
+			<string>http://tarracopass.com/img/ios/monuments/amfiteatre/3.jpg</string>
+			<string>http://tarracopass.com/img/ios/monuments/amfiteatre/4.jpg</string>
+			<string>http://tarracopass.com/img/ios/monuments/amfiteatre/5.jpg</string>
+		</array>
+	</dict>
+</array>
+</plist>

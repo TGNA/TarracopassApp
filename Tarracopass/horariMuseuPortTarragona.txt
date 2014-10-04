@@ -1,0 +1,16 @@
+<title>Jornada de portes obertes</title>
+<_bullet>13 de maig i dissabtes de maig (10 h - 14 h / 16 h - 19 h)</_bullet>
+<_bullet>Diumenges de maig (11 h - 14 h)</_bullet>
+<_bullet>17 de maig (10 h - 14 h / 16 h - 23 h)</_bullet>
+
+<title>Horari d'estiu</title>
+<_bullet>De juny a setembre: 10 h -14 h / 17 h - 20 h</_bullet>
+
+<title>Horari d'hivern</title>
+<_bullet>D'octubre a maig: 10 h - 14 h / 16 h - 19 h</_bullet>
+
+<title>Festius d'estiu</title>
+<_bullet>11 h - 14 h</_bullet>
+
+<title>Festius d'hivern</title>
+<_bullet>11 h - 14 h</_bullet>

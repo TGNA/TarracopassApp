@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Amfiteatre romà</string>
+		<key>latitude</key>
+		<string>41.114576077700</string>
+		<key>longitude</key>
+		<string>1.258934140100</string>
+		<key>text</key>
+		<string>textAmfiteatre</string>
+		<key>price</key>
+		<string>3,30 €</string>
+		<key>horari</key>
+		<string>horariAmfiteatre</string>
+		<key>direction</key>
+		<string>Parc de l&apos;Amfiteatre romà 43003 Tarragona</string>
+		<key>image_menu</key>
+		<string>amfiteatre_menu.png</string>
+		<key>image</key>
+		<string>fons2</string>
+		<key>short_url</key>
+		<string>http://bit.ly/catedral_tgn</string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar la Catedral!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://tarracopass.com/img/ios/monuments/amfiteatre/1.jpg</string>
+			<string>http://tarracopass.com/img/ios/monuments/amfiteatre/2.jpg</string>
+			<string>http://tarracopass.com/img/ios/monuments/amfiteatre/3.jpg</string>
+			<string>http://tarracopass.com/img/ios/monuments/amfiteatre/4.jpg</string>
+			<string>http://tarracopass.com/img/ios/monuments/amfiteatre/5.jpg</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/2103624925amfiteatre%203568.JPG?itok=ZSOpDYMI</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/431756765amfiteatre%201343.jpg?itok=ZP-II9Ak</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/617258345T36_V2Y6224BX.jpg?itok=jTeUBlJC</string>
+		</array>
+	</dict>
+</array>
+</plist>

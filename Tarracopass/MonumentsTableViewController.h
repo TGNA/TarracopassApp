@@ -11,7 +11,7 @@
 #import <MapKit/MapKit.h>
 #import "RESideMenu.h"
 
-@interface MonumentsTableViewController : UITableViewController <MKMapViewDelegate, CLLocationManagerDelegate> 
+@interface MonumentsTableViewController : UITableViewController <MKMapViewDelegate, CLLocationManagerDelegate, UIActionSheetDelegate>
 
 @property (strong, nonatomic) NSArray *monument;
 @property (strong, nonatomic) CLLocationManager *locationManager;

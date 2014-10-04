@@ -17,12 +17,14 @@
 		<string>horariAmfiteatre</string>
 		<key>direction</key>
 		<string>Parc de l&apos;Amfiteatre romà 43003 Tarragona</string>
+		<key>image_menu</key>
+		<string>amfiteatre.jpg</string>
 		<key>image</key>
-		<string>image.jpg</string>
+		<string>amfiteatre.jpg</string>
 		<key>short_url</key>
-		<string>http://bit.ly/catedral_tgn</string>
+		<string></string>
 		<key>share_text</key>
-		<string>No t&apos;oblidis de visitar la Catedral!!!</string>
+		<string>No t&apos;oblidis de visitar l&apos;Amfiteatre romà!!!</string>
 		<key>url_image</key>
 		<array>
 			<string>http://tarracopass.com/img/ios/monuments/amfiteatre/1.jpg</string>
@@ -30,6 +32,429 @@
 			<string>http://tarracopass.com/img/ios/monuments/amfiteatre/3.jpg</string>
 			<string>http://tarracopass.com/img/ios/monuments/amfiteatre/4.jpg</string>
 			<string>http://tarracopass.com/img/ios/monuments/amfiteatre/5.jpg</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/2103624925amfiteatre%203568.JPG?itok=ZSOpDYMI</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/431756765amfiteatre%201343.jpg?itok=ZP-II9Ak</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/617258345T36_V2Y6224BX.jpg?itok=jTeUBlJC</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Pont del Diable</string>
+		<key>latitude</key>
+		<string>41.146029</string>
+		<key>longitude</key>
+		<string>1.243832</string>
+		<key>text</key>
+		<string>textPontDiable</string>
+		<key>price</key>
+		<string>Gratuïta</string>
+		<key>horari</key>
+		<string>horariPontDiable</string>
+		<key>direction</key>
+		<string>N-240 a Lleida (a 4 km. de Tarragona) 43007 Tarragona</string>
+		<key>image_menu</key>
+		<string>pontDiable.jpg</string>
+		<key>image</key>
+		<string>pontDiable.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar el Pont del Diable!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/448448422pont%20del%20diable%201.jpg?itok=MV0jcgH1</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/190622159mrg_4228.jpg?itok=525xcSkp</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/1613584291pont%20del%20diable%202.jpg?itok=9WQ37Zvd</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Arc de Berà</string>
+		<key>latitude</key>
+		<string>41.173294667500</string>
+		<key>longitude</key>
+		<string>1.469095051230</string>
+		<key>text</key>
+		<string>textArcBera</string>
+		<key>price</key>
+		<string>Gratuïta</string>
+		<key>horari</key>
+		<string>horariArcBera</string>
+		<key>direction</key>
+		<string>N-340 (a 20 km. de Tarragona) 43883 Roda de Berà</string>
+		<key>image_menu</key>
+		<string>arcBera.jpg</string>
+		<key>image</key>
+		<string>arcBera.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar l&apos;Arc de Berà!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/862777106arcbera.jpg?itok=8ObKTajK</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/684039061arcbera2.jpg?itok=qtyfuXFW</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Castell de Tamarit</string>
+		<key>latitude</key>
+		<string>41.130112311900</string>
+		<key>longitude</key>
+		<string>1.361371278760</string>
+		<key>text</key>
+		<string>textCastellTamarit</string>
+		<key>price</key>
+		<string>-</string>
+		<key>horari</key>
+		<string>horariCastellTamarit</string>
+		<key>direction</key>
+		<string>N-340 Km 1171 (a 10 Km de Tarragona) 43008 Tarragona-Altafulla</string>
+		<key>image_menu</key>
+		<string>castellTamarit.jpg</string>
+		<key>image</key>
+		<string>castellTamarit.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar el Castell de Tamarit!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/67328746304.jpg?itok=CYp76cAc</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Catedral i Museu Diocesà</string>
+		<key>latitude</key>
+		<string>41.118558280200</string>
+		<key>longitude</key>
+		<string>1.257685527190</string>
+		<key>text</key>
+		<string>textCatedral</string>
+		<key>price</key>
+		<string>5,00 €</string>
+		<key>horari</key>
+		<string>horariCatedral</string>
+		<key>direction</key>
+		<string>Pla de la Seu 43003 Tarragona</string>
+		<key>image_menu</key>
+		<string>catedral.jpg</string>
+		<key>image</key>
+		<string>catedral.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar la Catedral i Museu Diocesà!!!</string>
+		<key>url_image</key>
+		<array>
+			<string></string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/3846060541851382480t36_rlm1285bx.jpg?itok=XgnrQNYP</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/1498277973dsc_1968_rafa-perez.jpg?itok=ZYU66_Z3</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/1697665591dsc_1956_rafa-perez.jpg?itok=mw8_8anJ</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/5495367451590666507054.jpg?itok=bv2aekB_</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/201460296756183801057.jpg?itok=hlALHvmW</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/1470276616695917289003.jpg?itok=xUnrB2yN</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/593578779332688451053.jpg?itok=gZqf53eH</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/10434094101224984719catedral-0734.jpg?itok=wFsJZ5yk</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/751033215dsc_2011_rafa-perez.jpg?itok=O5yFpu3O</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Conjunt paleocristià del Francolí</string>
+		<key>latitude</key>
+		<string>41.116793224600</string>
+		<key>longitude</key>
+		<string>1.238890886310</string>
+		<key>text</key>
+		<string>textConjuntPaleocristiaFrancoli</string>
+		<key>price</key>
+		<string>Gratuïta</string>
+		<key>horari</key>
+		<string>horariConjuntPaleocristiaFrancoli</string>
+		<key>direction</key>
+		<string>Pàrquing del centre comercial Parc Central. Av. Vidal i Barraquer, 15-17 43005 Tarragona</string>
+		<key>image_menu</key>
+		<string>conjuntPaleocristiaFrancoli.jpg</string>
+		<key>image</key>
+		<string>conjuntPaleocristiaFrancoli.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar el Conjunt paleocristià del Francolí!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/1106732336basilica%20eroski.jpg?itok=nkUyLwl_</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Fòrum de la Colònia</string>
+		<key>latitude</key>
+		<string>41.114735313800</string>
+		<key>longitude</key>
+		<string>1.248331725730</string>
+		<key>text</key>
+		<string>textForumColonia</string>
+		<key>price</key>
+		<string>3,30 €</string>
+		<key>horari</key>
+		<string>horariForumColonia</string>
+		<key>direction</key>
+		<string>C. Lleida 43001 Tarragona</string>
+		<key>image_menu</key>
+		<string>forumColonia.jpg</string>
+		<key>image</key>
+		<string>forumColonia.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar el Fòrum de la Colònia!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/554673772forum%20de%20la%20colonia%200903.jpg?itok=V_BFcWcn</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/1853218875forum%20local.jpg?itok=2UAS24qN</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Fòrum Provincial</string>
+		<key>latitude</key>
+		<string>41.118125356000</string>
+		<key>longitude</key>
+		<string>1.255120866020</string>
+		<key>text</key>
+		<string>textForumProvincial</string>
+		<key>price</key>
+		<string>Gratuïta</string>
+		<key>horari</key>
+		<string>horariForumProvincial</string>
+		<key>direction</key>
+		<string>Pl. del Pallol / Pl. del Fòrum / Pl. del Rei 43003 Tarragona</string>
+		<key>image_menu</key>
+		<string>forumProvincial.jpg</string>
+		<key>image</key>
+		<string>forumProvincial.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar el Fòrum Provincial!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/378245727PlPallol.jpg?itok=MpAf_-p5</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/108318569forum%20provincial.jpg?itok=4NRnwYdA</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/387292838pl_del_rei.jpg?itok=N1p2R-0L</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Hospital medieval</string>
+		<key>latitude</key>
+		<string>41.119036160600</string>
+		<key>longitude</key>
+		<string>1.258487105370</string>
+		<key>text</key>
+		<string>textHospitalMedieval</string>
+		<key>price</key>
+		<string>Gratuïta</string>
+		<key>horari</key>
+		<string>horariHospitalMedieval</string>
+		<key>direction</key>
+		<string>C. Les Coques, 3 43003 Tarragona</string>
+		<key>image_menu</key>
+		<string>hospitalMedieval.jpg</string>
+		<key>image</key>
+		<string>hospitalMedieval.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar el Hospital medieval!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/1919721667ANTIGUO%20HOSPITAL%20STA%20TECLA%2010.jpg?itok=fypg8R2-</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/1207941268img_9161.jpg?itok=ioqU5hb8</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Muralles</string>
+		<key>latitude</key>
+		<string>41.118902799000</string>
+		<key>longitude</key>
+		<string>1.254791021350</string>
+		<key>text</key>
+		<string>textMuralles</string>
+		<key>price</key>
+		<string>3,30 €</string>
+		<key>horari</key>
+		<string>horariMuralles</string>
+		<key>direction</key>
+		<string>Av. Catalunya, s/n 43003 Tarragona</string>
+		<key>image_menu</key>
+		<string>muralles.jpg</string>
+		<key>image</key>
+		<string>muralles.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar les Muralles!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/752294736T36_RLM6705BX.jpg?itok=lhLYaOF_</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/423120596img_3614.jpg?itok=Vs8z4WI8</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/1190855985passeig%20arqueologic%202.jpg?itok=z4tutnXk</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/1605867477passeig%20arqueologic%205.jpg?itok=rFZuGmpp</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/260824083passeig%20arqueologic%203.jpg?itok=DPhgltBY</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/731103804passeig%20arqueologic%204.jpg?itok=jhFQr8UE</string>
+			<string></string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Pedrera del Mèdol</string>
+		<key>latitude</key>
+		<string>41.138491929500</string>
+		<key>longitude</key>
+		<string>1.339087486270</string>
+		<key>text</key>
+		<string>textPedreraMedol</string>
+		<key>price</key>
+		<string>Gratuïta</string>
+		<key>horari</key>
+		<string>horariPedreraMedol</string>
+		<key>direction</key>
+		<string>N-340 a Barcelona - Àrea de Servei del Mèdol (a 8 km de Tarragona) 43007 Tarragona</string>
+		<key>image_menu</key>
+		<string>pedreraMedol.jpg</string>
+		<key>image</key>
+		<string>pedreraMedol.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar la Pedrera del Mèdol!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/1708707062medol.jpg?itok=4QEJkxyb</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Portal de SantAntoni</string>
+		<key>latitude</key>
+		<string>41.118842180000</string>
+		<key>longitude</key>
+		<string>1.260933279990</string>
+		<key>text</key>
+		<string>textPortalSantAntoni</string>
+		<key>price</key>
+		<string>Gratuïta</string>
+		<key>horari</key>
+		<string>horariPortalSantAntoni</string>
+		<key>direction</key>
+		<string>Passeig de Sant Antoni 43003 Tarragona</string>
+		<key>image_menu</key>
+		<string>portalSantAntoni.jpg</string>
+		<key>image</key>
+		<string>portalSantAntoni.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar el Portal de Sant Antoni!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/72868392124%20-%20CIUTAT%20-%20part%20alta.jpg?itok=7kQndkdn</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/283392699img_9180.jpg?itok=EN0yHVJ9</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/116497467img_9206.jpg?itok=tXrNbiHP</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Pretori i Circ romans</string>
+		<key>latitude</key>
+		<string>41.116083551700</string>
+		<key>longitude</key>
+		<string>1.257274478740</string>
+		<key>text</key>
+		<string>textPretoriCirc</string>
+		<key>price</key>
+		<string>3,30 €</string>
+		<key>horari</key>
+		<string>horariPretoriCirc</string>
+		<key>direction</key>
+		<string>Pl. del Rei - Rambla Vella 43003 Tarragona</string>
+		<key>image_menu</key>
+		<string>pretoriCirc.jpg</string>
+		<key>image</key>
+		<string>pretoriCirc.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar el Pretori i Circ romans!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/1353671863Volta%20del%20Circ.jpg?itok=YrUlXYx-</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/835633456img_4043.jpg?itok=G_ZRGs0K</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/1191552604circ%200582.jpg?itok=XIStpBAc</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/615878673pretori%203549.jpg?itok=GrfRBxVh</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Teatre romà</string>
+		<key>latitude</key>
+		<string>41.112814350300</string>
+		<key>longitude</key>
+		<string>1.249368399350</string>
+		<key>text</key>
+		<string>textTeatre</string>
+		<key>price</key>
+		<string>3,30 €</string>
+		<key>horari</key>
+		<string>horariTeatre</string>
+		<key>direction</key>
+		<string>C. de Sant Magí, 1 43004 Tarragona</string>
+		<key>image_menu</key>
+		<string>teatre.jpg</string>
+		<key>image</key>
+		<string>teatre.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar el Teatre romà!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/983523017mirador-informatiu-del-teatre.jpg?itok=sF0hdN0q</string>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/1391710217teatre-roma.jpg?itok=x17yrWdd</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Torre dels Escipions</string>
+		<key>latitude</key>
+		<string>41.131996000900</string>
+		<key>longitude</key>
+		<string>1.318944990580</string>
+		<key>text</key>
+		<string>textTorreEscipions</string>
+		<key>price</key>
+		<string>Gratuïta</string>
+		<key>horari</key>
+		<string>horariTorreEscipions</string>
+		<key>direction</key>
+		<string>N-340 a Barcelona (a 6 Km. de Tarragona) 43007 Tarragona</string>
+		<key>image_menu</key>
+		<string>torreEscipions.jpg</string>
+		<key>image</key>
+		<string>torreEscipions.jpg</string>
+		<key>short_url</key>
+		<string></string>
+		<key>share_text</key>
+		<string>No t&apos;oblidis de visitar la Torre dels Escipions!!!</string>
+		<key>url_image</key>
+		<array>
+			<string>http://www.tarragonaturisme.cat/sites/default/files/styles/full_image_with_copyright/public/monument/gallery/1105119441escipions_0687.jpg?itok=GbkPLrvN</string>
 		</array>
 	</dict>
 </array>

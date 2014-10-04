@@ -1,0 +1,11 @@
+<title>Horari d'estiu</title>
+<_bullet>(Del 24 de juny al 24 de setembre)</_bullet>
+<_bullet>Divendres: 10 h - 13 h</_bullet>
+<_bullet>Dissabte: 11 h - 14 h i 17 h - 20 h</_bullet>
+<_bullet>Diumenge: 11 h - 14 h</_bullet>
+
+<title>Horari d'hivern</title>
+<_bullet>(Del 25 de setembre al 23 de juny)</_bullet>
+<_bullet>Divendres: 9 h - 13 h</_bullet>
+<_bullet>Dissabte: 10 h - 14 h i 17 h - 20 h</_bullet>
+<_bullet>Diumenge: 10 h - 14 h</_bullet>

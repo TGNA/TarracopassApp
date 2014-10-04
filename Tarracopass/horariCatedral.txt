@@ -1,0 +1,7 @@
+<_bullet>Obert de dilluns a dissabte. Tancat diumenges i festius de precepte.</_bullet>
+<_bullet>Del 17 de març al 15 de juny: de 10:00h a 19:00h.</_bullet>
+<_bullet>Del 16 de juny al 14 de setembre: de 10:00h a 20:00h.</_bullet>
+<_bullet>Del 15 de setembre al 2 de novembre: de 10:00h a 19:00h.</_bullet>
+<_bullet>Del 3 de novembre al 15 de març:</_bullet>
+    <_bullet>de dilluns a divendres: de 10:00h a 17:00h.</_bullet>
+    <_bullet>dissabtes: de 10:00h a 19:00h.</_bullet>

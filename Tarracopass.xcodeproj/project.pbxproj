@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C14C1F119D3512400197D4A /* TempsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C14C1F019D3512400197D4A /* TempsTableViewController.m */; };
+		0C14C1F119D3512400197D4A /* TempsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C14C1F019D3512400197D4A /* TempsViewController.m */; };
 		0C14C1FA19D4750D00197D4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C14C1F919D4750D00197D4A /* Foundation.framework */; };
 		0C14C23D19D598D400197D4A /* MZFormSheetBackgroundWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C14C22F19D598D400197D4A /* MZFormSheetBackgroundWindow.m */; };
 		0C14C23E19D598D400197D4A /* MZFormSheetBackgroundWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C14C23119D598D400197D4A /* MZFormSheetBackgroundWindowViewController.m */; };
@@ -23,13 +23,11 @@
 		0C14C2AE19D5A3D600197D4A /* MonumentsTimeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C14C2AD19D5A3D600197D4A /* MonumentsTimeTableViewController.m */; };
 		0C7BDBA519CC79E1001C2907 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7BDBA419CC79E1001C2907 /* main.m */; };
 		0C7BDBA819CC79E1001C2907 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7BDBA719CC79E1001C2907 /* AppDelegate.m */; };
-		0C7BDBAB19CC79E1001C2907 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7BDBAA19CC79E1001C2907 /* ViewController.m */; };
 		0C7BDBAE19CC79E1001C2907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7BDBAC19CC79E1001C2907 /* Main.storyboard */; };
 		0C7BDBB019CC79E1001C2907 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C7BDBAF19CC79E1001C2907 /* Images.xcassets */; };
 		0C7BDBB319CC79E1001C2907 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C7BDBB119CC79E1001C2907 /* LaunchScreen.xib */; };
 		0C7BDBBF19CC79E1001C2907 /* TarracopassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7BDBBE19CC79E1001C2907 /* TarracopassTests.m */; };
 		0C7BDBE119CC84EE001C2907 /* MonumentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7BDBE019CC84EE001C2907 /* MonumentsTableViewController.m */; };
-		0C7BDBE719CC8655001C2907 /* Monuments.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C7BDBE619CC8655001C2907 /* Monuments.plist */; };
 		0CAE041319CCC93000CD9CB0 /* JPBFloatingTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAE040D19CCC93000CD9CB0 /* JPBFloatingTextViewController.m */; };
 		0CAE041419CCC93000CD9CB0 /* JPBParallaxBlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAE040F19CCC93000CD9CB0 /* JPBParallaxBlurViewController.m */; };
 		0CAE041919CCC99500CD9CB0 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAE041819CCC99500CD9CB0 /* FXBlurView.m */; };
@@ -43,6 +41,25 @@
 		0CAE08F619D1B98800CD9CB0 /* TransportDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAE08F319D1B98800CD9CB0 /* TransportDetailViewController.m */; };
 		0CAE08F719D1B98800CD9CB0 /* TransportPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAE08F519D1B98800CD9CB0 /* TransportPoint.m */; };
 		0CAE08FA19D1BA2200CD9CB0 /* TransportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAE08F919D1BA2200CD9CB0 /* TransportViewController.m */; };
+		0CB1863A19E00E9D002E4AE5 /* voltesMerceria.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1863919E00E9D002E4AE5 /* voltesMerceria.jpg */; };
+		0CB1863D19E00ED4002E4AE5 /* textVoltesMerceria.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1863B19E00ED4002E4AE5 /* textVoltesMerceria.txt */; };
+		0CB1864019E00EE7002E4AE5 /* horariVoltesMerceria.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1863F19E00EE7002E4AE5 /* horariVoltesMerceria.txt */; };
+		0CB1864319E01071002E4AE5 /* casaCanals.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1864219E01071002E4AE5 /* casaCanals.jpg */; };
+		0CB1864619E010C5002E4AE5 /* textCasaCanals.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1864419E010C5002E4AE5 /* textCasaCanals.txt */; };
+		0CB1864919E010D0002E4AE5 /* horariCasaCanals.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1864819E010D0002E4AE5 /* horariCasaCanals.txt */; };
+		0CB1864C19E01338002E4AE5 /* casaFesta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1864B19E01338002E4AE5 /* casaFesta.jpg */; };
+		0CB1864F19E01345002E4AE5 /* textCasaFesta.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1864D19E01344002E4AE5 /* textCasaFesta.txt */; };
+		0CB1865219E0134B002E4AE5 /* horariCasaFesta.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1865119E0134B002E4AE5 /* horariCasaFesta.txt */; };
+		0CB1865519E0172F002E4AE5 /* casaCastellarnau.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1865419E0172F002E4AE5 /* casaCastellarnau.jpg */; };
+		0CB1865819E0173F002E4AE5 /* textCasaCastellarnau.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1865619E0173F002E4AE5 /* textCasaCastellarnau.txt */; };
+		0CB1865B19E01748002E4AE5 /* horariCasaCastellarnau.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1865A19E01748002E4AE5 /* horariCasaCastellarnau.txt */; };
+		0CB1865E19E019B6002E4AE5 /* museuPortTarragona.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1865D19E019B6002E4AE5 /* museuPortTarragona.jpg */; };
+		0CB1866119E019F6002E4AE5 /* textMuseuPortTarragona.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1865F19E019F6002E4AE5 /* textMuseuPortTarragona.txt */; };
+		0CB1866419E019FD002E4AE5 /* horariMuseuPortTarragona.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1866319E019FD002E4AE5 /* horariMuseuPortTarragona.txt */; };
+		0CB1866719E01B5A002E4AE5 /* museuNacionalArqueologic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1866619E01B5A002E4AE5 /* museuNacionalArqueologic.jpg */; };
+		0CB1866A19E01B8F002E4AE5 /* textMuseuNacionalArqueologic.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1866819E01B8F002E4AE5 /* textMuseuNacionalArqueologic.txt */; };
+		0CB1866D19E01B9B002E4AE5 /* horariMuseuNacionalArqueologic.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1866C19E01B9B002E4AE5 /* horariMuseuNacionalArqueologic.txt */; };
+		0CB1866E19E01EDB002E4AE5 /* Climacons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D6A819D87CD0002A8AC1 /* Climacons.ttf */; };
 		0CD6D64219D75BBF002A8AC1 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D61919D75BBF002A8AC1 /* AFHTTPRequestOperation.m */; };
 		0CD6D64319D75BBF002A8AC1 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D61B19D75BBF002A8AC1 /* AFHTTPRequestOperationManager.m */; };
 		0CD6D64419D75BBF002A8AC1 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D61D19D75BBF002A8AC1 /* AFHTTPSessionManager.m */; };
@@ -69,7 +86,70 @@
 		0CD6D67019D7642E002A8AC1 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D66C19D7642E002A8AC1 /* RESideMenu.m */; };
 		0CD6D67119D7642E002A8AC1 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D66E19D7642E002A8AC1 /* UIViewController+RESideMenu.m */; };
 		0CD6D67319D76695002A8AC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD6D67219D76695002A8AC1 /* UIKit.framework */; };
-		0CD87F1719CC97AA0038DD4F /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CD87F1619CC97AA0038DD4F /* image.jpg */; };
+		0CD6D68A19D8567F002A8AC1 /* AgendaCulturalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D68919D8567F002A8AC1 /* AgendaCulturalViewController.m */; };
+		0CD6D69819D86D5E002A8AC1 /* LlocsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D69719D86D5E002A8AC1 /* LlocsTableViewController.m */; };
+		0CD6D69B19D86D74002A8AC1 /* LlocsDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D69A19D86D74002A8AC1 /* LlocsDetailTableViewController.m */; };
+		0CD6D69E19D86D83002A8AC1 /* LlocsMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D69D19D86D83002A8AC1 /* LlocsMapViewController.m */; };
+		0CD6D6A119D86DA3002A8AC1 /* LlocsTimeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D6A019D86DA3002A8AC1 /* LlocsTimeTableViewController.m */; };
+		0CD6D6A419D86EAD002A8AC1 /* Llocs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D6A319D86EAD002A8AC1 /* Llocs.plist */; };
+		0CD6D6C119D87CEA002A8AC1 /* CZWeatherCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D6AE19D87CEA002A8AC1 /* CZWeatherCondition.m */; };
+		0CD6D6C219D87CEA002A8AC1 /* NSString+CZWeatherKit_Substring.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D6B219D87CEA002A8AC1 /* NSString+CZWeatherKit_Substring.m */; };
+		0CD6D6C319D87CEA002A8AC1 /* CZWeatherLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D6B519D87CEA002A8AC1 /* CZWeatherLocation.m */; };
+		0CD6D6C419D87CEA002A8AC1 /* CZWeatherRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D6B719D87CEA002A8AC1 /* CZWeatherRequest.m */; };
+		0CD6D6C519D87CEA002A8AC1 /* CZForecastioService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D6BA19D87CEA002A8AC1 /* CZForecastioService.m */; };
+		0CD6D6C619D87CEA002A8AC1 /* CZOpenWeatherMapService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D6BC19D87CEA002A8AC1 /* CZOpenWeatherMapService.m */; };
+		0CD6D6C719D87CEA002A8AC1 /* CZWundergroundService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D6C019D87CEA002A8AC1 /* CZWundergroundService.m */; };
+		0CD6D6C919D9B899002A8AC1 /* Monuments.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D6C819D9B899002A8AC1 /* Monuments.plist */; };
+		0CD6D6CB19D9BBFA002A8AC1 /* amfiteatre_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D6CA19D9BBFA002A8AC1 /* amfiteatre_menu.png */; };
+		0CD6D6D919D9C45B002A8AC1 /* amfiteatre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D6D819D9C45B002A8AC1 /* amfiteatre.jpg */; };
+		0CD6D6DB19D9CAD1002A8AC1 /* pontDiable.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D6DA19D9CAD1002A8AC1 /* pontDiable.jpg */; };
+		0CD6D6DE19D9CBB4002A8AC1 /* textPontDiable.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D6DC19D9CBB4002A8AC1 /* textPontDiable.txt */; };
+		0CD6D6E319D9CBFB002A8AC1 /* horariPontDiable.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D6E119D9CBFB002A8AC1 /* horariPontDiable.txt */; };
+		0CD6D6E819D9D068002A8AC1 /* textArcBera.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D6E619D9D068002A8AC1 /* textArcBera.txt */; };
+		0CD6D6EC19D9D084002A8AC1 /* horariArcBera.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D6EA19D9D084002A8AC1 /* horariArcBera.txt */; };
+		0CD6D6EF19D9D0D2002A8AC1 /* arcBera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D6EE19D9D0D2002A8AC1 /* arcBera.jpg */; };
+		0CD6D6F319D9DAD2002A8AC1 /* textBalcoMediterrani.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D6F119D9DAD2002A8AC1 /* textBalcoMediterrani.txt */; };
+		0CD6D6F619D9DADE002A8AC1 /* horariBalcoMediterrani.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D6F519D9DADE002A8AC1 /* horariBalcoMediterrani.txt */; };
+		0CD6D6F819D9DB5C002A8AC1 /* balcoMediterrani.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D6F719D9DB5C002A8AC1 /* balcoMediterrani.jpg */; };
+		0CD6D6FC19D9DC83002A8AC1 /* textCallJueu.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D6FA19D9DC83002A8AC1 /* textCallJueu.txt */; };
+		0CD6D6FF19D9DC93002A8AC1 /* horariCallJueu.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D6FE19D9DC93002A8AC1 /* horariCallJueu.txt */; };
+		0CD6D70119D9DCD4002A8AC1 /* callJueu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D70019D9DCD4002A8AC1 /* callJueu.jpg */; };
+		0CD6D70419D9DE05002A8AC1 /* castellTamarit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D70319D9DE05002A8AC1 /* castellTamarit.jpg */; };
+		0CD6D70719D9DE34002A8AC1 /* horariCastellTamarit.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D70519D9DE34002A8AC1 /* horariCastellTamarit.txt */; };
+		0CD6D70A19D9DE43002A8AC1 /* textCastellTamarit.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D70919D9DE43002A8AC1 /* textCastellTamarit.txt */; };
+		0CD6D70E19D9EF4D002A8AC1 /* textCatedral.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D70C19D9EF4D002A8AC1 /* textCatedral.txt */; };
+		0CD6D71119D9EF5D002A8AC1 /* horariCatedral.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D71019D9EF5D002A8AC1 /* horariCatedral.txt */; };
+		0CD6D71319D9F0B3002A8AC1 /* catedral.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D71219D9F0B3002A8AC1 /* catedral.jpg */; };
+		0CD6D71619D9F9BE002A8AC1 /* conjuntPaleocristiaFrancoli.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D71519D9F9BE002A8AC1 /* conjuntPaleocristiaFrancoli.jpg */; };
+		0CD6D71919D9FA0B002A8AC1 /* textConjuntPaleocristiaFrancoli.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D71719D9FA0B002A8AC1 /* textConjuntPaleocristiaFrancoli.txt */; };
+		0CD6D71C19D9FA18002A8AC1 /* horariConjuntPaleocristiaFrancoli.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D71B19D9FA18002A8AC1 /* horariConjuntPaleocristiaFrancoli.txt */; };
+		0CD6D71F19D9FC26002A8AC1 /* forumColonia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D71E19D9FC26002A8AC1 /* forumColonia.jpg */; };
+		0CD6D72219D9FCE4002A8AC1 /* textForumColonia.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D72019D9FCE4002A8AC1 /* textForumColonia.txt */; };
+		0CD6D72519D9FCEF002A8AC1 /* horariForumColonia.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D72419D9FCEF002A8AC1 /* horariForumColonia.txt */; };
+		0CD6D72819D9FFAD002A8AC1 /* forumProvincial.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D72719D9FFAD002A8AC1 /* forumProvincial.jpg */; };
+		0CD6D72B19DA0013002A8AC1 /* textForumProvincial.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D72919DA0013002A8AC1 /* textForumProvincial.txt */; };
+		0CD6D72E19DA0021002A8AC1 /* horariForumProvincial.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D72D19DA0021002A8AC1 /* horariForumProvincial.txt */; };
+		0CD6D73119DA02C4002A8AC1 /* textHospitalMedieval.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D72F19DA02C4002A8AC1 /* textHospitalMedieval.txt */; };
+		0CD6D73419DA02D2002A8AC1 /* horariHospitalMedieval.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D73319DA02D2002A8AC1 /* horariHospitalMedieval.txt */; };
+		0CD6D73719DA02FB002A8AC1 /* hospitalMedieval.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D73619DA02FB002A8AC1 /* hospitalMedieval.jpg */; };
+		0CD6D73B19DAE57D002A8AC1 /* textMuralles.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D73919DAE57D002A8AC1 /* textMuralles.txt */; };
+		0CD6D73E19DAE588002A8AC1 /* horariMuralles.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D73D19DAE588002A8AC1 /* horariMuralles.txt */; };
+		0CD6D74019DAE73E002A8AC1 /* muralles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D73F19DAE73E002A8AC1 /* muralles.jpg */; };
+		0CD6D74319DAE8A7002A8AC1 /* pedreraMedol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D74219DAE8A7002A8AC1 /* pedreraMedol.jpg */; };
+		0CD6D74619DAE8B6002A8AC1 /* textPedreraMedol.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D74419DAE8B6002A8AC1 /* textPedreraMedol.txt */; };
+		0CD6D74919DAE8C0002A8AC1 /* horariPedreraMedol.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D74819DAE8C0002A8AC1 /* horariPedreraMedol.txt */; };
+		0CD6D74D19DEEF35002A8AC1 /* horariPortalSantAntoni.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D74B19DEEF35002A8AC1 /* horariPortalSantAntoni.txt */; };
+		0CD6D75019DEEF4A002A8AC1 /* textPortalSantAntoni.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D74F19DEEF4A002A8AC1 /* textPortalSantAntoni.txt */; };
+		0CD6D75219DEEFAF002A8AC1 /* portalSantAntoni.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D75119DEEFAF002A8AC1 /* portalSantAntoni.jpg */; };
+		0CD6D75519DEF2D2002A8AC1 /* pretoriCirc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D75419DEF2D2002A8AC1 /* pretoriCirc.jpg */; };
+		0CD6D75819DEF2E1002A8AC1 /* textPretoriCirc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D75619DEF2E1002A8AC1 /* textPretoriCirc.txt */; };
+		0CD6D75B19DEF2ED002A8AC1 /* horariPretoriCirc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D75A19DEF2ED002A8AC1 /* horariPretoriCirc.txt */; };
+		0CD6D75F19DEF6A6002A8AC1 /* textTeatre.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D75D19DEF6A6002A8AC1 /* textTeatre.txt */; };
+		0CD6D76319DEF6C7002A8AC1 /* horariTeatre.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D76119DEF6C7002A8AC1 /* horariTeatre.txt */; };
+		0CD6D76619DF4DB1002A8AC1 /* teatre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D76519DF4DB1002A8AC1 /* teatre.jpg */; };
+		0CD6D76919DFF5CA002A8AC1 /* torreEscipions.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D76819DFF5CA002A8AC1 /* torreEscipions.jpg */; };
+		0CD6D76C19DFF621002A8AC1 /* textTorreEscipions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D76A19DFF621002A8AC1 /* textTorreEscipions.txt */; };
+		0CD6D76F19DFF62B002A8AC1 /* horariTorreEscipions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D76E19DFF62B002A8AC1 /* horariTorreEscipions.txt */; };
 		0CD87F2419CC99350038DD4F /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CD87F1919CC99350038DD4F /* LICENSE.txt */; };
 		0CD87F2519CC99350038DD4F /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CD87F1A19CC99350038DD4F /* OpenSans-Bold.ttf */; };
 		0CD87F2619CC99350038DD4F /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CD87F1B19CC99350038DD4F /* OpenSans-BoldItalic.ttf */; };
@@ -105,8 +185,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C14C1EF19D3512400197D4A /* TempsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempsTableViewController.h; sourceTree = "<group>"; };
-		0C14C1F019D3512400197D4A /* TempsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempsTableViewController.m; sourceTree = "<group>"; };
+		0C14C1EF19D3512400197D4A /* TempsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempsViewController.h; sourceTree = "<group>"; };
+		0C14C1F019D3512400197D4A /* TempsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempsViewController.m; sourceTree = "<group>"; };
 		0C14C1F919D4750D00197D4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0C14C22E19D598D400197D4A /* MZFormSheetBackgroundWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetBackgroundWindow.h; sourceTree = "<group>"; };
 		0C14C22F19D598D400197D4A /* MZFormSheetBackgroundWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetBackgroundWindow.m; sourceTree = "<group>"; };
@@ -136,8 +216,6 @@
 		0C7BDBA419CC79E1001C2907 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C7BDBA619CC79E1001C2907 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0C7BDBA719CC79E1001C2907 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0C7BDBA919CC79E1001C2907 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0C7BDBAA19CC79E1001C2907 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0C7BDBAD19CC79E1001C2907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C7BDBAF19CC79E1001C2907 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0C7BDBB219CC79E1001C2907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -146,7 +224,6 @@
 		0C7BDBBE19CC79E1001C2907 /* TarracopassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TarracopassTests.m; sourceTree = "<group>"; };
 		0C7BDBDF19CC84EE001C2907 /* MonumentsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonumentsTableViewController.h; sourceTree = "<group>"; };
 		0C7BDBE019CC84EE001C2907 /* MonumentsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonumentsTableViewController.m; sourceTree = "<group>"; };
-		0C7BDBE619CC8655001C2907 /* Monuments.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Monuments.plist; sourceTree = "<group>"; };
 		0CAE040C19CCC93000CD9CB0 /* JPBFloatingTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPBFloatingTextViewController.h; sourceTree = "<group>"; };
 		0CAE040D19CCC93000CD9CB0 /* JPBFloatingTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPBFloatingTextViewController.m; sourceTree = "<group>"; };
 		0CAE040E19CCC93000CD9CB0 /* JPBParallaxBlurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPBParallaxBlurViewController.h; sourceTree = "<group>"; };
@@ -170,6 +247,24 @@
 		0CAE08F519D1B98800CD9CB0 /* TransportPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransportPoint.m; sourceTree = "<group>"; };
 		0CAE08F819D1BA2200CD9CB0 /* TransportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransportViewController.h; sourceTree = "<group>"; };
 		0CAE08F919D1BA2200CD9CB0 /* TransportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransportViewController.m; sourceTree = "<group>"; };
+		0CB1863919E00E9D002E4AE5 /* voltesMerceria.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = voltesMerceria.jpg; sourceTree = "<group>"; };
+		0CB1863B19E00ED4002E4AE5 /* textVoltesMerceria.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textVoltesMerceria.txt; sourceTree = "<group>"; };
+		0CB1863F19E00EE7002E4AE5 /* horariVoltesMerceria.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horariVoltesMerceria.txt; sourceTree = "<group>"; };
+		0CB1864219E01071002E4AE5 /* casaCanals.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = casaCanals.jpg; sourceTree = "<group>"; };
+		0CB1864419E010C5002E4AE5 /* textCasaCanals.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textCasaCanals.txt; sourceTree = "<group>"; };
+		0CB1864819E010D0002E4AE5 /* horariCasaCanals.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horariCasaCanals.txt; sourceTree = "<group>"; };
+		0CB1864B19E01338002E4AE5 /* casaFesta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = casaFesta.jpg; sourceTree = "<group>"; };
+		0CB1864D19E01344002E4AE5 /* textCasaFesta.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textCasaFesta.txt; sourceTree = "<group>"; };
+		0CB1865119E0134B002E4AE5 /* horariCasaFesta.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horariCasaFesta.txt; sourceTree = "<group>"; };
+		0CB1865419E0172F002E4AE5 /* casaCastellarnau.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = casaCastellarnau.jpg; sourceTree = "<group>"; };
+		0CB1865619E0173F002E4AE5 /* textCasaCastellarnau.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textCasaCastellarnau.txt; sourceTree = "<group>"; };
+		0CB1865A19E01748002E4AE5 /* horariCasaCastellarnau.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horariCasaCastellarnau.txt; sourceTree = "<group>"; };
+		0CB1865D19E019B6002E4AE5 /* museuPortTarragona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = museuPortTarragona.jpg; sourceTree = "<group>"; };
+		0CB1865F19E019F6002E4AE5 /* textMuseuPortTarragona.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textMuseuPortTarragona.txt; sourceTree = "<group>"; };
+		0CB1866319E019FD002E4AE5 /* horariMuseuPortTarragona.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horariMuseuPortTarragona.txt; sourceTree = "<group>"; };
+		0CB1866619E01B5A002E4AE5 /* museuNacionalArqueologic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = museuNacionalArqueologic.jpg; sourceTree = "<group>"; };
+		0CB1866819E01B8F002E4AE5 /* textMuseuNacionalArqueologic.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textMuseuNacionalArqueologic.txt; sourceTree = "<group>"; };
+		0CB1866C19E01B9B002E4AE5 /* horariMuseuNacionalArqueologic.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horariMuseuNacionalArqueologic.txt; sourceTree = "<group>"; };
 		0CD6D61819D75BBF002A8AC1 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		0CD6D61919D75BBF002A8AC1 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		0CD6D61A19D75BBF002A8AC1 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -225,7 +320,88 @@
 		0CD6D66D19D7642E002A8AC1 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
 		0CD6D66E19D7642E002A8AC1 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
 		0CD6D67219D76695002A8AC1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		0CD87F1619CC97AA0038DD4F /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		0CD6D68819D8567F002A8AC1 /* AgendaCulturalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgendaCulturalViewController.h; sourceTree = "<group>"; };
+		0CD6D68919D8567F002A8AC1 /* AgendaCulturalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgendaCulturalViewController.m; sourceTree = "<group>"; };
+		0CD6D69619D86D5E002A8AC1 /* LlocsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LlocsTableViewController.h; sourceTree = "<group>"; };
+		0CD6D69719D86D5E002A8AC1 /* LlocsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LlocsTableViewController.m; sourceTree = "<group>"; };
+		0CD6D69919D86D74002A8AC1 /* LlocsDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LlocsDetailTableViewController.h; sourceTree = "<group>"; };
+		0CD6D69A19D86D74002A8AC1 /* LlocsDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LlocsDetailTableViewController.m; sourceTree = "<group>"; };
+		0CD6D69C19D86D83002A8AC1 /* LlocsMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LlocsMapViewController.h; sourceTree = "<group>"; };
+		0CD6D69D19D86D83002A8AC1 /* LlocsMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LlocsMapViewController.m; sourceTree = "<group>"; };
+		0CD6D69F19D86DA3002A8AC1 /* LlocsTimeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LlocsTimeTableViewController.h; sourceTree = "<group>"; };
+		0CD6D6A019D86DA3002A8AC1 /* LlocsTimeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LlocsTimeTableViewController.m; sourceTree = "<group>"; };
+		0CD6D6A319D86EAD002A8AC1 /* Llocs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Llocs.plist; sourceTree = "<group>"; };
+		0CD6D6A819D87CD0002A8AC1 /* Climacons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Climacons.ttf; sourceTree = "<group>"; };
+		0CD6D6AA19D87CEA002A8AC1 /* Climacons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Climacons.h; sourceTree = "<group>"; };
+		0CD6D6AB19D87CEA002A8AC1 /* CZWeatherKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZWeatherKit.h; sourceTree = "<group>"; };
+		0CD6D6AD19D87CEA002A8AC1 /* CZWeatherCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZWeatherCondition.h; sourceTree = "<group>"; };
+		0CD6D6AE19D87CEA002A8AC1 /* CZWeatherCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZWeatherCondition.m; sourceTree = "<group>"; };
+		0CD6D6B019D87CEA002A8AC1 /* CZMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZMacros.h; sourceTree = "<group>"; };
+		0CD6D6B119D87CEA002A8AC1 /* NSString+CZWeatherKit_Substring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZWeatherKit_Substring.h"; sourceTree = "<group>"; };
+		0CD6D6B219D87CEA002A8AC1 /* NSString+CZWeatherKit_Substring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZWeatherKit_Substring.m"; sourceTree = "<group>"; };
+		0CD6D6B419D87CEA002A8AC1 /* CZWeatherLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZWeatherLocation.h; sourceTree = "<group>"; };
+		0CD6D6B519D87CEA002A8AC1 /* CZWeatherLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZWeatherLocation.m; sourceTree = "<group>"; };
+		0CD6D6B619D87CEA002A8AC1 /* CZWeatherRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZWeatherRequest.h; sourceTree = "<group>"; };
+		0CD6D6B719D87CEA002A8AC1 /* CZWeatherRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZWeatherRequest.m; sourceTree = "<group>"; };
+		0CD6D6B919D87CEA002A8AC1 /* CZForecastioService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZForecastioService.h; sourceTree = "<group>"; };
+		0CD6D6BA19D87CEA002A8AC1 /* CZForecastioService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZForecastioService.m; sourceTree = "<group>"; };
+		0CD6D6BB19D87CEA002A8AC1 /* CZOpenWeatherMapService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZOpenWeatherMapService.h; sourceTree = "<group>"; };
+		0CD6D6BC19D87CEA002A8AC1 /* CZOpenWeatherMapService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZOpenWeatherMapService.m; sourceTree = "<group>"; };
+		0CD6D6BD19D87CEA002A8AC1 /* CZWeatherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZWeatherService.h; sourceTree = "<group>"; };
+		0CD6D6BE19D87CEA002A8AC1 /* CZWeatherService_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZWeatherService_Internal.h; sourceTree = "<group>"; };
+		0CD6D6BF19D87CEA002A8AC1 /* CZWundergroundService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZWundergroundService.h; sourceTree = "<group>"; };
+		0CD6D6C019D87CEA002A8AC1 /* CZWundergroundService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZWundergroundService.m; sourceTree = "<group>"; };
+		0CD6D6C819D9B899002A8AC1 /* Monuments.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Monuments.plist; sourceTree = "<group>"; };
+		0CD6D6CA19D9BBFA002A8AC1 /* amfiteatre_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amfiteatre_menu.png; sourceTree = "<group>"; };
+		0CD6D6D819D9C45B002A8AC1 /* amfiteatre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amfiteatre.jpg; sourceTree = "<group>"; };
+		0CD6D6DA19D9CAD1002A8AC1 /* pontDiable.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pontDiable.jpg; sourceTree = "<group>"; };
+		0CD6D6DC19D9CBB4002A8AC1 /* textPontDiable.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textPontDiable.txt; sourceTree = "<group>"; };
+		0CD6D6E119D9CBFB002A8AC1 /* horariPontDiable.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horariPontDiable.txt; sourceTree = "<group>"; };
+		0CD6D6E619D9D068002A8AC1 /* textArcBera.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textArcBera.txt; sourceTree = "<group>"; };
+		0CD6D6EA19D9D084002A8AC1 /* horariArcBera.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horariArcBera.txt; sourceTree = "<group>"; };
+		0CD6D6EE19D9D0D2002A8AC1 /* arcBera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arcBera.jpg; sourceTree = "<group>"; };
+		0CD6D6F119D9DAD2002A8AC1 /* textBalcoMediterrani.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textBalcoMediterrani.txt; sourceTree = "<group>"; };
+		0CD6D6F519D9DADE002A8AC1 /* horariBalcoMediterrani.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horariBalcoMediterrani.txt; sourceTree = "<group>"; };
+		0CD6D6F719D9DB5C002A8AC1 /* balcoMediterrani.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = balcoMediterrani.jpg; sourceTree = "<group>"; };
+		0CD6D6FA19D9DC83002A8AC1 /* textCallJueu.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textCallJueu.txt; sourceTree = "<group>"; };
+		0CD6D6FE19D9DC93002A8AC1 /* horariCallJueu.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horariCallJueu.txt; sourceTree = "<group>"; };
+		0CD6D70019D9DCD4002A8AC1 /* callJueu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = callJueu.jpg; sourceTree = "<group>"; };
+		0CD6D70319D9DE05002A8AC1 /* castellTamarit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = castellTamarit.jpg; sourceTree = "<group>"; };
+		0CD6D70519D9DE34002A8AC1 /* horariCastellTamarit.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horariCastellTamarit.txt; sourceTree = "<group>"; };
+		0CD6D70919D9DE43002A8AC1 /* textCastellTamarit.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textCastellTamarit.txt; sourceTree = "<group>"; };
+		0CD6D70C19D9EF4D002A8AC1 /* textCatedral.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textCatedral.txt; sourceTree = "<group>"; };
+		0CD6D71019D9EF5D002A8AC1 /* horariCatedral.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horariCatedral.txt; sourceTree = "<group>"; };
+		0CD6D71219D9F0B3002A8AC1 /* catedral.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = catedral.jpg; sourceTree = "<group>"; };
+		0CD6D71519D9F9BE002A8AC1 /* conjuntPaleocristiaFrancoli.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = conjuntPaleocristiaFrancoli.jpg; sourceTree = "<group>"; };
+		0CD6D71719D9FA0B002A8AC1 /* textConjuntPaleocristiaFrancoli.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textConjuntPaleocristiaFrancoli.txt; sourceTree = "<group>"; };
+		0CD6D71B19D9FA18002A8AC1 /* horariConjuntPaleocristiaFrancoli.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horariConjuntPaleocristiaFrancoli.txt; sourceTree = "<group>"; };
+		0CD6D71E19D9FC26002A8AC1 /* forumColonia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = forumColonia.jpg; sourceTree = "<group>"; };
+		0CD6D72019D9FCE4002A8AC1 /* textForumColonia.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textForumColonia.txt; sourceTree = "<group>"; };
+		0CD6D72419D9FCEF002A8AC1 /* horariForumColonia.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horariForumColonia.txt; sourceTree = "<group>"; };
+		0CD6D72719D9FFAD002A8AC1 /* forumProvincial.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = forumProvincial.jpg; sourceTree = "<group>"; };
+		0CD6D72919DA0013002A8AC1 /* textForumProvincial.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textForumProvincial.txt; sourceTree = "<group>"; };
+		0CD6D72D19DA0021002A8AC1 /* horariForumProvincial.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horariForumProvincial.txt; sourceTree = "<group>"; };
+		0CD6D72F19DA02C4002A8AC1 /* textHospitalMedieval.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textHospitalMedieval.txt; sourceTree = "<group>"; };
+		0CD6D73319DA02D2002A8AC1 /* horariHospitalMedieval.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horariHospitalMedieval.txt; sourceTree = "<group>"; };
+		0CD6D73619DA02FB002A8AC1 /* hospitalMedieval.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hospitalMedieval.jpg; sourceTree = "<group>"; };
+		0CD6D73919DAE57D002A8AC1 /* textMuralles.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textMuralles.txt; sourceTree = "<group>"; };
+		0CD6D73D19DAE588002A8AC1 /* horariMuralles.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horariMuralles.txt; sourceTree = "<group>"; };
+		0CD6D73F19DAE73E002A8AC1 /* muralles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = muralles.jpg; sourceTree = "<group>"; };
+		0CD6D74219DAE8A7002A8AC1 /* pedreraMedol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pedreraMedol.jpg; sourceTree = "<group>"; };
+		0CD6D74419DAE8B6002A8AC1 /* textPedreraMedol.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textPedreraMedol.txt; sourceTree = "<group>"; };
+		0CD6D74819DAE8C0002A8AC1 /* horariPedreraMedol.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horariPedreraMedol.txt; sourceTree = "<group>"; };
+		0CD6D74B19DEEF35002A8AC1 /* horariPortalSantAntoni.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horariPortalSantAntoni.txt; sourceTree = "<group>"; };
+		0CD6D74F19DEEF4A002A8AC1 /* textPortalSantAntoni.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textPortalSantAntoni.txt; sourceTree = "<group>"; };
+		0CD6D75119DEEFAF002A8AC1 /* portalSantAntoni.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portalSantAntoni.jpg; sourceTree = "<group>"; };
+		0CD6D75419DEF2D2002A8AC1 /* pretoriCirc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pretoriCirc.jpg; sourceTree = "<group>"; };
+		0CD6D75619DEF2E1002A8AC1 /* textPretoriCirc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textPretoriCirc.txt; sourceTree = "<group>"; };
+		0CD6D75A19DEF2ED002A8AC1 /* horariPretoriCirc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horariPretoriCirc.txt; sourceTree = "<group>"; };
+		0CD6D75D19DEF6A6002A8AC1 /* textTeatre.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textTeatre.txt; sourceTree = "<group>"; };
+		0CD6D76119DEF6C7002A8AC1 /* horariTeatre.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horariTeatre.txt; sourceTree = "<group>"; };
+		0CD6D76519DF4DB1002A8AC1 /* teatre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teatre.jpg; sourceTree = "<group>"; };
+		0CD6D76819DFF5CA002A8AC1 /* torreEscipions.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = torreEscipions.jpg; sourceTree = "<group>"; };
+		0CD6D76A19DFF621002A8AC1 /* textTorreEscipions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textTorreEscipions.txt; sourceTree = "<group>"; };
+		0CD6D76E19DFF62B002A8AC1 /* horariTorreEscipions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horariTorreEscipions.txt; sourceTree = "<group>"; };
 		0CD87F1919CC99350038DD4F /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		0CD87F1A19CC99350038DD4F /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		0CD87F1B19CC99350038DD4F /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
@@ -322,22 +498,10 @@
 		0C7BDB9619CC79E1001C2907 = {
 			isa = PBXGroup;
 			children = (
-				0CD6D67219D76695002A8AC1 /* UIKit.framework */,
-				0CD6D65619D75C14002A8AC1 /* Security.framework */,
-				0CD6D65419D75C0A002A8AC1 /* CFNetwork.framework */,
-				0CF9E69E19D6DCE9003CED6C /* CoreText.framework */,
-				0CF9E66F19D611D3003CED6C /* AVFoundation.framework */,
-				0CF9E66D19D611CD003CED6C /* MediaPlayer.framework */,
-				0C14C25019D59DF600197D4A /* Accelerate.framework */,
-				0C14C24B19D5993D00197D4A /* CoreGraphics.framework */,
-				0C14C1F919D4750D00197D4A /* Foundation.framework */,
-				0CAE062F19CDC4D600CD9CB0 /* QuartzCore.framework */,
-				0CAE041D19CDB2F200CD9CB0 /* Social.framework */,
-				0CD87F3119CC9B630038DD4F /* CoreLocation.framework */,
-				0CD87F2F19CC9B5C0038DD4F /* MapKit.framework */,
 				0C7BDBA119CC79E1001C2907 /* Tarracopass */,
 				0C7BDBBB19CC79E1001C2907 /* TarracopassTests */,
 				0C7BDBA019CC79E1001C2907 /* Products */,
+				0CD6D69419D86BAD002A8AC1 /* Framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -353,47 +517,13 @@
 		0C7BDBA119CC79E1001C2907 /* Tarracopass */ = {
 			isa = PBXGroup;
 			children = (
-				0CD6D66819D7642E002A8AC1 /* RESideMenu */,
-				0CD6D61619D75BBF002A8AC1 /* FSImageViewer */,
-				0CF9E69519D6D812003CED6C /* FTCoreText */,
-				0C14C22D19D598D400197D4A /* MZFormSheetController */,
-				0CAE08EB19D0D4E400CD9CB0 /* SVProgressHUD */,
-				0CAE040A19CCC93000CD9CB0 /* ParallaxBlur */,
-				0CD87F1819CC99350038DD4F /* Open_Sans */,
-				0C7BDBA619CC79E1001C2907 /* AppDelegate.h */,
-				0C7BDBA719CC79E1001C2907 /* AppDelegate.m */,
-				0C7BDBA919CC79E1001C2907 /* ViewController.h */,
-				0C7BDBAA19CC79E1001C2907 /* ViewController.m */,
+				0CD6D69119D86B54002A8AC1 /* Vendor */,
+				0CD6D69219D86B7B002A8AC1 /* Data */,
+				0CD6D69019D86B2E002A8AC1 /* Controller */,
 				0C7BDBAC19CC79E1001C2907 /* Main.storyboard */,
-				0CD6D66219D7607E002A8AC1 /* RootViewController.h */,
-				0CD6D66319D7607E002A8AC1 /* RootViewController.m */,
-				0CD6D66519D760C1002A8AC1 /* LeftMenuViewController.h */,
-				0CD6D66619D760C1002A8AC1 /* LeftMenuViewController.m */,
-				0C7BDBDF19CC84EE001C2907 /* MonumentsTableViewController.h */,
-				0C7BDBE019CC84EE001C2907 /* MonumentsTableViewController.m */,
-				0CD87F3319CCB4540038DD4F /* MonumentsDetailViewController.h */,
-				0CD87F3419CCB4540038DD4F /* MonumentsDetailViewController.m */,
-				0CAE077719D09E3B00CD9CB0 /* MonumentsMapViewController.h */,
-				0CAE077819D09E3B00CD9CB0 /* MonumentsMapViewController.m */,
-				0C14C2AC19D5A3D600197D4A /* MonumentsTimeTableViewController.h */,
-				0C14C2AD19D5A3D600197D4A /* MonumentsTimeTableViewController.m */,
-				0CF9E6A219D7087F003CED6C /* horariAmfiteatre.txt */,
-				0CF9E69C19D6D916003CED6C /* textAmfiteatre.txt */,
-				0CF9E66A19D611A3003CED6C /* MonumentAudioViewController.h */,
-				0CF9E66B19D611A3003CED6C /* MonumentAudioViewController.m */,
-				0CAE08F819D1BA2200CD9CB0 /* TransportViewController.h */,
-				0CAE08F919D1BA2200CD9CB0 /* TransportViewController.m */,
-				0CAE08F219D1B98800CD9CB0 /* TransportDetailViewController.h */,
-				0CAE08F319D1B98800CD9CB0 /* TransportDetailViewController.m */,
-				0CAE08F419D1B98800CD9CB0 /* TransportPoint.h */,
-				0CAE08F519D1B98800CD9CB0 /* TransportPoint.m */,
-				0C14C1EF19D3512400197D4A /* TempsTableViewController.h */,
-				0C14C1F019D3512400197D4A /* TempsTableViewController.m */,
-				0C7BDBE619CC8655001C2907 /* Monuments.plist */,
-				0CD87F1619CC97AA0038DD4F /* image.jpg */,
+				0C7BDBB119CC79E1001C2907 /* LaunchScreen.xib */,
 				0CAE077119D09BCA00CD9CB0 /* Icons.xcassets */,
 				0C7BDBAF19CC79E1001C2907 /* Images.xcassets */,
-				0C7BDBB119CC79E1001C2907 /* LaunchScreen.xib */,
 				0C7BDBA219CC79E1001C2907 /* Supporting Files */,
 			);
 			path = Tarracopass;
@@ -458,6 +588,79 @@
 				0CAE08EF19D0D4E400CD9CB0 /* SVProgressHUD.m */,
 			);
 			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		0CB1863719E00E1F002E4AE5 /* Llocs */ = {
+			isa = PBXGroup;
+			children = (
+				0CB1866519E01B2C002E4AE5 /* Museu Nacional Arqueològic */,
+				0CB1865C19E019A1002E4AE5 /* Museu del Port de Tarragona */,
+				0CB1865319E016FF002E4AE5 /* Casa Castellarnau */,
+				0CB1864A19E01269002E4AE5 /* Casa de la Festa */,
+				0CB1864119E0105F002E4AE5 /* Casa Canals */,
+				0CB1863819E00E3D002E4AE5 /* Voltes del carrer Merceria */,
+			);
+			name = Llocs;
+			sourceTree = "<group>";
+		};
+		0CB1863819E00E3D002E4AE5 /* Voltes del carrer Merceria */ = {
+			isa = PBXGroup;
+			children = (
+				0CB1863919E00E9D002E4AE5 /* voltesMerceria.jpg */,
+				0CB1863B19E00ED4002E4AE5 /* textVoltesMerceria.txt */,
+				0CB1863F19E00EE7002E4AE5 /* horariVoltesMerceria.txt */,
+			);
+			name = "Voltes del carrer Merceria";
+			sourceTree = "<group>";
+		};
+		0CB1864119E0105F002E4AE5 /* Casa Canals */ = {
+			isa = PBXGroup;
+			children = (
+				0CB1864219E01071002E4AE5 /* casaCanals.jpg */,
+				0CB1864419E010C5002E4AE5 /* textCasaCanals.txt */,
+				0CB1864819E010D0002E4AE5 /* horariCasaCanals.txt */,
+			);
+			name = "Casa Canals";
+			sourceTree = "<group>";
+		};
+		0CB1864A19E01269002E4AE5 /* Casa de la Festa */ = {
+			isa = PBXGroup;
+			children = (
+				0CB1864B19E01338002E4AE5 /* casaFesta.jpg */,
+				0CB1864D19E01344002E4AE5 /* textCasaFesta.txt */,
+				0CB1865119E0134B002E4AE5 /* horariCasaFesta.txt */,
+			);
+			name = "Casa de la Festa";
+			sourceTree = "<group>";
+		};
+		0CB1865319E016FF002E4AE5 /* Casa Castellarnau */ = {
+			isa = PBXGroup;
+			children = (
+				0CB1865419E0172F002E4AE5 /* casaCastellarnau.jpg */,
+				0CB1865619E0173F002E4AE5 /* textCasaCastellarnau.txt */,
+				0CB1865A19E01748002E4AE5 /* horariCasaCastellarnau.txt */,
+			);
+			name = "Casa Castellarnau";
+			sourceTree = "<group>";
+		};
+		0CB1865C19E019A1002E4AE5 /* Museu del Port de Tarragona */ = {
+			isa = PBXGroup;
+			children = (
+				0CB1865D19E019B6002E4AE5 /* museuPortTarragona.jpg */,
+				0CB1865F19E019F6002E4AE5 /* textMuseuPortTarragona.txt */,
+				0CB1866319E019FD002E4AE5 /* horariMuseuPortTarragona.txt */,
+			);
+			name = "Museu del Port de Tarragona";
+			sourceTree = "<group>";
+		};
+		0CB1866519E01B2C002E4AE5 /* Museu Nacional Arqueològic */ = {
+			isa = PBXGroup;
+			children = (
+				0CB1866619E01B5A002E4AE5 /* museuNacionalArqueologic.jpg */,
+				0CB1866819E01B8F002E4AE5 /* textMuseuNacionalArqueologic.txt */,
+				0CB1866C19E01B9B002E4AE5 /* horariMuseuNacionalArqueologic.txt */,
+			);
+			name = "Museu Nacional Arqueològic";
 			sourceTree = "<group>";
 		};
 		0CD6D61619D75BBF002A8AC1 /* FSImageViewer */ = {
@@ -528,6 +731,395 @@
 				0CD6D66E19D7642E002A8AC1 /* UIViewController+RESideMenu.m */,
 			);
 			path = RESideMenu;
+			sourceTree = "<group>";
+		};
+		0CD6D68B19D86AE0002A8AC1 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D66219D7607E002A8AC1 /* RootViewController.h */,
+				0CD6D66319D7607E002A8AC1 /* RootViewController.m */,
+				0CD6D66519D760C1002A8AC1 /* LeftMenuViewController.h */,
+				0CD6D66619D760C1002A8AC1 /* LeftMenuViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		0CD6D68C19D86AE9002A8AC1 /* Monuments */ = {
+			isa = PBXGroup;
+			children = (
+				0C7BDBDF19CC84EE001C2907 /* MonumentsTableViewController.h */,
+				0C7BDBE019CC84EE001C2907 /* MonumentsTableViewController.m */,
+				0CD87F3319CCB4540038DD4F /* MonumentsDetailViewController.h */,
+				0CD87F3419CCB4540038DD4F /* MonumentsDetailViewController.m */,
+				0CAE077719D09E3B00CD9CB0 /* MonumentsMapViewController.h */,
+				0CAE077819D09E3B00CD9CB0 /* MonumentsMapViewController.m */,
+				0C14C2AC19D5A3D600197D4A /* MonumentsTimeTableViewController.h */,
+				0C14C2AD19D5A3D600197D4A /* MonumentsTimeTableViewController.m */,
+				0CF9E66A19D611A3003CED6C /* MonumentAudioViewController.h */,
+				0CF9E66B19D611A3003CED6C /* MonumentAudioViewController.m */,
+			);
+			name = Monuments;
+			sourceTree = "<group>";
+		};
+		0CD6D68D19D86AFC002A8AC1 /* Transport */ = {
+			isa = PBXGroup;
+			children = (
+				0CAE08F819D1BA2200CD9CB0 /* TransportViewController.h */,
+				0CAE08F919D1BA2200CD9CB0 /* TransportViewController.m */,
+				0CAE08F219D1B98800CD9CB0 /* TransportDetailViewController.h */,
+				0CAE08F319D1B98800CD9CB0 /* TransportDetailViewController.m */,
+				0CAE08F419D1B98800CD9CB0 /* TransportPoint.h */,
+				0CAE08F519D1B98800CD9CB0 /* TransportPoint.m */,
+			);
+			name = Transport;
+			sourceTree = "<group>";
+		};
+		0CD6D68E19D86B04002A8AC1 /* Temps */ = {
+			isa = PBXGroup;
+			children = (
+				0C14C1EF19D3512400197D4A /* TempsViewController.h */,
+				0C14C1F019D3512400197D4A /* TempsViewController.m */,
+			);
+			name = Temps;
+			sourceTree = "<group>";
+		};
+		0CD6D68F19D86B0F002A8AC1 /* AgendaCultural */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D68819D8567F002A8AC1 /* AgendaCulturalViewController.h */,
+				0CD6D68919D8567F002A8AC1 /* AgendaCulturalViewController.m */,
+			);
+			name = AgendaCultural;
+			sourceTree = "<group>";
+		};
+		0CD6D69019D86B2E002A8AC1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0C7BDBA619CC79E1001C2907 /* AppDelegate.h */,
+				0C7BDBA719CC79E1001C2907 /* AppDelegate.m */,
+				0CD6D68B19D86AE0002A8AC1 /* Menu */,
+				0CD6D68F19D86B0F002A8AC1 /* AgendaCultural */,
+				0CD6D68C19D86AE9002A8AC1 /* Monuments */,
+				0CD6D6A219D86DAA002A8AC1 /* Llocs */,
+				0CD6D68E19D86B04002A8AC1 /* Temps */,
+				0CD6D68D19D86AFC002A8AC1 /* Transport */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0CD6D69119D86B54002A8AC1 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D6A819D87CD0002A8AC1 /* Climacons.ttf */,
+				0CD87F1819CC99350038DD4F /* Open_Sans */,
+				0CD6D6A919D87CEA002A8AC1 /* CZWeatherKit */,
+				0CD6D66819D7642E002A8AC1 /* RESideMenu */,
+				0CD6D61619D75BBF002A8AC1 /* FSImageViewer */,
+				0CF9E69519D6D812003CED6C /* FTCoreText */,
+				0C14C22D19D598D400197D4A /* MZFormSheetController */,
+				0CAE08EB19D0D4E400CD9CB0 /* SVProgressHUD */,
+				0CAE040A19CCC93000CD9CB0 /* ParallaxBlur */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		0CD6D69219D86B7B002A8AC1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D6C819D9B899002A8AC1 /* Monuments.plist */,
+				0CD6D6A319D86EAD002A8AC1 /* Llocs.plist */,
+				0CD6D69319D86B83002A8AC1 /* Monuments */,
+				0CB1863719E00E1F002E4AE5 /* Llocs */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		0CD6D69319D86B83002A8AC1 /* Monuments */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D69519D86BC2002A8AC1 /* Amfiteatre romà */,
+				0CD6D6E019D9CBE3002A8AC1 /* Pont del Diable */,
+				0CD6D6E519D9D040002A8AC1 /* Arc de Berà */,
+				0CD6D6F019D9DAAF002A8AC1 /* Balcó del Mediterrani */,
+				0CD6D6F919D9DC61002A8AC1 /* Call jueu */,
+				0CD6D70219D9DDDE002A8AC1 /* Castell de Tamarit */,
+				0CD6D70B19D9EF2D002A8AC1 /* Catedral i Museu Diocesà */,
+				0CD6D71419D9F9B5002A8AC1 /* Conjunt paleocristià del Francolí */,
+				0CD6D71D19D9FBD8002A8AC1 /* Fòrum de la Colònia */,
+				0CD6D72619D9FFA8002A8AC1 /* Fòrum Provincial */,
+				0CD6D73519DA02DF002A8AC1 /* Hospital medieval */,
+				0CD6D73819DAE526002A8AC1 /* Muralles */,
+				0CD6D74119DAE89D002A8AC1 /* Pedrera del Mèdol */,
+				0CD6D74A19DEEEEC002A8AC1 /* Portal de Sant Antoni */,
+				0CD6D75319DEF270002A8AC1 /* Pretori i Circ romans */,
+				0CD6D75C19DEF5DE002A8AC1 /* Teatre romà */,
+				0CD6D76719DFF5C4002A8AC1 /* Torre dels Escipions */,
+			);
+			name = Monuments;
+			sourceTree = "<group>";
+		};
+		0CD6D69419D86BAD002A8AC1 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D67219D76695002A8AC1 /* UIKit.framework */,
+				0CD6D65619D75C14002A8AC1 /* Security.framework */,
+				0CD6D65419D75C0A002A8AC1 /* CFNetwork.framework */,
+				0CF9E69E19D6DCE9003CED6C /* CoreText.framework */,
+				0CF9E66F19D611D3003CED6C /* AVFoundation.framework */,
+				0CF9E66D19D611CD003CED6C /* MediaPlayer.framework */,
+				0C14C25019D59DF600197D4A /* Accelerate.framework */,
+				0C14C24B19D5993D00197D4A /* CoreGraphics.framework */,
+				0C14C1F919D4750D00197D4A /* Foundation.framework */,
+				0CAE062F19CDC4D600CD9CB0 /* QuartzCore.framework */,
+				0CAE041D19CDB2F200CD9CB0 /* Social.framework */,
+				0CD87F3119CC9B630038DD4F /* CoreLocation.framework */,
+				0CD87F2F19CC9B5C0038DD4F /* MapKit.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		0CD6D69519D86BC2002A8AC1 /* Amfiteatre romà */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D6D819D9C45B002A8AC1 /* amfiteatre.jpg */,
+				0CD6D6CA19D9BBFA002A8AC1 /* amfiteatre_menu.png */,
+				0CF9E69C19D6D916003CED6C /* textAmfiteatre.txt */,
+				0CF9E6A219D7087F003CED6C /* horariAmfiteatre.txt */,
+			);
+			name = "Amfiteatre romà";
+			sourceTree = "<group>";
+		};
+		0CD6D6A219D86DAA002A8AC1 /* Llocs */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D69619D86D5E002A8AC1 /* LlocsTableViewController.h */,
+				0CD6D69719D86D5E002A8AC1 /* LlocsTableViewController.m */,
+				0CD6D69919D86D74002A8AC1 /* LlocsDetailTableViewController.h */,
+				0CD6D69A19D86D74002A8AC1 /* LlocsDetailTableViewController.m */,
+				0CD6D69C19D86D83002A8AC1 /* LlocsMapViewController.h */,
+				0CD6D69D19D86D83002A8AC1 /* LlocsMapViewController.m */,
+				0CD6D69F19D86DA3002A8AC1 /* LlocsTimeTableViewController.h */,
+				0CD6D6A019D86DA3002A8AC1 /* LlocsTimeTableViewController.m */,
+			);
+			name = Llocs;
+			sourceTree = "<group>";
+		};
+		0CD6D6A919D87CEA002A8AC1 /* CZWeatherKit */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D6AA19D87CEA002A8AC1 /* Climacons.h */,
+				0CD6D6AB19D87CEA002A8AC1 /* CZWeatherKit.h */,
+				0CD6D6AC19D87CEA002A8AC1 /* Data */,
+				0CD6D6AF19D87CEA002A8AC1 /* Helper */,
+				0CD6D6B319D87CEA002A8AC1 /* Request */,
+				0CD6D6B819D87CEA002A8AC1 /* Service */,
+			);
+			path = CZWeatherKit;
+			sourceTree = "<group>";
+		};
+		0CD6D6AC19D87CEA002A8AC1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D6AD19D87CEA002A8AC1 /* CZWeatherCondition.h */,
+				0CD6D6AE19D87CEA002A8AC1 /* CZWeatherCondition.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0CD6D6AF19D87CEA002A8AC1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D6B019D87CEA002A8AC1 /* CZMacros.h */,
+				0CD6D6B119D87CEA002A8AC1 /* NSString+CZWeatherKit_Substring.h */,
+				0CD6D6B219D87CEA002A8AC1 /* NSString+CZWeatherKit_Substring.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		0CD6D6B319D87CEA002A8AC1 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D6B419D87CEA002A8AC1 /* CZWeatherLocation.h */,
+				0CD6D6B519D87CEA002A8AC1 /* CZWeatherLocation.m */,
+				0CD6D6B619D87CEA002A8AC1 /* CZWeatherRequest.h */,
+				0CD6D6B719D87CEA002A8AC1 /* CZWeatherRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		0CD6D6B819D87CEA002A8AC1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D6B919D87CEA002A8AC1 /* CZForecastioService.h */,
+				0CD6D6BA19D87CEA002A8AC1 /* CZForecastioService.m */,
+				0CD6D6BB19D87CEA002A8AC1 /* CZOpenWeatherMapService.h */,
+				0CD6D6BC19D87CEA002A8AC1 /* CZOpenWeatherMapService.m */,
+				0CD6D6BD19D87CEA002A8AC1 /* CZWeatherService.h */,
+				0CD6D6BE19D87CEA002A8AC1 /* CZWeatherService_Internal.h */,
+				0CD6D6BF19D87CEA002A8AC1 /* CZWundergroundService.h */,
+				0CD6D6C019D87CEA002A8AC1 /* CZWundergroundService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0CD6D6E019D9CBE3002A8AC1 /* Pont del Diable */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D6DA19D9CAD1002A8AC1 /* pontDiable.jpg */,
+				0CD6D6DC19D9CBB4002A8AC1 /* textPontDiable.txt */,
+				0CD6D6E119D9CBFB002A8AC1 /* horariPontDiable.txt */,
+			);
+			name = "Pont del Diable";
+			sourceTree = "<group>";
+		};
+		0CD6D6E519D9D040002A8AC1 /* Arc de Berà */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D6EE19D9D0D2002A8AC1 /* arcBera.jpg */,
+				0CD6D6E619D9D068002A8AC1 /* textArcBera.txt */,
+				0CD6D6EA19D9D084002A8AC1 /* horariArcBera.txt */,
+			);
+			name = "Arc de Berà";
+			sourceTree = "<group>";
+		};
+		0CD6D6F019D9DAAF002A8AC1 /* Balcó del Mediterrani */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D6F719D9DB5C002A8AC1 /* balcoMediterrani.jpg */,
+				0CD6D6F119D9DAD2002A8AC1 /* textBalcoMediterrani.txt */,
+				0CD6D6F519D9DADE002A8AC1 /* horariBalcoMediterrani.txt */,
+			);
+			name = "Balcó del Mediterrani";
+			sourceTree = "<group>";
+		};
+		0CD6D6F919D9DC61002A8AC1 /* Call jueu */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D70019D9DCD4002A8AC1 /* callJueu.jpg */,
+				0CD6D6FA19D9DC83002A8AC1 /* textCallJueu.txt */,
+				0CD6D6FE19D9DC93002A8AC1 /* horariCallJueu.txt */,
+			);
+			name = "Call jueu";
+			sourceTree = "<group>";
+		};
+		0CD6D70219D9DDDE002A8AC1 /* Castell de Tamarit */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D70319D9DE05002A8AC1 /* castellTamarit.jpg */,
+				0CD6D70919D9DE43002A8AC1 /* textCastellTamarit.txt */,
+				0CD6D70519D9DE34002A8AC1 /* horariCastellTamarit.txt */,
+			);
+			name = "Castell de Tamarit";
+			sourceTree = "<group>";
+		};
+		0CD6D70B19D9EF2D002A8AC1 /* Catedral i Museu Diocesà */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D71219D9F0B3002A8AC1 /* catedral.jpg */,
+				0CD6D70C19D9EF4D002A8AC1 /* textCatedral.txt */,
+				0CD6D71019D9EF5D002A8AC1 /* horariCatedral.txt */,
+			);
+			name = "Catedral i Museu Diocesà";
+			sourceTree = "<group>";
+		};
+		0CD6D71419D9F9B5002A8AC1 /* Conjunt paleocristià del Francolí */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D71519D9F9BE002A8AC1 /* conjuntPaleocristiaFrancoli.jpg */,
+				0CD6D71719D9FA0B002A8AC1 /* textConjuntPaleocristiaFrancoli.txt */,
+				0CD6D71B19D9FA18002A8AC1 /* horariConjuntPaleocristiaFrancoli.txt */,
+			);
+			name = "Conjunt paleocristià del Francolí";
+			sourceTree = "<group>";
+		};
+		0CD6D71D19D9FBD8002A8AC1 /* Fòrum de la Colònia */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D71E19D9FC26002A8AC1 /* forumColonia.jpg */,
+				0CD6D72019D9FCE4002A8AC1 /* textForumColonia.txt */,
+				0CD6D72419D9FCEF002A8AC1 /* horariForumColonia.txt */,
+			);
+			name = "Fòrum de la Colònia";
+			sourceTree = "<group>";
+		};
+		0CD6D72619D9FFA8002A8AC1 /* Fòrum Provincial */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D72719D9FFAD002A8AC1 /* forumProvincial.jpg */,
+				0CD6D72919DA0013002A8AC1 /* textForumProvincial.txt */,
+				0CD6D72D19DA0021002A8AC1 /* horariForumProvincial.txt */,
+			);
+			name = "Fòrum Provincial";
+			sourceTree = "<group>";
+		};
+		0CD6D73519DA02DF002A8AC1 /* Hospital medieval */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D73619DA02FB002A8AC1 /* hospitalMedieval.jpg */,
+				0CD6D72F19DA02C4002A8AC1 /* textHospitalMedieval.txt */,
+				0CD6D73319DA02D2002A8AC1 /* horariHospitalMedieval.txt */,
+			);
+			name = "Hospital medieval";
+			sourceTree = "<group>";
+		};
+		0CD6D73819DAE526002A8AC1 /* Muralles */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D73F19DAE73E002A8AC1 /* muralles.jpg */,
+				0CD6D73919DAE57D002A8AC1 /* textMuralles.txt */,
+				0CD6D73D19DAE588002A8AC1 /* horariMuralles.txt */,
+			);
+			name = Muralles;
+			sourceTree = "<group>";
+		};
+		0CD6D74119DAE89D002A8AC1 /* Pedrera del Mèdol */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D74219DAE8A7002A8AC1 /* pedreraMedol.jpg */,
+				0CD6D74419DAE8B6002A8AC1 /* textPedreraMedol.txt */,
+				0CD6D74819DAE8C0002A8AC1 /* horariPedreraMedol.txt */,
+			);
+			name = "Pedrera del Mèdol";
+			sourceTree = "<group>";
+		};
+		0CD6D74A19DEEEEC002A8AC1 /* Portal de Sant Antoni */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D75119DEEFAF002A8AC1 /* portalSantAntoni.jpg */,
+				0CD6D74B19DEEF35002A8AC1 /* horariPortalSantAntoni.txt */,
+				0CD6D74F19DEEF4A002A8AC1 /* textPortalSantAntoni.txt */,
+			);
+			name = "Portal de Sant Antoni";
+			sourceTree = "<group>";
+		};
+		0CD6D75319DEF270002A8AC1 /* Pretori i Circ romans */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D75419DEF2D2002A8AC1 /* pretoriCirc.jpg */,
+				0CD6D75619DEF2E1002A8AC1 /* textPretoriCirc.txt */,
+				0CD6D75A19DEF2ED002A8AC1 /* horariPretoriCirc.txt */,
+			);
+			name = "Pretori i Circ romans";
+			sourceTree = "<group>";
+		};
+		0CD6D75C19DEF5DE002A8AC1 /* Teatre romà */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D76519DF4DB1002A8AC1 /* teatre.jpg */,
+				0CD6D75D19DEF6A6002A8AC1 /* textTeatre.txt */,
+				0CD6D76119DEF6C7002A8AC1 /* horariTeatre.txt */,
+			);
+			name = "Teatre romà";
+			sourceTree = "<group>";
+		};
+		0CD6D76719DFF5C4002A8AC1 /* Torre dels Escipions */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6D76819DFF5CA002A8AC1 /* torreEscipions.jpg */,
+				0CD6D76A19DFF621002A8AC1 /* textTorreEscipions.txt */,
+				0CD6D76E19DFF62B002A8AC1 /* horariTorreEscipions.txt */,
+			);
+			name = "Torre dels Escipions";
 			sourceTree = "<group>";
 		};
 		0CD87F1819CC99350038DD4F /* Open_Sans */ = {
@@ -640,26 +1232,95 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CB1866E19E01EDB002E4AE5 /* Climacons.ttf in Resources */,
+				0CD6D6F819D9DB5C002A8AC1 /* balcoMediterrani.jpg in Resources */,
+				0CB1865219E0134B002E4AE5 /* horariCasaFesta.txt in Resources */,
+				0CD6D75019DEEF4A002A8AC1 /* textPortalSantAntoni.txt in Resources */,
+				0CB1866D19E01B9B002E4AE5 /* horariMuseuNacionalArqueologic.txt in Resources */,
+				0CD6D70419D9DE05002A8AC1 /* castellTamarit.jpg in Resources */,
+				0CD6D6C919D9B899002A8AC1 /* Monuments.plist in Resources */,
+				0CD6D74319DAE8A7002A8AC1 /* pedreraMedol.jpg in Resources */,
+				0CD6D70E19D9EF4D002A8AC1 /* textCatedral.txt in Resources */,
+				0CB1864C19E01338002E4AE5 /* casaFesta.jpg in Resources */,
+				0CB1866119E019F6002E4AE5 /* textMuseuPortTarragona.txt in Resources */,
+				0CB1864F19E01345002E4AE5 /* textCasaFesta.txt in Resources */,
+				0CB1863D19E00ED4002E4AE5 /* textVoltesMerceria.txt in Resources */,
+				0CD6D6FF19D9DC93002A8AC1 /* horariCallJueu.txt in Resources */,
 				0CD87F2E19CC99350038DD4F /* OpenSans-SemiboldItalic.ttf in Resources */,
+				0CD6D73719DA02FB002A8AC1 /* hospitalMedieval.jpg in Resources */,
+				0CD6D74D19DEEF35002A8AC1 /* horariPortalSantAntoni.txt in Resources */,
+				0CD6D72219D9FCE4002A8AC1 /* textForumColonia.txt in Resources */,
+				0CD6D72519D9FCEF002A8AC1 /* horariForumColonia.txt in Resources */,
 				0CAE08F019D0D4E400CD9CB0 /* SVProgressHUD.bundle in Resources */,
+				0CD6D74019DAE73E002A8AC1 /* muralles.jpg in Resources */,
+				0CB1864919E010D0002E4AE5 /* horariCasaCanals.txt in Resources */,
+				0CD6D76C19DFF621002A8AC1 /* textTorreEscipions.txt in Resources */,
 				0CD87F2419CC99350038DD4F /* LICENSE.txt in Resources */,
 				0CD87F2919CC99350038DD4F /* OpenSans-Italic.ttf in Resources */,
 				0CD87F2519CC99350038DD4F /* OpenSans-Bold.ttf in Resources */,
+				0CB1864319E01071002E4AE5 /* casaCanals.jpg in Resources */,
+				0CD6D70119D9DCD4002A8AC1 /* callJueu.jpg in Resources */,
+				0CD6D72E19DA0021002A8AC1 /* horariForumProvincial.txt in Resources */,
+				0CD6D6E319D9CBFB002A8AC1 /* horariPontDiable.txt in Resources */,
 				0CD87F2719CC99350038DD4F /* OpenSans-ExtraBold.ttf in Resources */,
+				0CB1865E19E019B6002E4AE5 /* museuPortTarragona.jpg in Resources */,
+				0CD6D75819DEF2E1002A8AC1 /* textPretoriCirc.txt in Resources */,
 				0C7BDBAE19CC79E1001C2907 /* Main.storyboard in Resources */,
+				0CD6D6EF19D9D0D2002A8AC1 /* arcBera.jpg in Resources */,
 				0C7BDBB319CC79E1001C2907 /* LaunchScreen.xib in Resources */,
 				0CD87F2A19CC99350038DD4F /* OpenSans-Light.ttf in Resources */,
+				0CD6D71619D9F9BE002A8AC1 /* conjuntPaleocristiaFrancoli.jpg in Resources */,
 				0C7BDBB019CC79E1001C2907 /* Images.xcassets in Resources */,
+				0CD6D6DE19D9CBB4002A8AC1 /* textPontDiable.txt in Resources */,
+				0CD6D74619DAE8B6002A8AC1 /* textPedreraMedol.txt in Resources */,
+				0CD6D71319D9F0B3002A8AC1 /* catedral.jpg in Resources */,
+				0CD6D71F19D9FC26002A8AC1 /* forumColonia.jpg in Resources */,
+				0CB1865819E0173F002E4AE5 /* textCasaCastellarnau.txt in Resources */,
 				0CF9E69D19D6D916003CED6C /* textAmfiteatre.txt in Resources */,
 				0CF9E6A419D7087F003CED6C /* horariAmfiteatre.txt in Resources */,
-				0C7BDBE719CC8655001C2907 /* Monuments.plist in Resources */,
+				0CD6D72B19DA0013002A8AC1 /* textForumProvincial.txt in Resources */,
+				0CD6D75219DEEFAF002A8AC1 /* portalSantAntoni.jpg in Resources */,
+				0CD6D73119DA02C4002A8AC1 /* textHospitalMedieval.txt in Resources */,
+				0CD6D6A419D86EAD002A8AC1 /* Llocs.plist in Resources */,
+				0CB1866719E01B5A002E4AE5 /* museuNacionalArqueologic.jpg in Resources */,
+				0CD6D6EC19D9D084002A8AC1 /* horariArcBera.txt in Resources */,
+				0CD6D6E819D9D068002A8AC1 /* textArcBera.txt in Resources */,
+				0CB1865B19E01748002E4AE5 /* horariCasaCastellarnau.txt in Resources */,
+				0CB1866419E019FD002E4AE5 /* horariMuseuPortTarragona.txt in Resources */,
 				0CD87F2D19CC99350038DD4F /* OpenSans-Semibold.ttf in Resources */,
+				0CD6D74919DAE8C0002A8AC1 /* horariPedreraMedol.txt in Resources */,
+				0CD6D6F619D9DADE002A8AC1 /* horariBalcoMediterrani.txt in Resources */,
+				0CD6D6DB19D9CAD1002A8AC1 /* pontDiable.jpg in Resources */,
+				0CD6D76319DEF6C7002A8AC1 /* horariTeatre.txt in Resources */,
+				0CD6D75B19DEF2ED002A8AC1 /* horariPretoriCirc.txt in Resources */,
+				0CD6D73B19DAE57D002A8AC1 /* textMuralles.txt in Resources */,
+				0CD6D75F19DEF6A6002A8AC1 /* textTeatre.txt in Resources */,
+				0CD6D6CB19D9BBFA002A8AC1 /* amfiteatre_menu.png in Resources */,
+				0CD6D71119D9EF5D002A8AC1 /* horariCatedral.txt in Resources */,
+				0CB1866A19E01B8F002E4AE5 /* textMuseuNacionalArqueologic.txt in Resources */,
+				0CD6D6FC19D9DC83002A8AC1 /* textCallJueu.txt in Resources */,
+				0CD6D76619DF4DB1002A8AC1 /* teatre.jpg in Resources */,
+				0CB1864619E010C5002E4AE5 /* textCasaCanals.txt in Resources */,
 				0CD87F2819CC99350038DD4F /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				0CD6D70A19D9DE43002A8AC1 /* textCastellTamarit.txt in Resources */,
+				0CD6D73419DA02D2002A8AC1 /* horariHospitalMedieval.txt in Resources */,
+				0CD6D75519DEF2D2002A8AC1 /* pretoriCirc.jpg in Resources */,
+				0CD6D70719D9DE34002A8AC1 /* horariCastellTamarit.txt in Resources */,
 				0CAE077219D09BCA00CD9CB0 /* Icons.xcassets in Resources */,
+				0CB1863A19E00E9D002E4AE5 /* voltesMerceria.jpg in Resources */,
+				0CD6D76F19DFF62B002A8AC1 /* horariTorreEscipions.txt in Resources */,
 				0CD87F2C19CC99350038DD4F /* OpenSans-Regular.ttf in Resources */,
+				0CB1864019E00EE7002E4AE5 /* horariVoltesMerceria.txt in Resources */,
+				0CD6D73E19DAE588002A8AC1 /* horariMuralles.txt in Resources */,
+				0CD6D6D919D9C45B002A8AC1 /* amfiteatre.jpg in Resources */,
 				0CD87F2619CC99350038DD4F /* OpenSans-BoldItalic.ttf in Resources */,
+				0CD6D72819D9FFAD002A8AC1 /* forumProvincial.jpg in Resources */,
+				0CB1865519E0172F002E4AE5 /* casaCastellarnau.jpg in Resources */,
+				0CD6D71919D9FA0B002A8AC1 /* textConjuntPaleocristiaFrancoli.txt in Resources */,
+				0CD6D6F319D9DAD2002A8AC1 /* textBalcoMediterrani.txt in Resources */,
 				0CD87F2B19CC99350038DD4F /* OpenSans-LightItalic.ttf in Resources */,
-				0CD87F1719CC97AA0038DD4F /* image.jpg in Resources */,
+				0CD6D76919DFF5CA002A8AC1 /* torreEscipions.jpg in Resources */,
+				0CD6D71C19D9FA18002A8AC1 /* horariConjuntPaleocristiaFrancoli.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,9 +1339,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CAE041319CCC93000CD9CB0 /* JPBFloatingTextViewController.m in Sources */,
-				0C7BDBAB19CC79E1001C2907 /* ViewController.m in Sources */,
 				0CD6D64319D75BBF002A8AC1 /* AFHTTPRequestOperationManager.m in Sources */,
 				0CAE08F719D1B98800CD9CB0 /* TransportPoint.m in Sources */,
+				0CD6D68A19D8567F002A8AC1 /* AgendaCulturalViewController.m in Sources */,
 				0CAE08F119D0D4E400CD9CB0 /* SVProgressHUD.m in Sources */,
 				0C14C23D19D598D400197D4A /* MZFormSheetBackgroundWindow.m in Sources */,
 				0CD6D64D19D75BBF002A8AC1 /* FSBasicImageSource.m in Sources */,
@@ -688,15 +1349,18 @@
 				0CAE041419CCC93000CD9CB0 /* JPBParallaxBlurViewController.m in Sources */,
 				0CD6D64A19D75BBF002A8AC1 /* AFURLSessionManager.m in Sources */,
 				0C14C24319D598D400197D4A /* UIViewController+TargetViewController.m in Sources */,
+				0CD6D6C619D87CEA002A8AC1 /* CZOpenWeatherMapService.m in Sources */,
 				0CD6D64419D75BBF002A8AC1 /* AFHTTPSessionManager.m in Sources */,
 				0CD6D66419D7607E002A8AC1 /* RootViewController.m in Sources */,
 				0CD6D64919D75BBF002A8AC1 /* AFURLResponseSerialization.m in Sources */,
 				0CD6D64219D75BBF002A8AC1 /* AFHTTPRequestOperation.m in Sources */,
 				0CF9E66C19D611A3003CED6C /* MonumentAudioViewController.m in Sources */,
+				0CD6D6C719D87CEA002A8AC1 /* CZWundergroundService.m in Sources */,
 				0CD6D64819D75BBF002A8AC1 /* AFURLRequestSerialization.m in Sources */,
 				0C7BDBA819CC79E1001C2907 /* AppDelegate.m in Sources */,
+				0CD6D6C419D87CEA002A8AC1 /* CZWeatherRequest.m in Sources */,
 				0CD6D67019D7642E002A8AC1 /* RESideMenu.m in Sources */,
-				0C14C1F119D3512400197D4A /* TempsTableViewController.m in Sources */,
+				0C14C1F119D3512400197D4A /* TempsViewController.m in Sources */,
 				0C14C23F19D598D400197D4A /* MZFormSheetController.m in Sources */,
 				0C14C23E19D598D400197D4A /* MZFormSheetBackgroundWindowViewController.m in Sources */,
 				0C14C24919D5991300197D4A /* MZAppearance.m in Sources */,
@@ -706,17 +1370,23 @@
 				0CD6D64C19D75BBF002A8AC1 /* FSBasicImage.m in Sources */,
 				0C7BDBE119CC84EE001C2907 /* MonumentsTableViewController.m in Sources */,
 				0CAE08FA19D1BA2200CD9CB0 /* TransportViewController.m in Sources */,
+				0CD6D6C319D87CEA002A8AC1 /* CZWeatherLocation.m in Sources */,
 				0C14C2AE19D5A3D600197D4A /* MonumentsTimeTableViewController.m in Sources */,
 				0CD87F3519CCB4540038DD4F /* MonumentsDetailViewController.m in Sources */,
+				0CD6D6C519D87CEA002A8AC1 /* CZForecastioService.m in Sources */,
 				0CD6D64519D75BBF002A8AC1 /* AFNetworkReachabilityManager.m in Sources */,
 				0CF9E69A19D6D812003CED6C /* FTCoreTextStyle.m in Sources */,
+				0CD6D69819D86D5E002A8AC1 /* LlocsTableViewController.m in Sources */,
 				0CD6D65219D75BBF002A8AC1 /* FSImageViewerViewController.m in Sources */,
 				0CD6D65319D75BBF002A8AC1 /* FSPlaceholderImages.m in Sources */,
 				0CD6D66F19D7642E002A8AC1 /* RECommonFunctions.m in Sources */,
+				0CD6D69B19D86D74002A8AC1 /* LlocsDetailTableViewController.m in Sources */,
 				0C14C2AB19D5A2EB00197D4A /* MZTransition.m in Sources */,
 				0C7BDBA519CC79E1001C2907 /* main.m in Sources */,
 				0CD6D65019D75BBF002A8AC1 /* FSImageTitleView.m in Sources */,
+				0CD6D6C119D87CEA002A8AC1 /* CZWeatherCondition.m in Sources */,
 				0CD6D64719D75BBF002A8AC1 /* AFURLConnectionOperation.m in Sources */,
+				0CD6D6C219D87CEA002A8AC1 /* NSString+CZWeatherKit_Substring.m in Sources */,
 				0C14C24219D598D400197D4A /* UIImage+Additional.m in Sources */,
 				0CAE077919D09E3B00CD9CB0 /* MonumentsMapViewController.m in Sources */,
 				0CAE041C19CCE16100CD9CB0 /* JPBParallaxTableViewController.m in Sources */,
@@ -725,9 +1395,11 @@
 				0CD6D66719D760C1002A8AC1 /* LeftMenuViewController.m in Sources */,
 				0CD6D64B19D75BBF002A8AC1 /* EGOCache.m in Sources */,
 				0CF9E69B19D6D812003CED6C /* FTCoreTextView.m in Sources */,
+				0CD6D6A119D86DA3002A8AC1 /* LlocsTimeTableViewController.m in Sources */,
 				0CD6D64619D75BBF002A8AC1 /* AFSecurityPolicy.m in Sources */,
 				0C14C24A19D5991300197D4A /* NSInvocation+Copy.m in Sources */,
 				0CD6D67119D7642E002A8AC1 /* UIViewController+RESideMenu.m in Sources */,
+				0CD6D69E19D86D83002A8AC1 /* LlocsMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

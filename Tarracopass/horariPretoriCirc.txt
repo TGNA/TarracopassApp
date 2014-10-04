@@ -1,0 +1,11 @@
+<title>Horari d'estiu</title>
+<_bullet>dilluns: 10 h - 15 h / dimarts a dissabte: 10 h - 21 h (del 14 d’abril al 30 de setembre)</_bullet>
+
+<title>Horari d'hivern</title>
+<_bullet>dimarts a dissabte: 10 h - 19 h </_bullet>
+
+<title>Festius d'estiu</title>
+<_bullet>10 h - 15 h</_bullet>
+
+<title>Festius d'hivern</title>
+<_bullet>10 h - 15 h</_bullet>
