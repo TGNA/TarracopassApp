@@ -100,6 +100,30 @@
     [imageButton.titleLabel setFont:[UIFont fontWithName:@"OpenSans-Light" size:20]];
     [imageButton addTarget:self action:@selector(photos:) forControlEvents:UIControlEventTouchUpInside];
     [self addHeaderOverlayView:imageButton];
+    
+    UINavigationBar *myNav = [[UINavigationBar alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 44)];
+    [myNav setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+    [UINavigationBar appearance].shadowImage = [UIImage new];
+    [UINavigationBar appearance].translucent = YES;
+    [self.view addSubview:myNav];
+    
+    UIBarButtonItem *shareItemNav = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(shareActionSheet:)];
+    UINavigationItem *navigItem = [[UINavigationItem alloc] initWithTitle:[item objectForKey:@"name"]];
+    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"back"] style:UIBarButtonItemStylePlain target:self action:@selector(back)];
+    navigItem.leftBarButtonItem = backItem;
+    navigItem.rightBarButtonItem = shareItemNav;
+    myNav.items = [NSArray arrayWithObjects: navigItem,nil];
+    
+    [self.navigationController setNavigationBarHidden:YES];
+}
+-(void) viewWillDisappear:(BOOL)animated {
+    [self.navigationController setNavigationBarHidden:NO];
+}
+-(void) viewWillAppear:(BOOL)animated {
+    [self.navigationController setNavigationBarHidden:YES];
+}
+-(void)back{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (IBAction)shareActionSheet:(id)sender {
@@ -221,20 +245,6 @@
     NSDictionary *item = llocsName;
     
     return [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:[NSString stringWithString:[item objectForKey:@"text"]] ofType:@"txt"] encoding:NSUTF8StringEncoding error:nil];
-}
-
-
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    // set navigation bar's tint color when being shown
-    
-    
-    [self.navigationController.navigationBar setBackgroundImage:[UIImage new]
-                                                  forBarMetrics:UIBarMetricsDefault];
-    self.navigationController.navigationBar.shadowImage = [UIImage new];
-    self.navigationController.navigationBar.translucent = YES;
-    self.navigationController.view.backgroundColor = [UIColor clearColor];
 }
 
 - (IBAction)timetables:(id)sender {

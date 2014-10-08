@@ -80,13 +80,13 @@
     
     //  Make the FTCoreTextView to automatically adjust it's height
     //  so it fits all its rendered text using the actual width
+    [self setText];
     [self.coreTextViewHorari fitToSuggestedHeight];
     
     //  Adjust the scroll view's content size so it can scroll all
     //  the FTCoreTextView's content
     [self.scrollView setContentSize:CGSizeMake(CGRectGetWidth(self.scrollView.bounds), CGRectGetMaxY(self.coreTextViewHorari.frame)+20.0f)];
     
-    [self setText];
 }
 
 #pragma mark Load Static Content

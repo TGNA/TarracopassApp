@@ -101,9 +101,6 @@
     [imageButton.titleLabel setFont:[UIFont fontWithName:@"OpenSans-Light" size:20]];
     [imageButton addTarget:self action:@selector(photos:) forControlEvents:UIControlEventTouchUpInside];
     [self addHeaderOverlayView:imageButton];
-    
-    
-    [self.navigationController setNavigationBarHidden:YES];
         
     UINavigationBar *myNav = [[UINavigationBar alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 44)];
     [myNav setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
@@ -117,10 +114,15 @@
     navigItem.leftBarButtonItem = backItem;
     navigItem.rightBarButtonItem = shareItemNav;
     myNav.items = [NSArray arrayWithObjects: navigItem,nil];
+    
+    [self.navigationController setNavigationBarHidden:YES];
 }
 
 -(void) viewWillDisappear:(BOOL)animated {
     [self.navigationController setNavigationBarHidden:NO];
+}
+-(void) viewWillAppear:(BOOL)animated {
+    [self.navigationController setNavigationBarHidden:YES];
 }
 -(void)back{
     [self.navigationController popViewControllerAnimated:YES];
