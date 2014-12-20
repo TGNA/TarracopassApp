@@ -8,6 +8,7 @@
 
 #import "TempsViewController.h"
 #import "SVProgressHUD.h"
+#import "FCNavigationViewController.h"
 
 @interface TempsViewController ()
 
@@ -18,12 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.navigationController.navigationBar setBackgroundImage:[UIImage new]
-                                                  forBarMetrics:UIBarMetricsDefault];
-    self.navigationController.navigationBar.shadowImage = [UIImage new];
-    self.navigationController.navigationBar.translucent = YES;
-    self.navigationController.view.backgroundColor = [UIColor clearColor];
-    
+//    [self.navigationController.navigationBar setBackgroundImage:[UIImage new]
+//                                                  forBarMetrics:UIBarMetricsDefault];
+//    self.navigationController.navigationBar.shadowImage = [UIImage new];
+//    self.navigationController.navigationBar.translucent = YES;
+//    self.navigationController.view.backgroundColor = [UIColor clearColor];
+//    
     UIBarButtonItem *shareItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(updateWeather)];
     
     self.navigationItem.rightBarButtonItem = shareItem;
@@ -33,7 +34,7 @@
     UIImage *background = iconMenu;
     UIImage *backgroundSelected = iconMenu;
     UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
-    [button addTarget:self action:@selector(menu) forControlEvents:UIControlEventTouchUpInside]; //adding action
+    [button addTarget:self.navigationController action:@selector(openVerticalMenu:) forControlEvents:UIControlEventTouchUpInside]; //adding action
     [button setBackgroundImage:background forState:UIControlStateNormal];
     [button setBackgroundImage:backgroundSelected forState:UIControlStateSelected];
     button.frame = CGRectMake(0 ,0, 33, 17);
@@ -47,11 +48,6 @@
     [super viewDidAppear:animated];
     [self updateWeather];
 }
-
--(void)menu{
-    [self.sideMenuViewController presentLeftMenuViewController];
-}
-
 
 - (void)updateWeather
 {

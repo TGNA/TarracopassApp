@@ -1,5 +1,5 @@
 //
-//  ContacteTableViewController.h
+//  ConfiguracioTableViewController.h
 //  Tarracopass
 //
 //  Created by Oscar Blanco Castan on 04/10/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ContacteTableViewController : UITableViewController
+@interface ConfiguracioTableViewController : UITableViewController
 
 @end

@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
 #import <MapKit/MapKit.h>
-#import "RESideMenu.h"
 
 @interface LlocsTableViewController : UITableViewController <MKMapViewDelegate, CLLocationManagerDelegate>
 

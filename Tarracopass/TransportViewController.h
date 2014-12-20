@@ -10,7 +10,6 @@
 #import <MapKit/MapKit.h>
 #import <CoreLocation/CoreLocation.h>
 #import "TransportPoint.h"
-#import "RESideMenu.h"
 
 #define kGOOGLE_API_KEY @"AIzaSyA7_PAzQhNRrObqxu5IplYPXPebD7l3ngw"
 #define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)

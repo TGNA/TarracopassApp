@@ -21,6 +21,11 @@
 		0C14C25119D59DF600197D4A /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C14C25019D59DF600197D4A /* Accelerate.framework */; };
 		0C14C2AB19D5A2EB00197D4A /* MZTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C14C2AA19D5A2EB00197D4A /* MZTransition.m */; };
 		0C14C2AE19D5A3D600197D4A /* MonumentsTimeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C14C2AD19D5A3D600197D4A /* MonumentsTimeTableViewController.m */; };
+		0C2448DF1A45CF5A0075A780 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 0C2448D81A45CF5A0075A780 /* .gitkeep */; };
+		0C2448E01A45CF5A0075A780 /* FCVerticalMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2448DA1A45CF5A0075A780 /* FCVerticalMenu.m */; };
+		0C2448E11A45CF5A0075A780 /* FCVerticalMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2448DC1A45CF5A0075A780 /* FCVerticalMenuItem.m */; };
+		0C2448E21A45CF5A0075A780 /* FCVerticalMenuItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2448DE1A45CF5A0075A780 /* FCVerticalMenuItemCollectionViewCell.m */; };
+		0C2448E51A45D0810075A780 /* FCNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2448E41A45D0810075A780 /* FCNavigationViewController.m */; };
 		0C7BDBA519CC79E1001C2907 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7BDBA419CC79E1001C2907 /* main.m */; };
 		0C7BDBA819CC79E1001C2907 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7BDBA719CC79E1001C2907 /* AppDelegate.m */; };
 		0C7BDBAE19CC79E1001C2907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7BDBAC19CC79E1001C2907 /* Main.storyboard */; };
@@ -60,7 +65,7 @@
 		0CB1866A19E01B8F002E4AE5 /* textMuseuNacionalArqueologic.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1866819E01B8F002E4AE5 /* textMuseuNacionalArqueologic.txt */; };
 		0CB1866D19E01B9B002E4AE5 /* horariMuseuNacionalArqueologic.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1866C19E01B9B002E4AE5 /* horariMuseuNacionalArqueologic.txt */; };
 		0CB1866E19E01EDB002E4AE5 /* Climacons-Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D6A819D87CD0002A8AC1 /* Climacons-Font.ttf */; };
-		0CB1867119E05532002E4AE5 /* ContacteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB1867019E05532002E4AE5 /* ContacteTableViewController.m */; };
+		0CB1867119E05532002E4AE5 /* ConfiguracioTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB1867019E05532002E4AE5 /* ConfiguracioTableViewController.m */; };
 		0CB186A719E060C3002E4AE5 /* SVWebViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1868819E060C3002E4AE5 /* SVWebViewController.strings */; };
 		0CB186A819E060C3002E4AE5 /* SVModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB1869219E060C3002E4AE5 /* SVModalWebViewController.m */; };
 		0CB186A919E060C3002E4AE5 /* SVWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1869319E060C3002E4AE5 /* SVWebViewController.bundle */; };
@@ -103,11 +108,6 @@
 		0CD6D65319D75BBF002A8AC1 /* FSPlaceholderImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D64019D75BBF002A8AC1 /* FSPlaceholderImages.m */; };
 		0CD6D65519D75C0A002A8AC1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD6D65419D75C0A002A8AC1 /* CFNetwork.framework */; };
 		0CD6D65719D75C14002A8AC1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD6D65619D75C14002A8AC1 /* Security.framework */; };
-		0CD6D66419D7607E002A8AC1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D66319D7607E002A8AC1 /* RootViewController.m */; };
-		0CD6D66719D760C1002A8AC1 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D66619D760C1002A8AC1 /* LeftMenuViewController.m */; };
-		0CD6D66F19D7642E002A8AC1 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D66A19D7642E002A8AC1 /* RECommonFunctions.m */; };
-		0CD6D67019D7642E002A8AC1 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D66C19D7642E002A8AC1 /* RESideMenu.m */; };
-		0CD6D67119D7642E002A8AC1 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D66E19D7642E002A8AC1 /* UIViewController+RESideMenu.m */; };
 		0CD6D67319D76695002A8AC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD6D67219D76695002A8AC1 /* UIKit.framework */; };
 		0CD6D68A19D8567F002A8AC1 /* AgendaCulturalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D68919D8567F002A8AC1 /* AgendaCulturalViewController.m */; };
 		0CD6D69819D86D5E002A8AC1 /* LlocsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D69719D86D5E002A8AC1 /* LlocsTableViewController.m */; };
@@ -234,6 +234,15 @@
 		0C14C2AA19D5A2EB00197D4A /* MZTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTransition.m; sourceTree = "<group>"; };
 		0C14C2AC19D5A3D600197D4A /* MonumentsTimeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonumentsTimeTableViewController.h; sourceTree = "<group>"; };
 		0C14C2AD19D5A3D600197D4A /* MonumentsTimeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonumentsTimeTableViewController.m; sourceTree = "<group>"; };
+		0C2448D81A45CF5A0075A780 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		0C2448D91A45CF5A0075A780 /* FCVerticalMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCVerticalMenu.h; sourceTree = "<group>"; };
+		0C2448DA1A45CF5A0075A780 /* FCVerticalMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCVerticalMenu.m; sourceTree = "<group>"; };
+		0C2448DB1A45CF5A0075A780 /* FCVerticalMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCVerticalMenuItem.h; sourceTree = "<group>"; };
+		0C2448DC1A45CF5A0075A780 /* FCVerticalMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCVerticalMenuItem.m; sourceTree = "<group>"; };
+		0C2448DD1A45CF5A0075A780 /* FCVerticalMenuItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCVerticalMenuItemCollectionViewCell.h; sourceTree = "<group>"; };
+		0C2448DE1A45CF5A0075A780 /* FCVerticalMenuItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCVerticalMenuItemCollectionViewCell.m; sourceTree = "<group>"; };
+		0C2448E31A45D0810075A780 /* FCNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCNavigationViewController.h; sourceTree = "<group>"; };
+		0C2448E41A45D0810075A780 /* FCNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCNavigationViewController.m; sourceTree = "<group>"; };
 		0C7BDB9F19CC79E1001C2907 /* Tarracopass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tarracopass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7BDBA319CC79E1001C2907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C7BDBA419CC79E1001C2907 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -288,8 +297,8 @@
 		0CB1866619E01B5A002E4AE5 /* museuNacionalArqueologic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = museuNacionalArqueologic.jpg; sourceTree = "<group>"; };
 		0CB1866819E01B8F002E4AE5 /* textMuseuNacionalArqueologic.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textMuseuNacionalArqueologic.txt; sourceTree = "<group>"; };
 		0CB1866C19E01B9B002E4AE5 /* horariMuseuNacionalArqueologic.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horariMuseuNacionalArqueologic.txt; sourceTree = "<group>"; };
-		0CB1866F19E05532002E4AE5 /* ContacteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContacteTableViewController.h; sourceTree = "<group>"; };
-		0CB1867019E05532002E4AE5 /* ContacteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContacteTableViewController.m; sourceTree = "<group>"; };
+		0CB1866F19E05532002E4AE5 /* ConfiguracioTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfiguracioTableViewController.h; sourceTree = "<group>"; };
+		0CB1867019E05532002E4AE5 /* ConfiguracioTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfiguracioTableViewController.m; sourceTree = "<group>"; };
 		0CB1868919E060C3002E4AE5 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
 		0CB1868A19E060C3002E4AE5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
 		0CB1868B19E060C3002E4AE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
@@ -377,16 +386,6 @@
 		0CD6D64119D75BBF002A8AC1 /* FSTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTitleView.h; sourceTree = "<group>"; };
 		0CD6D65419D75C0A002A8AC1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		0CD6D65619D75C14002A8AC1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		0CD6D66219D7607E002A8AC1 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		0CD6D66319D7607E002A8AC1 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		0CD6D66519D760C1002A8AC1 /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
-		0CD6D66619D760C1002A8AC1 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
-		0CD6D66919D7642E002A8AC1 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
-		0CD6D66A19D7642E002A8AC1 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
-		0CD6D66B19D7642E002A8AC1 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
-		0CD6D66C19D7642E002A8AC1 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
-		0CD6D66D19D7642E002A8AC1 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
-		0CD6D66E19D7642E002A8AC1 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
 		0CD6D67219D76695002A8AC1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0CD6D68819D8567F002A8AC1 /* AgendaCulturalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgendaCulturalViewController.h; sourceTree = "<group>"; };
 		0CD6D68919D8567F002A8AC1 /* AgendaCulturalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgendaCulturalViewController.m; sourceTree = "<group>"; };
@@ -564,6 +563,20 @@
 			path = Additional;
 			sourceTree = "<group>";
 		};
+		0C2448D71A45CF5A0075A780 /* FCVerticalMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0C2448D81A45CF5A0075A780 /* .gitkeep */,
+				0C2448D91A45CF5A0075A780 /* FCVerticalMenu.h */,
+				0C2448DA1A45CF5A0075A780 /* FCVerticalMenu.m */,
+				0C2448DB1A45CF5A0075A780 /* FCVerticalMenuItem.h */,
+				0C2448DC1A45CF5A0075A780 /* FCVerticalMenuItem.m */,
+				0C2448DD1A45CF5A0075A780 /* FCVerticalMenuItemCollectionViewCell.h */,
+				0C2448DE1A45CF5A0075A780 /* FCVerticalMenuItemCollectionViewCell.m */,
+			);
+			path = FCVerticalMenu;
+			sourceTree = "<group>";
+		};
 		0C7BDB9619CC79E1001C2907 = {
 			isa = PBXGroup;
 			children = (
@@ -735,8 +748,8 @@
 		0CB1867219E05536002E4AE5 /* Contacte */ = {
 			isa = PBXGroup;
 			children = (
-				0CB1866F19E05532002E4AE5 /* ContacteTableViewController.h */,
-				0CB1867019E05532002E4AE5 /* ContacteTableViewController.m */,
+				0CB1866F19E05532002E4AE5 /* ConfiguracioTableViewController.h */,
+				0CB1867019E05532002E4AE5 /* ConfiguracioTableViewController.m */,
 				0CB186D619E069BF002E4AE5 /* LicenciesTercersTableViewController.h */,
 				0CB186D719E069BF002E4AE5 /* LicenciesTercersTableViewController.m */,
 				0CB186DB19E06B9E002E4AE5 /* LicenciesTercersDetailViewController.h */,
@@ -868,26 +881,11 @@
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
-		0CD6D66819D7642E002A8AC1 /* RESideMenu */ = {
-			isa = PBXGroup;
-			children = (
-				0CD6D66919D7642E002A8AC1 /* RECommonFunctions.h */,
-				0CD6D66A19D7642E002A8AC1 /* RECommonFunctions.m */,
-				0CD6D66B19D7642E002A8AC1 /* RESideMenu.h */,
-				0CD6D66C19D7642E002A8AC1 /* RESideMenu.m */,
-				0CD6D66D19D7642E002A8AC1 /* UIViewController+RESideMenu.h */,
-				0CD6D66E19D7642E002A8AC1 /* UIViewController+RESideMenu.m */,
-			);
-			path = RESideMenu;
-			sourceTree = "<group>";
-		};
 		0CD6D68B19D86AE0002A8AC1 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				0CD6D66219D7607E002A8AC1 /* RootViewController.h */,
-				0CD6D66319D7607E002A8AC1 /* RootViewController.m */,
-				0CD6D66519D760C1002A8AC1 /* LeftMenuViewController.h */,
-				0CD6D66619D760C1002A8AC1 /* LeftMenuViewController.m */,
+				0C2448E31A45D0810075A780 /* FCNavigationViewController.h */,
+				0C2448E41A45D0810075A780 /* FCNavigationViewController.m */,
 			);
 			name = Menu;
 			sourceTree = "<group>";
@@ -959,12 +957,12 @@
 		0CD6D69119D86B54002A8AC1 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				0C2448D71A45CF5A0075A780 /* FCVerticalMenu */,
 				0CB186C519E062FF002E4AE5 /* CTFeedback */,
 				0CB1868719E060C3002E4AE5 /* SVWebViewController */,
 				0CD6D6A819D87CD0002A8AC1 /* Climacons-Font.ttf */,
 				0CD87F1819CC99350038DD4F /* Open_Sans */,
 				0CD6D6A919D87CEA002A8AC1 /* CZWeatherKit */,
-				0CD6D66819D7642E002A8AC1 /* RESideMenu */,
 				0CD6D61619D75BBF002A8AC1 /* FSImageViewer */,
 				0CF9E69519D6D812003CED6C /* FTCoreText */,
 				0C14C22D19D598D400197D4A /* MZFormSheetController */,
@@ -1453,6 +1451,7 @@
 				0CD6D73119DA02C4002A8AC1 /* textHospitalMedieval.txt in Resources */,
 				0CD6D6A419D86EAD002A8AC1 /* Llocs.plist in Resources */,
 				0CB1866719E01B5A002E4AE5 /* museuNacionalArqueologic.jpg in Resources */,
+				0C2448DF1A45CF5A0075A780 /* .gitkeep in Resources */,
 				0CD6D6EC19D9D084002A8AC1 /* horariArcBera.txt in Resources */,
 				0CD6D6E819D9D068002A8AC1 /* textArcBera.txt in Resources */,
 				0CB1865B19E01748002E4AE5 /* horariCasaCastellarnau.txt in Resources */,
@@ -1516,6 +1515,7 @@
 				0CD6D64319D75BBF002A8AC1 /* AFHTTPRequestOperationManager.m in Sources */,
 				0CAE08F719D1B98800CD9CB0 /* TransportPoint.m in Sources */,
 				0CD6D68A19D8567F002A8AC1 /* AgendaCulturalViewController.m in Sources */,
+				0C2448E01A45CF5A0075A780 /* FCVerticalMenu.m in Sources */,
 				0CB186AA19E060C3002E4AE5 /* SVWebViewController.m in Sources */,
 				0CAE08F119D0D4E400CD9CB0 /* SVProgressHUD.m in Sources */,
 				0C14C23D19D598D400197D4A /* MZFormSheetBackgroundWindow.m in Sources */,
@@ -1527,7 +1527,6 @@
 				0C14C24319D598D400197D4A /* UIViewController+TargetViewController.m in Sources */,
 				0CD6D6C619D87CEA002A8AC1 /* CZOpenWeatherMapService.m in Sources */,
 				0CD6D64419D75BBF002A8AC1 /* AFHTTPSessionManager.m in Sources */,
-				0CD6D66419D7607E002A8AC1 /* RootViewController.m in Sources */,
 				0CD6D64919D75BBF002A8AC1 /* AFURLResponseSerialization.m in Sources */,
 				0CD6D64219D75BBF002A8AC1 /* AFHTTPRequestOperation.m in Sources */,
 				0CB186A819E060C3002E4AE5 /* SVModalWebViewController.m in Sources */,
@@ -1537,12 +1536,12 @@
 				0C7BDBA819CC79E1001C2907 /* AppDelegate.m in Sources */,
 				0CB186AD19E060C3002E4AE5 /* SVWebViewControllerActivityChrome.m in Sources */,
 				0CD6D6C419D87CEA002A8AC1 /* CZWeatherRequest.m in Sources */,
-				0CD6D67019D7642E002A8AC1 /* RESideMenu.m in Sources */,
 				0C14C1F119D3512400197D4A /* TempsViewController.m in Sources */,
 				0C14C23F19D598D400197D4A /* MZFormSheetController.m in Sources */,
 				0C14C23E19D598D400197D4A /* MZFormSheetBackgroundWindowViewController.m in Sources */,
 				0C14C24919D5991300197D4A /* MZAppearance.m in Sources */,
 				0CAE08F619D1B98800CD9CB0 /* TransportDetailViewController.m in Sources */,
+				0C2448E51A45D0810075A780 /* FCNavigationViewController.m in Sources */,
 				0CD6D64F19D75BBF002A8AC1 /* FSImageScrollView.m in Sources */,
 				0CD6D65119D75BBF002A8AC1 /* FSImageView.m in Sources */,
 				0CD6D64C19D75BBF002A8AC1 /* FSBasicImage.m in Sources */,
@@ -1557,12 +1556,12 @@
 				0CD6D64519D75BBF002A8AC1 /* AFNetworkReachabilityManager.m in Sources */,
 				0CF9E69A19D6D812003CED6C /* FTCoreTextStyle.m in Sources */,
 				0CD6D69819D86D5E002A8AC1 /* LlocsTableViewController.m in Sources */,
-				0CB1867119E05532002E4AE5 /* ContacteTableViewController.m in Sources */,
+				0CB1867119E05532002E4AE5 /* ConfiguracioTableViewController.m in Sources */,
 				0CD6D65219D75BBF002A8AC1 /* FSImageViewerViewController.m in Sources */,
 				0CD6D65319D75BBF002A8AC1 /* FSPlaceholderImages.m in Sources */,
-				0CD6D66F19D7642E002A8AC1 /* RECommonFunctions.m in Sources */,
 				0CD6D69B19D86D74002A8AC1 /* LlocsDetailTableViewController.m in Sources */,
 				0C14C2AB19D5A2EB00197D4A /* MZTransition.m in Sources */,
+				0C2448E21A45CF5A0075A780 /* FCVerticalMenuItemCollectionViewCell.m in Sources */,
 				0C7BDBA519CC79E1001C2907 /* main.m in Sources */,
 				0CD6D65019D75BBF002A8AC1 /* FSImageTitleView.m in Sources */,
 				0CD6D6C119D87CEA002A8AC1 /* CZWeatherCondition.m in Sources */,
@@ -1574,13 +1573,12 @@
 				0CAE041C19CCE16100CD9CB0 /* JPBParallaxTableViewController.m in Sources */,
 				0CD6D64E19D75BBF002A8AC1 /* FSImageLoader.m in Sources */,
 				0CAE041919CCC99500CD9CB0 /* FXBlurView.m in Sources */,
-				0CD6D66719D760C1002A8AC1 /* LeftMenuViewController.m in Sources */,
 				0CD6D64B19D75BBF002A8AC1 /* EGOCache.m in Sources */,
+				0C2448E11A45CF5A0075A780 /* FCVerticalMenuItem.m in Sources */,
 				0CF9E69B19D6D812003CED6C /* FTCoreTextView.m in Sources */,
 				0CD6D6A119D86DA3002A8AC1 /* LlocsTimeTableViewController.m in Sources */,
 				0CD6D64619D75BBF002A8AC1 /* AFSecurityPolicy.m in Sources */,
 				0C14C24A19D5991300197D4A /* NSInvocation+Copy.m in Sources */,
-				0CD6D67119D7642E002A8AC1 /* UIViewController+RESideMenu.m in Sources */,
 				0CB186D119E062FF002E4AE5 /* CTFeedbackCellItem.m in Sources */,
 				0CB186D219E062FF002E4AE5 /* CTFeedbackTopicsViewController.m in Sources */,
 				0CB186D019E062FF002E4AE5 /* CTFeedbackCell.m in Sources */,
@@ -1732,7 +1730,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
@@ -1747,7 +1745,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;

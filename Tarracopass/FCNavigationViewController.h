@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FCVerticalMenu.h"
 
-@interface FCNavigationViewController : UIViewController
+
+@interface FCNavigationViewController : UINavigationController <FCVerticalMenuDelegate>
+
+@property (strong, readonly, nonatomic) FCVerticalMenu *verticalMenu;
+
+-(IBAction)openVerticalMenu:(id)sender;
 
 @end

@@ -1,26 +1,26 @@
 //
-//  ContacteTableViewController.m
+//  ConfiguracioTableViewController.m
 //  Tarracopass
 //
 //  Created by Oscar Blanco Castan on 04/10/14.
 //  Copyright (c) 2014 Oscar Blanco Castan. All rights reserved.
 //
 
-#import "ContacteTableViewController.h"
+#import "ConfiguracioTableViewController.h"
 #import "CTFeedbackViewController.h"
 #import "SVModalWebViewController.h"
-#import "RESideMenu.h"
+#import "FCNavigationViewController.h"
 
-@interface ContacteTableViewController ()
+@interface ConfiguracioTableViewController ()
 
 @end
 
-@implementation ContacteTableViewController
+@implementation ConfiguracioTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"Contacte";
+    self.title = @"Configuració";
     
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
@@ -31,17 +31,13 @@
     UIImage *background = iconMenu;
     UIImage *backgroundSelected = iconMenu;
     UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
-    [button addTarget:self action:@selector(menu) forControlEvents:UIControlEventTouchUpInside]; //adding action
+    [button addTarget:self.navigationController action:@selector(openVerticalMenu:) forControlEvents:UIControlEventTouchUpInside]; //adding action
     [button setBackgroundImage:background forState:UIControlStateNormal];
     [button setBackgroundImage:backgroundSelected forState:UIControlStateSelected];
     button.frame = CGRectMake(0 ,0, 33, 17);
     
     UIBarButtonItem *barButton = [[UIBarButtonItem alloc] initWithCustomView:button];
     self.navigationItem.leftBarButtonItem = barButton;
-}
-
--(void)menu{
-    [self.sideMenuViewController presentLeftMenuViewController];
 }
 
 - (void)didReceiveMemoryWarning {

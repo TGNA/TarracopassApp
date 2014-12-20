@@ -7,6 +7,7 @@
 //
 
 #import "AgendaCulturalViewController.h"
+#import "FCNavigationViewController.h"
 
 @interface AgendaCulturalViewController ()
 
@@ -54,17 +55,13 @@
     UIImage *background = iconMenu;
     UIImage *backgroundSelected = iconMenu;
     UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
-    [button addTarget:self action:@selector(menu) forControlEvents:UIControlEventTouchUpInside]; //adding action
+    [button addTarget:self.navigationController action:@selector(openVerticalMenu:) forControlEvents:UIControlEventTouchUpInside]; //adding action
     [button setBackgroundImage:background forState:UIControlStateNormal];
     [button setBackgroundImage:backgroundSelected forState:UIControlStateSelected];
     button.frame = CGRectMake(0 ,0, 33, 17);
     
     UIBarButtonItem *barButton = [[UIBarButtonItem alloc] initWithCustomView:button];
     self.navigationItem.leftBarButtonItem = barButton;
-}
-
--(void)menu{
-    [self.sideMenuViewController presentLeftMenuViewController];
 }
 
 -(void)enrere
