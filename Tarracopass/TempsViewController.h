@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CZWeatherKit.h"
+#import <CZWeatherKit/CZWeatherKit.h>
 
 @interface TempsViewController : UIViewController
 

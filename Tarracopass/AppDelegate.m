@@ -20,7 +20,7 @@
     
       
 //    if([[NSUserDefaults standardUserDefaults] objectForKey:@"showTutorialFirstTime"] == nil){
-//        
+    
 //        [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"showTutorialFirstTime"];
 //        [[NSUserDefaults standardUserDefaults] synchronize];
 //        
@@ -28,7 +28,8 @@
 //        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
 //        UIViewController *tutorial = [storyboard instantiateViewControllerWithIdentifier:@"TutorialViewController"];
 //        [navigationController pushViewController:tutorial animated:YES];
-//        
+////        [self presentViewController:navigationController animated:YES completion:nil];
+    
 //    }
     
     self.locationManager = [[CLLocationManager alloc] init];

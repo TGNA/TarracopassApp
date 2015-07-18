@@ -50,48 +50,45 @@
 {
     [SVProgressHUD showWithStatus:@"Carregant..."];
     
-    CZWeatherRequest *request = [CZWeatherRequest requestWithType:CZCurrentConditionsRequestType];
-    request.location = [CZWeatherLocation locationWithCity:@"Tarragona" state:@"ES"];
-    request.service = [CZWundergroundService serviceWithKey:@"0d6f728ec35c45cb"];
-    request.language = @"SP";
-    [request performRequestWithHandler:^(id data, NSError *error) {
-        if (data) {
-            CZWeatherCondition *current = (CZWeatherCondition *)data;
-            
-            // Current Conditions
-            _currentTemperatureLabel.text = [NSString stringWithFormat:@" %.1f°C", current.temperature.c];
-            _currentTemperatureLabel.adjustsFontSizeToFitWidth = YES;
-            
-            _temperatureLabel.text = [NSString stringWithFormat:@"H %.1f°C  L %.1f°C", current.highTemperature.c , current.lowTemperature.c];
-            _temperatureLabel.adjustsFontSizeToFitWidth = YES;
-            
-            _currentConditionLabel.text = [NSString stringWithFormat:@"%c", current.climaconCharacter];
-            _currentConditionLabel.font = [UIFont fontWithName:CLIMACONS_FONT size:200];
-            _currentConditionLabel.adjustsFontSizeToFitWidth = YES;
-            
-            _currentDescriptionLabel.text = [current.summary capitalizedString];
-            _currentDescriptionLabel.adjustsFontSizeToFitWidth = YES;
-            
-            _currentHumidityLabel.text = [NSString stringWithFormat:@"%.0f%%", current.humidity];
-            _currentHumidityLabel.adjustsFontSizeToFitWidth = YES;
-            
-            
-            // Updated
-            NSString *updated = [NSDateFormatter localizedStringFromDate:[NSDate date] dateStyle:NSDateFormatterMediumStyle timeStyle:NSDateFormatterShortStyle];
-            _updatedLabel.text = [NSString stringWithFormat:@"Updated at %@", updated];
-            _updatedLabel.adjustsFontSizeToFitWidth = YES;
-            
-            CGFloat fahrenheit = MIN(MAX(0, current.temperature.f), 99);
-            NSString *gradientImageName = [NSString stringWithFormat:@"gradient%d.png", (int)floor(fahrenheit / 10.0)];
-            UIGraphicsBeginImageContext(self.view.frame.size);
-            [[UIImage imageNamed:gradientImageName] drawInRect:self.view.bounds];
-            UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-            UIGraphicsEndImageContext();
-            
-            self.view.backgroundColor = [UIColor colorWithPatternImage:image];
-        } else {
-            [SVProgressHUD dismiss];
-        }
+    
+    CZWundergroundRequest *request = [CZWundergroundRequest newConditionsRequest];
+    request.location = [CZWeatherLocation locationFromCity:@"Tarragona" country:@"ES"];
+    request.key = @"0d6f728ec35c45cb";
+    [request sendWithCompletion:^(CZWeatherData *data, NSError *error) {
+        CZWeatherCurrentCondition *condition = data.current;
+        
+        // Current Conditions
+        _currentTemperatureLabel.text = [NSString stringWithFormat:@" %.1f°C", condition.temperature.c];
+        _currentTemperatureLabel.adjustsFontSizeToFitWidth = YES;
+        
+        _temperatureLabel.text = [NSString stringWithFormat:@"%.1f°C", condition.temperature.c];
+        _temperatureLabel.adjustsFontSizeToFitWidth = YES;
+        
+        _currentConditionLabel.text = [NSString stringWithFormat:@"%c", condition.climacon];
+//        _currentConditionLabel.font = [UIFont fontWithName:CZClimacons size:200];
+        _currentConditionLabel.adjustsFontSizeToFitWidth = YES;
+        
+        _currentDescriptionLabel.text = [condition.summary capitalizedString];
+        _currentDescriptionLabel.adjustsFontSizeToFitWidth = YES;
+        
+        _currentHumidityLabel.text = [NSString stringWithFormat:@"%.0f%%", condition.humidity];
+        _currentHumidityLabel.adjustsFontSizeToFitWidth = YES;
+        
+        
+        // Updated
+        NSString *updated = [NSDateFormatter localizedStringFromDate:[NSDate date] dateStyle:NSDateFormatterMediumStyle timeStyle:NSDateFormatterShortStyle];
+        _updatedLabel.text = [NSString stringWithFormat:@"Updated at %@", updated];
+        _updatedLabel.adjustsFontSizeToFitWidth = YES;
+        
+        CGFloat fahrenheit = MIN(MAX(0, condition.temperature.f), 99);
+        NSString *gradientImageName = [NSString stringWithFormat:@"gradient%d.png", (int)floor(fahrenheit / 10.0)];
+        UIGraphicsBeginImageContext(self.view.frame.size);
+        [[UIImage imageNamed:gradientImageName] drawInRect:self.view.bounds];
+        UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+        UIGraphicsEndImageContext();
+        
+        self.view.backgroundColor = [UIColor colorWithPatternImage:image];
+        
     }];
     
     [SVProgressHUD dismiss];

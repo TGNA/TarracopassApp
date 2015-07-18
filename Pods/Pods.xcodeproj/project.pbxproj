@@ -1,0 +1,2136 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B614E5B7DB97958982BCD9 /* SVWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D5188497628D0A34E89341 /* SVWebViewController.m */; };
+		031899F6AD8F17A4F4C5F4A7 /* CZWeatherAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EF162BB0D7C6CDCEA265611 /* CZWeatherAPI.h */; };
+		0846AC715CEF309A12ACC9A3 /* CTFeedbackTopicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4756473A420DBCD64A4D1D8F /* CTFeedbackTopicsViewController.m */; };
+		087DA9C6E262364692248398 /* CZWeatherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B415F4E9778E829473854A /* CZWeatherService.m */; };
+		0901892251C44945A26CC096 /* PINMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F239034E56CD428D73A46F /* PINMemoryCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0CDBD9A81E78D6EE7DBE8B8E /* FTCoreTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D70D848F4FF910268D3B2D /* FTCoreTextView.h */; };
+		0F168BA8703F0E476D0EB06D /* EAIntroPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA3276A6B66FBA3A5581F8F /* EAIntroPage.h */; };
+		1029959E10F659ED0C8528A6 /* FTCoreTextStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A309226C3F486D96D5F76 /* FTCoreTextStyle.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1055AD9BC4E006CFB0D7F77B /* CZWeatherHourlyCondition+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 46F70863D9699990492C4926 /* CZWeatherHourlyCondition+Internal.h */; };
+		147EA6F09EAC78BA6CE4C7B2 /* PINDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F4CE584F63A2A3C0BF0AD0 /* PINDiskCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		14BE0E3FFBB3B269F4BAB7A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E893F6BFB8C296EC35D5DDA /* Foundation.framework */; };
+		161F5F02E55F3DFB3659F811 /* FCVerticalMenuItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F0193E06B1037C79C68080 /* FCVerticalMenuItemCollectionViewCell.m */; };
+		1ABD55B053390FB8570CD3CD /* CZWeatherKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C884EE9FC4A0656B5A6B34E /* CZWeatherKit.h */; };
+		1B18296C21D2167697CB48D7 /* PINMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C40324867718FFC3632DBA81 /* PINMemoryCache.h */; };
+		1DBC840C25D357629880D9C3 /* CZOpenWeatherMapAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3091AD74F3561687D10A73FF /* CZOpenWeatherMapAPI.m */; };
+		1F1E966DAADF6536641A3AC1 /* NSDictionary+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = 712873F6A877677B5548D7DF /* NSDictionary+Internal.m */; };
+		20E9D0F1BAEE86D6A09357E8 /* CZWorldWeatherOnlineRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FCA47D92CEB15A3F7038CB /* CZWorldWeatherOnlineRequest.m */; };
+		22D465505E93E7D2160DBC60 /* CZForecastioRequest+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = A16C752456383A29B2A0BCD6 /* CZForecastioRequest+Internal.h */; };
+		246BC96E89E9BF6754B227C6 /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 929406B36C721936C90B162D /* zh-Hant.lproj */; };
+		2501352030EC44CBCF52E3B0 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EE38839283348DD8CB11E74C /* en.lproj */; };
+		27AD8C943E3C78A0DBB601B0 /* PlatformNames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99FA0ACC894DD76C789CF7DA /* PlatformNames.plist */; };
+		28E08FB54F78FEF22300392A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E893F6BFB8C296EC35D5DDA /* Foundation.framework */; };
+		2AEE1EB5B23DB45109AB7996 /* FCVerticalMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = A8E0CF62C5AFEC9A967D6131 /* FCVerticalMenu.h */; };
+		3091605FC187D31DDD6D6C56 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8070400D7D3828C3CA68F14F /* SVProgressHUD.m */; };
+		30FB287BF06045BB0EBCE79C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E119F801777547EAB9F899E /* QuartzCore.framework */; };
+		313C3B897382EF9A21518077 /* CZWeatherCurrentCondition.h in Headers */ = {isa = PBXBuildFile; fileRef = F9CF00A14D7BBF7FCB579DC4 /* CZWeatherCurrentCondition.h */; };
+		328331AE7C4C731FF5A41B60 /* CZWeatherForecastCondition+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 31323B889B1CD0C61FC28DE9 /* CZWeatherForecastCondition+Internal.h */; };
+		39CA7B9FBBF9384B464850C8 /* PINCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C4BC8AA603A6409A274277D /* PINCache.h */; };
+		3DBE62E743ABFAF5555C8F44 /* SVModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F886FDE02680CD33AB6F3763 /* SVModalWebViewController.m */; };
+		4113CF35B636319644792D2A /* CTFeedbackTopicsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F1C42183FD3C11D3E45292 /* CTFeedbackTopicsViewController.h */; };
+		42394DA0A09BF22839CABA2E /* CZWorldWeatherOnlineAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 52080C6D39737796BBFA2A26 /* CZWorldWeatherOnlineAPI.h */; };
+		42CB3658FE787D24A2FBCED5 /* CZWeatherKitTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9C224AD6CA6ACCB5EC4AFD /* CZWeatherKitTypes.h */; };
+		4534866FABFC57B0D005CDB0 /* SVWebViewControllerActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A56B494666E737EDD666D5 /* SVWebViewControllerActivity.m */; };
+		45349EAB7BDF65397E3F087D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E893F6BFB8C296EC35D5DDA /* Foundation.framework */; };
+		47365BB497221B31792F56B1 /* CZWeatherRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 562794EA22DA513000084554 /* CZWeatherRequest.h */; };
+		4A6AAA21F69A0EED42AEAC5A /* CTFeedbackViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A42DB920CE4B529F409FDA18 /* CTFeedbackViewController.h */; };
+		4B59BEEC03DFA2B14900E903 /* CZWeatherCurrentCondition+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9335A5ADACB9A17C0CA81099 /* CZWeatherCurrentCondition+Internal.h */; };
+		4EB2C069422445A743752F95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF45C325BEEFAE26F2305C5 /* UIKit.framework */; };
+		4F753252230FCC56C800A321 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E893F6BFB8C296EC35D5DDA /* Foundation.framework */; };
+		53BFAB1B5CBCB192402D5806 /* CZOpenWeatherMapRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 94344FDBAF33C12C2E6EF19C /* CZOpenWeatherMapRequest.h */; };
+		54EE5E6B6FC0E07CC56856CA /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0F6977890180110A1E44CC55 /* ja.lproj */; };
+		57AE5676741483ADB301836E /* CZOpenWeatherMapRequest+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = FC453C16BEB1C26EFF5B1C59 /* CZOpenWeatherMapRequest+Internal.h */; };
+		5890109F0CEC9A59013629D0 /* CZWundergroundAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F714837F4B7DF129FBC3AE /* CZWundergroundAPI.m */; };
+		59FB11C10CAAC979BD9EDEA0 /* NSBundle+CTFeedback.h in Headers */ = {isa = PBXBuildFile; fileRef = 78542921CA1019BDBF69C959 /* NSBundle+CTFeedback.h */; };
+		5F3816354BB1EE3F8B4B3619 /* CZWundergroundRequest+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 163590BFB6120FA2F8C77C60 /* CZWundergroundRequest+Internal.h */; };
+		62B8D1D786F5C3F53135A00E /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8C5EACCDE9F2DA617BC998 /* SVProgressHUD.h */; };
+		6355D6C2DD86495F755792F2 /* CTFeedbackCellItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F91DDD1BA2BF1AE30FE3FEEC /* CTFeedbackCellItem.h */; };
+		649EA9C2927F9A59475C999C /* SVWebViewControllerActivityChrome.h in Headers */ = {isa = PBXBuildFile; fileRef = C2135B2C1D57394C08D8CC54 /* SVWebViewControllerActivityChrome.h */; };
+		65E7C64576C9DEBAF4E95AA4 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B5D4BD9B690299188DD828 /* SVIndefiniteAnimatedView.m */; };
+		672A897371D6AF15A63F8066 /* EAIntroView.h in Headers */ = {isa = PBXBuildFile; fileRef = CE5F2A9888706B71EBAA71D7 /* EAIntroView.h */; };
+		69C4387DCD587F107AB282C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E893F6BFB8C296EC35D5DDA /* Foundation.framework */; };
+		6BBAE38F0E05A52BCB9DAE4A /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DE2CC512FCC63B635F782DE0 /* Base.lproj */; };
+		6C2606F57040CBAD37F1011D /* EAIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6394BBA6BDE4FCA0B0C8F30E /* EAIntroView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6DA6C24CE061F35DEB0CDF50 /* CZWeatherService.h in Headers */ = {isa = PBXBuildFile; fileRef = 35097DDE4CEF50E03D85004E /* CZWeatherService.h */; };
+		6EA9FC08B81A012A233595C8 /* CZWeatherLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 35076E30E5366308BF32BD44 /* CZWeatherLocation.m */; };
+		7036ED7102F500CA971F8262 /* CZWeatherCurrentCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEB988BBA0026EA78A2E802 /* CZWeatherCurrentCondition.m */; };
+		70D6BDA779E28B59EBD5AEE8 /* Pods-Tarracopass-EARestrictedScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 144F0C13AFB4E0F15AAD0F31 /* Pods-Tarracopass-EARestrictedScrollView-dummy.m */; };
+		7378C1CDBF04785888AA58AB /* FTCoreTextStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BC6558CAD94DC50266BA41C /* FTCoreTextStyle.h */; };
+		73B1F0DE92ECEB2660DE48DC /* CZWorldWeatherOnlineAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E4C6CF10AB941378F51C3F /* CZWorldWeatherOnlineAPI.m */; };
+		75425C471AFF4B753EFF3F62 /* CZPINWeatherDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7A1CDD6D278A8775631BE /* CZPINWeatherDataCache.m */; };
+		78A61402E06D41F1EC0F715B /* ur.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 53F6A94D4AC5EC04BE413EAA /* ur.lproj */; };
+		7AA441C6D87F56B3FA992E0C /* CZWeatherData.h in Headers */ = {isa = PBXBuildFile; fileRef = F2F56C73AB1E99099D792631 /* CZWeatherData.h */; };
+		7BDEA23BAE97D7AA0296EE5F /* hr-HR.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B234FD8C31C845D36242D3FC /* hr-HR.lproj */; };
+		7F2DB28334D2845CB5FC6CD0 /* CZWeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = 312CAB7C9534FBA4E663A787 /* CZWeatherData.m */; };
+		7FC9C2A65822F827DA9A586D /* CTFeedbackCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 593C01098ECDC85433CC0D88 /* CTFeedbackCellItem.m */; };
+		80ADD6A0CDC00628CE0A9198 /* CZWeatherForecastCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4EFAFDB2A730DB441FD6F0 /* CZWeatherForecastCondition.m */; };
+		8262D37EE7D90BD71CC86570 /* PINCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A054D772615E6BFC0F471893 /* PINCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		845DB84142B4FF207731D860 /* CZWeatherKitInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 425997525DDC5499526E73B8 /* CZWeatherKitInternal.h */; };
+		87D97C8CE95EE3F296DE762F /* Pods-Tarracopass-FTCoreText-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 019DF179BA1A0C62568FF8D3 /* Pods-Tarracopass-FTCoreText-dummy.m */; };
+		8AC00C56254EAE19DBA9B785 /* EARestrictedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC416C93856790B89855119F /* EARestrictedScrollView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8C247068226D9D6BDE8D0635 /* SVModalWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E45CD590B1AAA4BACB2689 /* SVModalWebViewController.h */; };
+		8C5E24C2D2A96A417E6511AF /* CZWundergroundRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 630A1BCDF14D8CCCC90FCF56 /* CZWundergroundRequest.h */; };
+		8F4037474AB3E3D2FFD6D262 /* Nullability.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C112DAC2E80601846141D95 /* Nullability.h */; };
+		8F9A6828895A727EEE8ED3C2 /* Pods-Tarracopass-CZWeatherKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA0464FDA017AECA3EA7CEE /* Pods-Tarracopass-CZWeatherKit-dummy.m */; };
+		9274A4F66C86E9267502706C /* NSBundle+CTFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C2C7D668C500AF7CD8989E /* NSBundle+CTFeedback.m */; };
+		93B24FB361D477DDC9BFDC7E /* Pods-Tarracopass-SVWebViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86132407E1ED8FF028A6ADB4 /* Pods-Tarracopass-SVWebViewController-dummy.m */; };
+		9432EEBC6B5EC6ACEBDC3A38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E893F6BFB8C296EC35D5DDA /* Foundation.framework */; };
+		9474F54AD89EAEFB924601A5 /* EAIntroPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 14083129A0D554DA2456C4FA /* EAIntroPage.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		996D95A83D3EE02527C8D64D /* Pods-Tarracopass-PINCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D787F626EC25736319C701 /* Pods-Tarracopass-PINCache-dummy.m */; };
+		998BF8E00F4BF864DE707BE5 /* CZWeatherForecastCondition.h in Headers */ = {isa = PBXBuildFile; fileRef = DD260B89E4D10F58EED2F1A5 /* CZWeatherForecastCondition.h */; };
+		9B753A412E09CC4080469015 /* FCVerticalMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 66476E08F650602D052E96B7 /* FCVerticalMenu.m */; };
+		9C1B8E334ACD6405F755D7FC /* FCVerticalMenuItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ABB0EF417FB7FDDC71A4ACD /* FCVerticalMenuItem.h */; };
+		9E1FB24C1524B1232EB80673 /* CZWeatherRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 684E6FE78B7ED7D15D3ED7A3 /* CZWeatherRequest.m */; };
+		A14C7381363D17B2AD4F9B68 /* CZForecastioAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B641F6404E87335A56677E /* CZForecastioAPI.m */; };
+		A21FF870A41C2ED011FEFBF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E893F6BFB8C296EC35D5DDA /* Foundation.framework */; };
+		A32D5CDAA64C925A8619087E /* FCVerticalMenuItemCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 957067BFB1B92C28C3FB24AB /* FCVerticalMenuItemCollectionViewCell.h */; };
+		A8929BD415D174FC4104E841 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2CE9349262F6DD33656AF190 /* ko.lproj */; };
+		AA283FBCEF936EFF67C2C087 /* CZWeatherLocation+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 27F46C8EE65726C493966511 /* CZWeatherLocation+Internal.h */; };
+		AE531753BF9CB686C25011B1 /* CZOpenWeatherMapRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D233086AB231BC1B3B1F31B /* CZOpenWeatherMapRequest.m */; };
+		B1C0A9A8FA2DA5E1FC869D7A /* bs.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E453BD0D3C1A3BE76387D073 /* bs.lproj */; };
+		B23A225F5131983086D4DDAA /* CZWeatherRequest+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B919B695C5C7AFCED6ABA1D /* CZWeatherRequest+Internal.h */; };
+		B2AC5B7FA66125D3E6C6BF7E /* CTFeedbackCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AD655DD839EDEE157F2CFE7 /* CTFeedbackCell.h */; };
+		B7FB7DF63F0CA8A777B3C881 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E893F6BFB8C296EC35D5DDA /* Foundation.framework */; };
+		B883B8C1766504FEC4E1E3CA /* CZWeatherService+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC0CF17F553086D4D90DDC1 /* CZWeatherService+Internal.h */; };
+		BB9991591F32463DFC391E7B /* Pods-Tarracopass-FCVerticalMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 567365198F930C81FF94FE12 /* Pods-Tarracopass-FCVerticalMenu-dummy.m */; };
+		BBD1F79D9E6A969CFD01ECFD /* Pods-Tarracopass-EAIntroView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3EB019B91D326ACA6184A9 /* Pods-Tarracopass-EAIntroView-dummy.m */; };
+		C268DDD5A161A7A55D895F93 /* SVWebViewControllerActivitySafari.m in Sources */ = {isa = PBXBuildFile; fileRef = B5617259DA8F68DEDB9A2A1B /* SVWebViewControllerActivitySafari.m */; };
+		C39031EACE12479E593146B0 /* CZWeatherData+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = BAD0BD22791327132464B98A /* CZWeatherData+Internal.h */; };
+		C39825507E806D1CBC105EC5 /* sr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0CA0C1D74132E8BF02BA3382 /* sr.lproj */; };
+		C47A125012DBD344E447EAEE /* SVWebViewControllerActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = ABB844A9D4D5FE2EC32F7F6C /* SVWebViewControllerActivity.h */; };
+		C6465BEB010C02CF25507248 /* Pods-Tarracopass-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5756ED6A61168FC161A6DE9 /* Pods-Tarracopass-dummy.m */; };
+		C66773D17F0FFD98AA652B8F /* EARestrictedScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = F40B20D555D267FD8118C5B3 /* EARestrictedScrollView.h */; };
+		C8302D0667E1908194F670C8 /* FTCoreTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BD16CAD6CE275E54D161AD /* FTCoreTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C860A12994CA99527552B56B /* CZWundergroundRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A53DE4690F1E2F2C60FC36 /* CZWundergroundRequest.m */; };
+		C89DC00405D6FB6172CBBC69 /* CZOpenWeatherMapAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D613028E8AF03D82B2F33EC /* CZOpenWeatherMapAPI.h */; };
+		CAE1DF17302F6D80DD8299F2 /* CZForecastioAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B394564FD4A51C0068AA52 /* CZForecastioAPI.h */; };
+		CDF26BA2385AAB78C7ED0B8A /* CZForecastioRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD0F509ACCB195BF21DDEBD /* CZForecastioRequest.h */; };
+		CF3A88A048B91FE9F09C85F9 /* SVWebViewControllerActivitySafari.h in Headers */ = {isa = PBXBuildFile; fileRef = 249C793850DCBC32D20ACB7F /* SVWebViewControllerActivitySafari.h */; };
+		CFE6A926F352AD94CDEFB0E9 /* CZWeatherHourlyCondition.h in Headers */ = {isa = PBXBuildFile; fileRef = D8F5EDE82B6F58D0C5630286 /* CZWeatherHourlyCondition.h */; };
+		D065301AF332BC218CC431AE /* CZWeatherLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 54B27F2BDA2BF194BD22B55F /* CZWeatherLocation.h */; };
+		D253B3D33054465E8CD2B50A /* FCVerticalMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A406110CAD84A8CC38DE0D /* FCVerticalMenuItem.m */; };
+		DC49D27AF97EA671FA7D4C27 /* Pods-Tarracopass-SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CF0E6997A5340534E6B004 /* Pods-Tarracopass-SVProgressHUD-dummy.m */; };
+		DC7EA0029EB6F24EB301BEEA /* SVWebViewControllerActivityChrome.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B22DA79DDD4D529F814D962 /* SVWebViewControllerActivityChrome.m */; };
+		DF35A891905851B007154AE3 /* CZForecastioRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E91115BDB8DDCCAA10AB98 /* CZForecastioRequest.m */; };
+		E11D3761DB3CB8825AB3450F /* CTFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C695E8F703708D3C94422AA6 /* CTFeedbackViewController.m */; };
+		E220D7BB3AD4B2B6FCA32D72 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E364BFCC770B78317A98B9D /* CoreText.framework */; };
+		E37B856030F4E9A928E565F3 /* CZClimacons.h in Headers */ = {isa = PBXBuildFile; fileRef = C283293D056BA5E6F566346C /* CZClimacons.h */; };
+		E3D5CBCED578ED2EC453AE01 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1A4F7BC1D093DBB4AFC654 /* MessageUI.framework */; };
+		E4B55D926BDE4E159264759E /* CZWundergroundAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 05C0F96C2922856E6FF98108 /* CZWundergroundAPI.h */; };
+		E4E28A645FD29397CB1DE310 /* PINDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 280D3839E209671E4A23FC77 /* PINDiskCache.h */; };
+		E578431D8F6A90E5CF16A86D /* SVWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 649F2299F09EE4F820629D46 /* SVWebViewController.h */; };
+		E594F90F9CF1ECA317C4773F /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 5C561BC7BA4A36D7D4FE4B5F /* ru.lproj */; };
+		E6559CEC8221D0FCC9C30594 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = BC27E97CD127D509EB6C172F /* zh-Hans.lproj */; };
+		E8935C7C5CE838E6787E2000 /* CZWorldWeatherOnlineRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C23BC08A5C1F29594A94898D /* CZWorldWeatherOnlineRequest.h */; };
+		EAB12BAD67B60E9A32059333 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E893F6BFB8C296EC35D5DDA /* Foundation.framework */; };
+		EB571D2EAF0D268E9D59103F /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 395BC1BAC2919BEAA47AA4F8 /* de.lproj */; };
+		ED7E337777775A16F63F9D10 /* Pods-Tarracopass-CTFeedback-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F1CDEB0CDF16CD5E5F7B42 /* Pods-Tarracopass-CTFeedback-dummy.m */; };
+		ED83F62A483B6D8A227C5815 /* CZWeatherHourlyCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BC0418842DD9F2049E0DB6 /* CZWeatherHourlyCondition.m */; };
+		F1B73AD6E33878CBFD8CBC65 /* CTFeedbackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C7AE1A961EC1CE26ECAAC0 /* CTFeedbackCell.m */; };
+		F22EC6DB89070B949B031F14 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = E05E226BEF8A7DFADD88D72B /* SVIndefiniteAnimatedView.h */; };
+		F5BE1866610BA6D58E81A30D /* CZPINWeatherDataCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E460F944E394DC780914304 /* CZPINWeatherDataCache.h */; };
+		F697839593C02B104C4FF767 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E119F801777547EAB9F899E /* QuartzCore.framework */; };
+		F780E27B5393C053C22AFE23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E893F6BFB8C296EC35D5DDA /* Foundation.framework */; };
+		F9A621A1038BE3D83B6F64E7 /* CZWeatherDataCache.h in Headers */ = {isa = PBXBuildFile; fileRef = DC4F20A9F60899797A7FBA2A /* CZWeatherDataCache.h */; };
+		FD53E27E613E55ED52EF3786 /* NSDictionary+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 398B0B6EF7EBDA2F067A6A14 /* NSDictionary+Internal.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		210FAD0865D9E6C3E7BBF82D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDAF2753107E60B53D9D4E27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41F9111942C5A5B1797AFF8F;
+			remoteInfo = "Pods-Tarracopass-CTFeedback-CTFeedback";
+		};
+		21D629F4F829AF6950DA148A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDAF2753107E60B53D9D4E27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8FEFB115F1FCAD19D2AB5CD;
+			remoteInfo = "Pods-Tarracopass-SVWebViewController";
+		};
+		28789DB2B9367EF73851BB0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDAF2753107E60B53D9D4E27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0E0720FB1729FBAA1F6C473;
+			remoteInfo = "Pods-Tarracopass-FTCoreText";
+		};
+		32594CF59FE6FD8A1208B9F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDAF2753107E60B53D9D4E27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 003B3198A6FE850AA638D666;
+			remoteInfo = "Pods-Tarracopass-FCVerticalMenu";
+		};
+		4B14392E71957AB7AB942DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDAF2753107E60B53D9D4E27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C30BB6C536B65AC030798B4;
+			remoteInfo = "Pods-Tarracopass-SVProgressHUD";
+		};
+		5C09EA041D5D84A063D8A114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDAF2753107E60B53D9D4E27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30515A4E9B0F37B3A5F5A408;
+			remoteInfo = "Pods-Tarracopass-CTFeedback";
+		};
+		68ACEAB56E8CEF49F5DAE9B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDAF2753107E60B53D9D4E27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C79E4A8FA59C3A58F10DAC4D;
+			remoteInfo = "Pods-Tarracopass-PINCache";
+		};
+		6EFC6C5FF0F8E12EE54DE228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDAF2753107E60B53D9D4E27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775A51EC203EF3B1F879C614;
+			remoteInfo = "Pods-Tarracopass-CZWeatherKit";
+		};
+		885B473F2114288F90A84B36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDAF2753107E60B53D9D4E27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1932ADE525117F5FCB07504;
+			remoteInfo = "Pods-Tarracopass-EARestrictedScrollView";
+		};
+		940C18DEAD8B7311BFF046A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDAF2753107E60B53D9D4E27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C79E4A8FA59C3A58F10DAC4D;
+			remoteInfo = "Pods-Tarracopass-PINCache";
+		};
+		B415C5EB0A01FBBE3C9E1BB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDAF2753107E60B53D9D4E27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F2D3DB25E3324EA507B7A84;
+			remoteInfo = "Pods-Tarracopass-FCVerticalMenu-FCVerticalMenu";
+		};
+		B67874B58465ABC005FC48D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDAF2753107E60B53D9D4E27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9FA9A3CE8E5CAF58F9167FC;
+			remoteInfo = "Pods-Tarracopass-EAIntroView";
+		};
+		EE286DF49862A33C91AC65E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDAF2753107E60B53D9D4E27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1932ADE525117F5FCB07504;
+			remoteInfo = "Pods-Tarracopass-EARestrictedScrollView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		019DF179BA1A0C62568FF8D3 /* Pods-Tarracopass-FTCoreText-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tarracopass-FTCoreText-dummy.m"; sourceTree = "<group>"; };
+		01A56B494666E737EDD666D5 /* SVWebViewControllerActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVWebViewControllerActivity.m; path = SVWebViewController/UIActivities/SVWebViewControllerActivity.m; sourceTree = "<group>"; };
+		05AE20ED4E90EC1D8E761DD8 /* SVWebViewControllerNext.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = SVWebViewControllerNext.png; path = SVWebViewController/SVWebViewController.bundle/SVWebViewControllerNext.png; sourceTree = "<group>"; };
+		05C0F96C2922856E6FF98108 /* CZWundergroundAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZWundergroundAPI.h; path = CZWeatherKit/CZWundergroundAPI.h; sourceTree = "<group>"; };
+		0CA0C1D74132E8BF02BA3382 /* sr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = sr.lproj; path = Resources/sr.lproj; sourceTree = "<group>"; };
+		0F6977890180110A1E44CC55 /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ja.lproj; path = Resources/ja.lproj; sourceTree = "<group>"; };
+		10CEF8114E082ACD335148F5 /* Pods-Tarracopass-FTCoreText-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tarracopass-FTCoreText-Private.xcconfig"; sourceTree = "<group>"; };
+		1184E94EE2C40FE799252878 /* Pods-Tarracopass-SVWebViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tarracopass-SVWebViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		14083129A0D554DA2456C4FA /* EAIntroPage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EAIntroPage.m; path = EAIntroView/EAIntroPage.m; sourceTree = "<group>"; };
+		1416E60D8F6C0047B933B3B0 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		141A309226C3F486D96D5F76 /* FTCoreTextStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTCoreTextStyle.m; path = FTCoreText/FTCoreTextStyle.m; sourceTree = "<group>"; };
+		144F0C13AFB4E0F15AAD0F31 /* Pods-Tarracopass-EARestrictedScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tarracopass-EARestrictedScrollView-dummy.m"; sourceTree = "<group>"; };
+		159AB9CE0888EE1EE2B35407 /* SVWebViewControllerBack@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SVWebViewControllerBack@2x.png"; path = "SVWebViewController/SVWebViewController.bundle/SVWebViewControllerBack@2x.png"; sourceTree = "<group>"; };
+		163590BFB6120FA2F8C77C60 /* CZWundergroundRequest+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CZWundergroundRequest+Internal.h"; path = "CZWeatherKit/CZWundergroundRequest+Internal.h"; sourceTree = "<group>"; };
+		1A2AC4591FB8156A82594895 /* Pods-Tarracopass-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tarracopass-resources.sh"; sourceTree = "<group>"; };
+		1AD655DD839EDEE157F2CFE7 /* CTFeedbackCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTFeedbackCell.h; path = Classes/CTFeedbackCell.h; sourceTree = "<group>"; };
+		1C112DAC2E80601846141D95 /* Nullability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nullability.h; path = PINCache/Nullability.h; sourceTree = "<group>"; };
+		1CDCEF5B8C19908788A87B12 /* Pods-Tarracopass-CZWeatherKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tarracopass-CZWeatherKit-Private.xcconfig"; sourceTree = "<group>"; };
+		1DD0F509ACCB195BF21DDEBD /* CZForecastioRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZForecastioRequest.h; path = CZWeatherKit/CZForecastioRequest.h; sourceTree = "<group>"; };
+		1EF162BB0D7C6CDCEA265611 /* CZWeatherAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZWeatherAPI.h; path = CZWeatherKit/CZWeatherAPI.h; sourceTree = "<group>"; };
+		20E45CD590B1AAA4BACB2689 /* SVModalWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVModalWebViewController.h; path = SVWebViewController/SVModalWebViewController.h; sourceTree = "<group>"; };
+		2127A5A5327A81974076F933 /* Pods-Tarracopass-SVWebViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tarracopass-SVWebViewController-prefix.pch"; sourceTree = "<group>"; };
+		21F0193E06B1037C79C68080 /* FCVerticalMenuItemCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FCVerticalMenuItemCollectionViewCell.m; path = Pod/Classes/FCVerticalMenuItemCollectionViewCell.m; sourceTree = "<group>"; };
+		237CEA797EAF59C83ECCA6C3 /* Pods-Tarracopass-FTCoreText.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tarracopass-FTCoreText.xcconfig"; sourceTree = "<group>"; };
+		249C793850DCBC32D20ACB7F /* SVWebViewControllerActivitySafari.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVWebViewControllerActivitySafari.h; path = SVWebViewController/UIActivities/Safari/SVWebViewControllerActivitySafari.h; sourceTree = "<group>"; };
+		27D70D848F4FF910268D3B2D /* FTCoreTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTCoreTextView.h; path = FTCoreText/FTCoreTextView.h; sourceTree = "<group>"; };
+		27F239034E56CD428D73A46F /* PINMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PINMemoryCache.m; path = PINCache/PINMemoryCache.m; sourceTree = "<group>"; };
+		27F46C8EE65726C493966511 /* CZWeatherLocation+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CZWeatherLocation+Internal.h"; path = "CZWeatherKit/CZWeatherLocation+Internal.h"; sourceTree = "<group>"; };
+		280D3839E209671E4A23FC77 /* PINDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINDiskCache.h; path = PINCache/PINDiskCache.h; sourceTree = "<group>"; };
+		2ADC9C3B81165CC494BD3B50 /* Pods-Tarracopass-FTCoreText-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tarracopass-FTCoreText-prefix.pch"; sourceTree = "<group>"; };
+		2AF45C325BEEFAE26F2305C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2C63D274E676A80B913A83F8 /* Pods-Tarracopass-PINCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tarracopass-PINCache-prefix.pch"; sourceTree = "<group>"; };
+		2CE9349262F6DD33656AF190 /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ko.lproj; path = Resources/ko.lproj; sourceTree = "<group>"; };
+		2DA8C2FA0A135740345263AD /* Pods-Tarracopass-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tarracopass-acknowledgements.plist"; sourceTree = "<group>"; };
+		2E364BFCC770B78317A98B9D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		2FC0CF17F553086D4D90DDC1 /* CZWeatherService+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CZWeatherService+Internal.h"; path = "CZWeatherKit/CZWeatherService+Internal.h"; sourceTree = "<group>"; };
+		3091AD74F3561687D10A73FF /* CZOpenWeatherMapAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CZOpenWeatherMapAPI.m; path = CZWeatherKit/CZOpenWeatherMapAPI.m; sourceTree = "<group>"; };
+		312CAB7C9534FBA4E663A787 /* CZWeatherData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CZWeatherData.m; path = CZWeatherKit/CZWeatherData.m; sourceTree = "<group>"; };
+		31323B889B1CD0C61FC28DE9 /* CZWeatherForecastCondition+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CZWeatherForecastCondition+Internal.h"; path = "CZWeatherKit/CZWeatherForecastCondition+Internal.h"; sourceTree = "<group>"; };
+		31B5D4BD9B690299188DD828 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		35076E30E5366308BF32BD44 /* CZWeatherLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CZWeatherLocation.m; path = CZWeatherKit/CZWeatherLocation.m; sourceTree = "<group>"; };
+		35097DDE4CEF50E03D85004E /* CZWeatherService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZWeatherService.h; path = CZWeatherKit/CZWeatherService.h; sourceTree = "<group>"; };
+		371FBA2A4FDD701F52750F49 /* Pods-Tarracopass-EARestrictedScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tarracopass-EARestrictedScrollView.xcconfig"; sourceTree = "<group>"; };
+		395BC1BAC2919BEAA47AA4F8 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = de.lproj; path = Resources/de.lproj; sourceTree = "<group>"; };
+		398B0B6EF7EBDA2F067A6A14 /* NSDictionary+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Internal.h"; path = "CZWeatherKit/NSDictionary+Internal.h"; sourceTree = "<group>"; };
+		3E119F801777547EAB9F899E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		40E4C6CF10AB941378F51C3F /* CZWorldWeatherOnlineAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CZWorldWeatherOnlineAPI.m; path = CZWeatherKit/CZWorldWeatherOnlineAPI.m; sourceTree = "<group>"; };
+		41A2F2A6C5ECF2AA7DECA12F /* SVWebViewControllerActivitySafari-iPad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SVWebViewControllerActivitySafari-iPad.png"; path = "SVWebViewController/UIActivities/Safari/SVWebViewControllerActivitySafari-iPad.png"; sourceTree = "<group>"; };
+		425997525DDC5499526E73B8 /* CZWeatherKitInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZWeatherKitInternal.h; path = CZWeatherKit/CZWeatherKitInternal.h; sourceTree = "<group>"; };
+		45CC4B88597CF6D87B007D94 /* SVWebViewControllerBack.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = SVWebViewControllerBack.png; path = SVWebViewController/SVWebViewController.bundle/SVWebViewControllerBack.png; sourceTree = "<group>"; };
+		46F70863D9699990492C4926 /* CZWeatherHourlyCondition+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CZWeatherHourlyCondition+Internal.h"; path = "CZWeatherKit/CZWeatherHourlyCondition+Internal.h"; sourceTree = "<group>"; };
+		4756473A420DBCD64A4D1D8F /* CTFeedbackTopicsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTFeedbackTopicsViewController.m; path = Classes/CTFeedbackTopicsViewController.m; sourceTree = "<group>"; };
+		480B61E1899DC78E9E5B5884 /* libPods-Tarracopass-CTFeedback.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tarracopass-CTFeedback.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4871E5E3D3291E46BC2F04A9 /* Pods-Tarracopass-CZWeatherKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tarracopass-CZWeatherKit.xcconfig"; sourceTree = "<group>"; };
+		49FFD80F81966B075E7832E7 /* Pods-Tarracopass-PINCache-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tarracopass-PINCache-Private.xcconfig"; sourceTree = "<group>"; };
+		4AA3276A6B66FBA3A5581F8F /* EAIntroPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EAIntroPage.h; path = EAIntroView/EAIntroPage.h; sourceTree = "<group>"; };
+		4C4BC8AA603A6409A274277D /* PINCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINCache.h; path = PINCache/PINCache.h; sourceTree = "<group>"; };
+		4D613028E8AF03D82B2F33EC /* CZOpenWeatherMapAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZOpenWeatherMapAPI.h; path = CZWeatherKit/CZOpenWeatherMapAPI.h; sourceTree = "<group>"; };
+		4E460F944E394DC780914304 /* CZPINWeatherDataCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZPINWeatherDataCache.h; path = CZWeatherKit/CZPINWeatherDataCache.h; sourceTree = "<group>"; };
+		52080C6D39737796BBFA2A26 /* CZWorldWeatherOnlineAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZWorldWeatherOnlineAPI.h; path = CZWeatherKit/CZWorldWeatherOnlineAPI.h; sourceTree = "<group>"; };
+		536CEF51DEED85740D008671 /* Pods-Tarracopass-FCVerticalMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tarracopass-FCVerticalMenu.xcconfig"; sourceTree = "<group>"; };
+		53F6A94D4AC5EC04BE413EAA /* ur.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ur.lproj; path = Resources/ur.lproj; sourceTree = "<group>"; };
+		54B27F2BDA2BF194BD22B55F /* CZWeatherLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZWeatherLocation.h; path = CZWeatherKit/CZWeatherLocation.h; sourceTree = "<group>"; };
+		562794EA22DA513000084554 /* CZWeatherRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZWeatherRequest.h; path = CZWeatherKit/CZWeatherRequest.h; sourceTree = "<group>"; };
+		567365198F930C81FF94FE12 /* Pods-Tarracopass-FCVerticalMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tarracopass-FCVerticalMenu-dummy.m"; sourceTree = "<group>"; };
+		58C7AE1A961EC1CE26ECAAC0 /* CTFeedbackCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTFeedbackCell.m; path = Classes/CTFeedbackCell.m; sourceTree = "<group>"; };
+		593C01098ECDC85433CC0D88 /* CTFeedbackCellItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTFeedbackCellItem.m; path = Classes/CTFeedbackCellItem.m; sourceTree = "<group>"; };
+		5C545E31C7E809E541F4C309 /* libPods-Tarracopass-FTCoreText.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tarracopass-FTCoreText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C561BC7BA4A36D7D4FE4B5F /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ru.lproj; path = Resources/ru.lproj; sourceTree = "<group>"; };
+		5C884EE9FC4A0656B5A6B34E /* CZWeatherKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZWeatherKit.h; path = CZWeatherKit/CZWeatherKit.h; sourceTree = "<group>"; };
+		5E893F6BFB8C296EC35D5DDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		60FCA47D92CEB15A3F7038CB /* CZWorldWeatherOnlineRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CZWorldWeatherOnlineRequest.m; path = CZWeatherKit/CZWorldWeatherOnlineRequest.m; sourceTree = "<group>"; };
+		62CA45ABBFCF6FA00EE209D0 /* Pods-Tarracopass-EARestrictedScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tarracopass-EARestrictedScrollView-prefix.pch"; sourceTree = "<group>"; };
+		630A1BCDF14D8CCCC90FCF56 /* CZWundergroundRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZWundergroundRequest.h; path = CZWeatherKit/CZWundergroundRequest.h; sourceTree = "<group>"; };
+		63498EC49BC0CB962DCF5FB1 /* Pods-Tarracopass-SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tarracopass-SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		6394BBA6BDE4FCA0B0C8F30E /* EAIntroView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EAIntroView.m; path = EAIntroView/EAIntroView.m; sourceTree = "<group>"; };
+		649F2299F09EE4F820629D46 /* SVWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVWebViewController.h; path = SVWebViewController/SVWebViewController.h; sourceTree = "<group>"; };
+		66476E08F650602D052E96B7 /* FCVerticalMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FCVerticalMenu.m; path = Pod/Classes/FCVerticalMenu.m; sourceTree = "<group>"; };
+		684E6FE78B7ED7D15D3ED7A3 /* CZWeatherRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CZWeatherRequest.m; path = CZWeatherKit/CZWeatherRequest.m; sourceTree = "<group>"; };
+		694ABD79BD26339449818B59 /* Pods-Tarracopass-SVWebViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tarracopass-SVWebViewController.xcconfig"; sourceTree = "<group>"; };
+		6ABB0EF417FB7FDDC71A4ACD /* FCVerticalMenuItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FCVerticalMenuItem.h; path = Pod/Classes/FCVerticalMenuItem.h; sourceTree = "<group>"; };
+		6AC7A1CDD6D278A8775631BE /* CZPINWeatherDataCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CZPINWeatherDataCache.m; path = CZWeatherKit/CZPINWeatherDataCache.m; sourceTree = "<group>"; };
+		6D233086AB231BC1B3B1F31B /* CZOpenWeatherMapRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CZOpenWeatherMapRequest.m; path = CZWeatherKit/CZOpenWeatherMapRequest.m; sourceTree = "<group>"; };
+		6E555687BACA908D5D636998 /* Pods-Tarracopass-SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tarracopass-SVProgressHUD.xcconfig"; sourceTree = "<group>"; };
+		712873F6A877677B5548D7DF /* NSDictionary+Internal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Internal.m"; path = "CZWeatherKit/NSDictionary+Internal.m"; sourceTree = "<group>"; };
+		7346DF629493A3655FC04998 /* SVWebViewController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVWebViewController.bundle; path = SVWebViewController/SVWebViewController.bundle; sourceTree = "<group>"; };
+		74B415F4E9778E829473854A /* CZWeatherService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CZWeatherService.m; path = CZWeatherKit/CZWeatherService.m; sourceTree = "<group>"; };
+		78542921CA1019BDBF69C959 /* NSBundle+CTFeedback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+CTFeedback.h"; path = "Classes/NSBundle+CTFeedback.h"; sourceTree = "<group>"; };
+		7BC6558CAD94DC50266BA41C /* FTCoreTextStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTCoreTextStyle.h; path = FTCoreText/FTCoreTextStyle.h; sourceTree = "<group>"; };
+		7E9C224AD6CA6ACCB5EC4AFD /* CZWeatherKitTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZWeatherKitTypes.h; path = CZWeatherKit/CZWeatherKitTypes.h; sourceTree = "<group>"; };
+		7F1A4F7BC1D093DBB4AFC654 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		80649C1D09E1CE757A6EEAE4 /* Pods-Tarracopass-FCVerticalMenu-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tarracopass-FCVerticalMenu-Private.xcconfig"; sourceTree = "<group>"; };
+		8070400D7D3828C3CA68F14F /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		86132407E1ED8FF028A6ADB4 /* Pods-Tarracopass-SVWebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tarracopass-SVWebViewController-dummy.m"; sourceTree = "<group>"; };
+		8B22DA79DDD4D529F814D962 /* SVWebViewControllerActivityChrome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVWebViewControllerActivityChrome.m; path = SVWebViewController/UIActivities/Chrome/SVWebViewControllerActivityChrome.m; sourceTree = "<group>"; };
+		8D6B1B3513E7E94CECEF615A /* Pods-Tarracopass-EAIntroView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tarracopass-EAIntroView.xcconfig"; sourceTree = "<group>"; };
+		8FDA818DE271D2D917AF43B4 /* SVWebViewControllerActivityChrome-iPad@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SVWebViewControllerActivityChrome-iPad@2x.png"; path = "SVWebViewController/UIActivities/Chrome/SVWebViewControllerActivityChrome-iPad@2x.png"; sourceTree = "<group>"; };
+		929406B36C721936C90B162D /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hant.lproj"; path = "Resources/zh-Hant.lproj"; sourceTree = "<group>"; };
+		9335A5ADACB9A17C0CA81099 /* CZWeatherCurrentCondition+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CZWeatherCurrentCondition+Internal.h"; path = "CZWeatherKit/CZWeatherCurrentCondition+Internal.h"; sourceTree = "<group>"; };
+		94344FDBAF33C12C2E6EF19C /* CZOpenWeatherMapRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZOpenWeatherMapRequest.h; path = CZWeatherKit/CZOpenWeatherMapRequest.h; sourceTree = "<group>"; };
+		957067BFB1B92C28C3FB24AB /* FCVerticalMenuItemCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FCVerticalMenuItemCollectionViewCell.h; path = Pod/Classes/FCVerticalMenuItemCollectionViewCell.h; sourceTree = "<group>"; };
+		95B24D6FC2DE328C30C58EA5 /* SVWebViewControllerActivitySafari@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SVWebViewControllerActivitySafari@2x.png"; path = "SVWebViewController/UIActivities/Safari/SVWebViewControllerActivitySafari@2x.png"; sourceTree = "<group>"; };
+		96E91115BDB8DDCCAA10AB98 /* CZForecastioRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CZForecastioRequest.m; path = CZWeatherKit/CZForecastioRequest.m; sourceTree = "<group>"; };
+		9853C6421764F8FFE47A150B /* libPods-Tarracopass-EARestrictedScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tarracopass-EARestrictedScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98C2C7D668C500AF7CD8989E /* NSBundle+CTFeedback.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+CTFeedback.m"; path = "Classes/NSBundle+CTFeedback.m"; sourceTree = "<group>"; };
+		99FA0ACC894DD76C789CF7DA /* PlatformNames.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = PlatformNames.plist; path = Resources/PlatformNames.plist; sourceTree = "<group>"; };
+		9A8C5EACCDE9F2DA617BC998 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		9B919B695C5C7AFCED6ABA1D /* CZWeatherRequest+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CZWeatherRequest+Internal.h"; path = "CZWeatherKit/CZWeatherRequest+Internal.h"; sourceTree = "<group>"; };
+		A054D772615E6BFC0F471893 /* PINCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PINCache.m; path = PINCache/PINCache.m; sourceTree = "<group>"; };
+		A1660038A81DEB392DA57AD8 /* CTFeedback.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTFeedback.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A16C752456383A29B2A0BCD6 /* CZForecastioRequest+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CZForecastioRequest+Internal.h"; path = "CZWeatherKit/CZForecastioRequest+Internal.h"; sourceTree = "<group>"; };
+		A1A406110CAD84A8CC38DE0D /* FCVerticalMenuItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FCVerticalMenuItem.m; path = Pod/Classes/FCVerticalMenuItem.m; sourceTree = "<group>"; };
+		A1C9AA2E23FCB7D76DEE0B08 /* libPods-Tarracopass-SVWebViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tarracopass-SVWebViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42DB920CE4B529F409FDA18 /* CTFeedbackViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTFeedbackViewController.h; path = Classes/CTFeedbackViewController.h; sourceTree = "<group>"; };
+		A4DAD72ED9EB18909983F90A /* Pods-Tarracopass-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tarracopass-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A507A4C1E5584AE66B5288CB /* Pods-Tarracopass-EARestrictedScrollView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tarracopass-EARestrictedScrollView-Private.xcconfig"; sourceTree = "<group>"; };
+		A56825A6A3FBC714333D208A /* Pods-Tarracopass-EAIntroView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tarracopass-EAIntroView-Private.xcconfig"; sourceTree = "<group>"; };
+		A8E0CF62C5AFEC9A967D6131 /* FCVerticalMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FCVerticalMenu.h; path = Pod/Classes/FCVerticalMenu.h; sourceTree = "<group>"; };
+		A8F1C42183FD3C11D3E45292 /* CTFeedbackTopicsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTFeedbackTopicsViewController.h; path = Classes/CTFeedbackTopicsViewController.h; sourceTree = "<group>"; };
+		A946F2CBBEFC0BCEF039ADC9 /* libPods-Tarracopass-SVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tarracopass-SVProgressHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CF0E6997A5340534E6B004 /* Pods-Tarracopass-SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tarracopass-SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		ABB844A9D4D5FE2EC32F7F6C /* SVWebViewControllerActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVWebViewControllerActivity.h; path = SVWebViewController/UIActivities/SVWebViewControllerActivity.h; sourceTree = "<group>"; };
+		AC416C93856790B89855119F /* EARestrictedScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EARestrictedScrollView.m; path = EARestrictedScrollView/EARestrictedScrollView.m; sourceTree = "<group>"; };
+		B234FD8C31C845D36242D3FC /* hr-HR.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "hr-HR.lproj"; path = "Resources/hr-HR.lproj"; sourceTree = "<group>"; };
+		B24EB48B6C601CAAFCF3DC2D /* SVWebViewControllerNext@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SVWebViewControllerNext@2x.png"; path = "SVWebViewController/SVWebViewController.bundle/SVWebViewControllerNext@2x.png"; sourceTree = "<group>"; };
+		B3CB4904E09CAADC0BDA4116 /* SVWebViewControllerActivitySafari-iPad@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SVWebViewControllerActivitySafari-iPad@2x.png"; path = "SVWebViewController/UIActivities/Safari/SVWebViewControllerActivitySafari-iPad@2x.png"; sourceTree = "<group>"; };
+		B5617259DA8F68DEDB9A2A1B /* SVWebViewControllerActivitySafari.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVWebViewControllerActivitySafari.m; path = SVWebViewController/UIActivities/Safari/SVWebViewControllerActivitySafari.m; sourceTree = "<group>"; };
+		B5756ED6A61168FC161A6DE9 /* Pods-Tarracopass-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tarracopass-dummy.m"; sourceTree = "<group>"; };
+		BAD0BD22791327132464B98A /* CZWeatherData+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CZWeatherData+Internal.h"; path = "CZWeatherKit/CZWeatherData+Internal.h"; sourceTree = "<group>"; };
+		BC27E97CD127D509EB6C172F /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hans.lproj"; path = "Resources/zh-Hans.lproj"; sourceTree = "<group>"; };
+		C00935C71109761B20A47A92 /* libPods-Tarracopass.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tarracopass.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06A8500A3DD8C9AB1796739 /* Pods-Tarracopass-CTFeedback-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tarracopass-CTFeedback-Private.xcconfig"; sourceTree = "<group>"; };
+		C2135B2C1D57394C08D8CC54 /* SVWebViewControllerActivityChrome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVWebViewControllerActivityChrome.h; path = SVWebViewController/UIActivities/Chrome/SVWebViewControllerActivityChrome.h; sourceTree = "<group>"; };
+		C23BC08A5C1F29594A94898D /* CZWorldWeatherOnlineRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZWorldWeatherOnlineRequest.h; path = CZWeatherKit/CZWorldWeatherOnlineRequest.h; sourceTree = "<group>"; };
+		C283293D056BA5E6F566346C /* CZClimacons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZClimacons.h; path = CZWeatherKit/CZClimacons.h; sourceTree = "<group>"; };
+		C37D7AAFC959E61409904902 /* Pods-Tarracopass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tarracopass.debug.xcconfig"; sourceTree = "<group>"; };
+		C3D787F626EC25736319C701 /* Pods-Tarracopass-PINCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tarracopass-PINCache-dummy.m"; sourceTree = "<group>"; };
+		C40324867718FFC3632DBA81 /* PINMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINMemoryCache.h; path = PINCache/PINMemoryCache.h; sourceTree = "<group>"; };
+		C695E8F703708D3C94422AA6 /* CTFeedbackViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTFeedbackViewController.m; path = Classes/CTFeedbackViewController.m; sourceTree = "<group>"; };
+		C9BD16CAD6CE275E54D161AD /* FTCoreTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTCoreTextView.m; path = FTCoreText/FTCoreTextView.m; sourceTree = "<group>"; };
+		CA4B51D9A8902EDBC80D8AEE /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CCA0464FDA017AECA3EA7CEE /* Pods-Tarracopass-CZWeatherKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tarracopass-CZWeatherKit-dummy.m"; sourceTree = "<group>"; };
+		CE5F2A9888706B71EBAA71D7 /* EAIntroView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EAIntroView.h; path = EAIntroView/EAIntroView.h; sourceTree = "<group>"; };
+		D2B394564FD4A51C0068AA52 /* CZForecastioAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZForecastioAPI.h; path = CZWeatherKit/CZForecastioAPI.h; sourceTree = "<group>"; };
+		D3DF8A25EB76A0A694DB219A /* libPods-Tarracopass-EAIntroView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tarracopass-EAIntroView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58C27BFCACB68286236D3BD /* Pods-Tarracopass-FCVerticalMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tarracopass-FCVerticalMenu-prefix.pch"; sourceTree = "<group>"; };
+		D8F5EDE82B6F58D0C5630286 /* CZWeatherHourlyCondition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZWeatherHourlyCondition.h; path = CZWeatherKit/CZWeatherHourlyCondition.h; sourceTree = "<group>"; };
+		D9BC0418842DD9F2049E0DB6 /* CZWeatherHourlyCondition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CZWeatherHourlyCondition.m; path = CZWeatherKit/CZWeatherHourlyCondition.m; sourceTree = "<group>"; };
+		DC4F20A9F60899797A7FBA2A /* CZWeatherDataCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZWeatherDataCache.h; path = CZWeatherKit/CZWeatherDataCache.h; sourceTree = "<group>"; };
+		DD260B89E4D10F58EED2F1A5 /* CZWeatherForecastCondition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZWeatherForecastCondition.h; path = CZWeatherKit/CZWeatherForecastCondition.h; sourceTree = "<group>"; };
+		DD4EFAFDB2A730DB441FD6F0 /* CZWeatherForecastCondition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CZWeatherForecastCondition.m; path = CZWeatherKit/CZWeatherForecastCondition.m; sourceTree = "<group>"; };
+		DDC123125BCD1900AC619413 /* Pods-Tarracopass-CZWeatherKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tarracopass-CZWeatherKit-prefix.pch"; sourceTree = "<group>"; };
+		DE2CC512FCC63B635F782DE0 /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = Base.lproj; path = Resources/Base.lproj; sourceTree = "<group>"; };
+		DE6C26D30D4F37B8A0165617 /* libPods-Tarracopass-CZWeatherKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tarracopass-CZWeatherKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05E226BEF8A7DFADD88D72B /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		E453BD0D3C1A3BE76387D073 /* bs.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = bs.lproj; path = Resources/bs.lproj; sourceTree = "<group>"; };
+		E50F16806944DF7C84C1F620 /* SVWebViewControllerActivityChrome-iPad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SVWebViewControllerActivityChrome-iPad.png"; path = "SVWebViewController/UIActivities/Chrome/SVWebViewControllerActivityChrome-iPad.png"; sourceTree = "<group>"; };
+		E5F4CE584F63A2A3C0BF0AD0 /* PINDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PINDiskCache.m; path = PINCache/PINDiskCache.m; sourceTree = "<group>"; };
+		E6F1CDEB0CDF16CD5E5F7B42 /* Pods-Tarracopass-CTFeedback-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tarracopass-CTFeedback-dummy.m"; sourceTree = "<group>"; };
+		E7E28D82E1484602ECA3C055 /* Pods-Tarracopass-CTFeedback-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tarracopass-CTFeedback-prefix.pch"; sourceTree = "<group>"; };
+		E9582E5CCBA2A524FBDE8C65 /* Pods-Tarracopass-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tarracopass-environment.h"; sourceTree = "<group>"; };
+		EA1D21C9F68EE2441516E7FD /* libPods-Tarracopass-FCVerticalMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tarracopass-FCVerticalMenu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE26D398D201AE05CFEBFCE /* Pods-Tarracopass-PINCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tarracopass-PINCache.xcconfig"; sourceTree = "<group>"; };
+		EB3EB019B91D326ACA6184A9 /* Pods-Tarracopass-EAIntroView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tarracopass-EAIntroView-dummy.m"; sourceTree = "<group>"; };
+		EDEB988BBA0026EA78A2E802 /* CZWeatherCurrentCondition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CZWeatherCurrentCondition.m; path = CZWeatherKit/CZWeatherCurrentCondition.m; sourceTree = "<group>"; };
+		EE38839283348DD8CB11E74C /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = Resources/en.lproj; sourceTree = "<group>"; };
+		F06B449E4F1F46CCF55757AF /* Pods-Tarracopass-SVProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tarracopass-SVProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		F1A53DE4690F1E2F2C60FC36 /* CZWundergroundRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CZWundergroundRequest.m; path = CZWeatherKit/CZWundergroundRequest.m; sourceTree = "<group>"; };
+		F2B641F6404E87335A56677E /* CZForecastioAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CZForecastioAPI.m; path = CZWeatherKit/CZForecastioAPI.m; sourceTree = "<group>"; };
+		F2E8BEEB109F6961E94F790A /* libPods-Tarracopass-PINCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tarracopass-PINCache.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F56C73AB1E99099D792631 /* CZWeatherData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZWeatherData.h; path = CZWeatherKit/CZWeatherData.h; sourceTree = "<group>"; };
+		F2F714837F4B7DF129FBC3AE /* CZWundergroundAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CZWundergroundAPI.m; path = CZWeatherKit/CZWundergroundAPI.m; sourceTree = "<group>"; };
+		F31646565D87B77029FCAADB /* Pods-Tarracopass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tarracopass.release.xcconfig"; sourceTree = "<group>"; };
+		F40B20D555D267FD8118C5B3 /* EARestrictedScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EARestrictedScrollView.h; path = EARestrictedScrollView/EARestrictedScrollView.h; sourceTree = "<group>"; };
+		F7D5188497628D0A34E89341 /* SVWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVWebViewController.m; path = SVWebViewController/SVWebViewController.m; sourceTree = "<group>"; };
+		F84CE859CEEEEDDAAD274E4B /* Pods-Tarracopass-EAIntroView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tarracopass-EAIntroView-prefix.pch"; sourceTree = "<group>"; };
+		F886FDE02680CD33AB6F3763 /* SVModalWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVModalWebViewController.m; path = SVWebViewController/SVModalWebViewController.m; sourceTree = "<group>"; };
+		F88DC6DCB65DA0AAB9A5669C /* SVWebViewControllerActivityChrome@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SVWebViewControllerActivityChrome@2x.png"; path = "SVWebViewController/UIActivities/Chrome/SVWebViewControllerActivityChrome@2x.png"; sourceTree = "<group>"; };
+		F91DDD1BA2BF1AE30FE3FEEC /* CTFeedbackCellItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTFeedbackCellItem.h; path = Classes/CTFeedbackCellItem.h; sourceTree = "<group>"; };
+		F9B763E4410A50CD6FB1CAA8 /* FCVerticalMenu.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FCVerticalMenu.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9CF00A14D7BBF7FCB579DC4 /* CZWeatherCurrentCondition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZWeatherCurrentCondition.h; path = CZWeatherKit/CZWeatherCurrentCondition.h; sourceTree = "<group>"; };
+		FC453C16BEB1C26EFF5B1C59 /* CZOpenWeatherMapRequest+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CZOpenWeatherMapRequest+Internal.h"; path = "CZWeatherKit/CZOpenWeatherMapRequest+Internal.h"; sourceTree = "<group>"; };
+		FEBDD553EDC6BE9869A147C8 /* Pods-Tarracopass-CTFeedback.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tarracopass-CTFeedback.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02C2E4F9D9D2CAD0FE015323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F780E27B5393C053C22AFE23 /* Foundation.framework in Frameworks */,
+				E3D5CBCED578ED2EC453AE01 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C9A34BA3DB43B94CAF35F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21FF870A41C2ED011FEFBF8 /* Foundation.framework in Frameworks */,
+				F697839593C02B104C4FF767 /* QuartzCore.framework in Frameworks */,
+				4EB2C069422445A743752F95 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EA7B05E4C37F55709BC4745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E08FB54F78FEF22300392A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B0C11F4D2BE91A1A51C9C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F753252230FCC56C800A321 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61BF67673C01F35A7C793FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE1A43B578089418669BA1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C4387DCD587F107AB282C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EAFAE35EA21F72D86F2970A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3C1F0902337765C1E96F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E220D7BB3AD4B2B6FCA32D72 /* CoreText.framework in Frameworks */,
+				B7FB7DF63F0CA8A777B3C881 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2C99D1CDEC8AE56A1295DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14BE0E3FFBB3B269F4BAB7A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D036F8C1F2AAFF263E48CB72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45349EAB7BDF65397E3F087D /* Foundation.framework in Frameworks */,
+				30FB287BF06045BB0EBCE79C /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E777243114D3ED1EE34C821A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9432EEBC6B5EC6ACEBDC3A38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3E25C6C8688D23BF8FB9E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB12BAD67B60E9A32059333 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B9A32D1C8124A4725C82AFA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1416E60D8F6C0047B933B3B0 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		10B3E68A982EE68F61121ADD /* CTFeedback */ = {
+			isa = PBXGroup;
+			children = (
+				1AD655DD839EDEE157F2CFE7 /* CTFeedbackCell.h */,
+				58C7AE1A961EC1CE26ECAAC0 /* CTFeedbackCell.m */,
+				F91DDD1BA2BF1AE30FE3FEEC /* CTFeedbackCellItem.h */,
+				593C01098ECDC85433CC0D88 /* CTFeedbackCellItem.m */,
+				A8F1C42183FD3C11D3E45292 /* CTFeedbackTopicsViewController.h */,
+				4756473A420DBCD64A4D1D8F /* CTFeedbackTopicsViewController.m */,
+				A42DB920CE4B529F409FDA18 /* CTFeedbackViewController.h */,
+				C695E8F703708D3C94422AA6 /* CTFeedbackViewController.m */,
+				78542921CA1019BDBF69C959 /* NSBundle+CTFeedback.h */,
+				98C2C7D668C500AF7CD8989E /* NSBundle+CTFeedback.m */,
+				BA96ACD2AED231FA98B5C9BE /* Resources */,
+				54DBE9E5F8E64857D3C243FF /* Support Files */,
+			);
+			path = CTFeedback;
+			sourceTree = "<group>";
+		};
+		2E7FB4CDDED4D651284D48C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10B3E68A982EE68F61121ADD /* CTFeedback */,
+				D621D35795476DFDEBB34416 /* CZWeatherKit */,
+				5BFDC228BB3F5C0E9072A6E4 /* EAIntroView */,
+				C642B8AA8F26069D704A3FE9 /* EARestrictedScrollView */,
+				7610D9E0A4C05D0A5B7798DE /* FCVerticalMenu */,
+				F5493B7DA8ACA202A60F2863 /* FTCoreText */,
+				69F132462F1E857CB0368788 /* PINCache */,
+				DEFC5535504B1F75435CE539 /* SVProgressHUD */,
+				8911CE6F8E7EE774596E91A8 /* SVWebViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		39B1C36DF1871CC510CE3C15 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D6B1B3513E7E94CECEF615A /* Pods-Tarracopass-EAIntroView.xcconfig */,
+				A56825A6A3FBC714333D208A /* Pods-Tarracopass-EAIntroView-Private.xcconfig */,
+				EB3EB019B91D326ACA6184A9 /* Pods-Tarracopass-EAIntroView-dummy.m */,
+				F84CE859CEEEEDDAAD274E4B /* Pods-Tarracopass-EAIntroView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Tarracopass-EAIntroView";
+			sourceTree = "<group>";
+		};
+		4319219B662B9BF3CF2CA0D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE9EF3A42960C6E9FA2DB358 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48E6074222915155CA7F58DB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAE26D398D201AE05CFEBFCE /* Pods-Tarracopass-PINCache.xcconfig */,
+				49FFD80F81966B075E7832E7 /* Pods-Tarracopass-PINCache-Private.xcconfig */,
+				C3D787F626EC25736319C701 /* Pods-Tarracopass-PINCache-dummy.m */,
+				2C63D274E676A80B913A83F8 /* Pods-Tarracopass-PINCache-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Tarracopass-PINCache";
+			sourceTree = "<group>";
+		};
+		54DBE9E5F8E64857D3C243FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEBDD553EDC6BE9869A147C8 /* Pods-Tarracopass-CTFeedback.xcconfig */,
+				C06A8500A3DD8C9AB1796739 /* Pods-Tarracopass-CTFeedback-Private.xcconfig */,
+				E6F1CDEB0CDF16CD5E5F7B42 /* Pods-Tarracopass-CTFeedback-dummy.m */,
+				E7E28D82E1484602ECA3C055 /* Pods-Tarracopass-CTFeedback-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Tarracopass-CTFeedback";
+			sourceTree = "<group>";
+		};
+		58CCCAF1033CC7142776248B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E555687BACA908D5D636998 /* Pods-Tarracopass-SVProgressHUD.xcconfig */,
+				F06B449E4F1F46CCF55757AF /* Pods-Tarracopass-SVProgressHUD-Private.xcconfig */,
+				A9CF0E6997A5340534E6B004 /* Pods-Tarracopass-SVProgressHUD-dummy.m */,
+				63498EC49BC0CB962DCF5FB1 /* Pods-Tarracopass-SVProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Tarracopass-SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		5BFDC228BB3F5C0E9072A6E4 /* EAIntroView */ = {
+			isa = PBXGroup;
+			children = (
+				4AA3276A6B66FBA3A5581F8F /* EAIntroPage.h */,
+				14083129A0D554DA2456C4FA /* EAIntroPage.m */,
+				CE5F2A9888706B71EBAA71D7 /* EAIntroView.h */,
+				6394BBA6BDE4FCA0B0C8F30E /* EAIntroView.m */,
+				39B1C36DF1871CC510CE3C15 /* Support Files */,
+			);
+			path = EAIntroView;
+			sourceTree = "<group>";
+		};
+		69F132462F1E857CB0368788 /* PINCache */ = {
+			isa = PBXGroup;
+			children = (
+				1C112DAC2E80601846141D95 /* Nullability.h */,
+				4C4BC8AA603A6409A274277D /* PINCache.h */,
+				A054D772615E6BFC0F471893 /* PINCache.m */,
+				280D3839E209671E4A23FC77 /* PINDiskCache.h */,
+				E5F4CE584F63A2A3C0BF0AD0 /* PINDiskCache.m */,
+				C40324867718FFC3632DBA81 /* PINMemoryCache.h */,
+				27F239034E56CD428D73A46F /* PINMemoryCache.m */,
+				48E6074222915155CA7F58DB /* Support Files */,
+			);
+			path = PINCache;
+			sourceTree = "<group>";
+		};
+		7610D9E0A4C05D0A5B7798DE /* FCVerticalMenu */ = {
+			isa = PBXGroup;
+			children = (
+				A8E0CF62C5AFEC9A967D6131 /* FCVerticalMenu.h */,
+				66476E08F650602D052E96B7 /* FCVerticalMenu.m */,
+				6ABB0EF417FB7FDDC71A4ACD /* FCVerticalMenuItem.h */,
+				A1A406110CAD84A8CC38DE0D /* FCVerticalMenuItem.m */,
+				957067BFB1B92C28C3FB24AB /* FCVerticalMenuItemCollectionViewCell.h */,
+				21F0193E06B1037C79C68080 /* FCVerticalMenuItemCollectionViewCell.m */,
+				AAE2EB378D2D5BA53E4FA67B /* Support Files */,
+			);
+			path = FCVerticalMenu;
+			sourceTree = "<group>";
+		};
+		8911CE6F8E7EE774596E91A8 /* SVWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				20E45CD590B1AAA4BACB2689 /* SVModalWebViewController.h */,
+				F886FDE02680CD33AB6F3763 /* SVModalWebViewController.m */,
+				649F2299F09EE4F820629D46 /* SVWebViewController.h */,
+				F7D5188497628D0A34E89341 /* SVWebViewController.m */,
+				ABB844A9D4D5FE2EC32F7F6C /* SVWebViewControllerActivity.h */,
+				01A56B494666E737EDD666D5 /* SVWebViewControllerActivity.m */,
+				C2135B2C1D57394C08D8CC54 /* SVWebViewControllerActivityChrome.h */,
+				8B22DA79DDD4D529F814D962 /* SVWebViewControllerActivityChrome.m */,
+				249C793850DCBC32D20ACB7F /* SVWebViewControllerActivitySafari.h */,
+				B5617259DA8F68DEDB9A2A1B /* SVWebViewControllerActivitySafari.m */,
+				8C6BDC21F5EE54FF1F6223F8 /* Resources */,
+				C388837706059A00A35D5F7E /* Support Files */,
+			);
+			path = SVWebViewController;
+			sourceTree = "<group>";
+		};
+		8C6BDC21F5EE54FF1F6223F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7346DF629493A3655FC04998 /* SVWebViewController.bundle */,
+				E50F16806944DF7C84C1F620 /* SVWebViewControllerActivityChrome-iPad.png */,
+				8FDA818DE271D2D917AF43B4 /* SVWebViewControllerActivityChrome-iPad@2x.png */,
+				F88DC6DCB65DA0AAB9A5669C /* SVWebViewControllerActivityChrome@2x.png */,
+				41A2F2A6C5ECF2AA7DECA12F /* SVWebViewControllerActivitySafari-iPad.png */,
+				B3CB4904E09CAADC0BDA4116 /* SVWebViewControllerActivitySafari-iPad@2x.png */,
+				95B24D6FC2DE328C30C58EA5 /* SVWebViewControllerActivitySafari@2x.png */,
+				45CC4B88597CF6D87B007D94 /* SVWebViewControllerBack.png */,
+				159AB9CE0888EE1EE2B35407 /* SVWebViewControllerBack@2x.png */,
+				05AE20ED4E90EC1D8E761DD8 /* SVWebViewControllerNext.png */,
+				B24EB48B6C601CAAFCF3DC2D /* SVWebViewControllerNext@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9A5031E9DB961269179289E9 = {
+			isa = PBXGroup;
+			children = (
+				CA4B51D9A8902EDBC80D8AEE /* Podfile */,
+				4319219B662B9BF3CF2CA0D6 /* Frameworks */,
+				2E7FB4CDDED4D651284D48C8 /* Pods */,
+				A05FF10C0EF587F5C7BC0657 /* Products */,
+				BAB7D762D087C1ABD0368162 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A05FF10C0EF587F5C7BC0657 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1660038A81DEB392DA57AD8 /* CTFeedback.bundle */,
+				F9B763E4410A50CD6FB1CAA8 /* FCVerticalMenu.bundle */,
+				C00935C71109761B20A47A92 /* libPods-Tarracopass.a */,
+				480B61E1899DC78E9E5B5884 /* libPods-Tarracopass-CTFeedback.a */,
+				DE6C26D30D4F37B8A0165617 /* libPods-Tarracopass-CZWeatherKit.a */,
+				D3DF8A25EB76A0A694DB219A /* libPods-Tarracopass-EAIntroView.a */,
+				9853C6421764F8FFE47A150B /* libPods-Tarracopass-EARestrictedScrollView.a */,
+				EA1D21C9F68EE2441516E7FD /* libPods-Tarracopass-FCVerticalMenu.a */,
+				5C545E31C7E809E541F4C309 /* libPods-Tarracopass-FTCoreText.a */,
+				F2E8BEEB109F6961E94F790A /* libPods-Tarracopass-PINCache.a */,
+				A946F2CBBEFC0BCEF039ADC9 /* libPods-Tarracopass-SVProgressHUD.a */,
+				A1C9AA2E23FCB7D76DEE0B08 /* libPods-Tarracopass-SVWebViewController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAE2EB378D2D5BA53E4FA67B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				536CEF51DEED85740D008671 /* Pods-Tarracopass-FCVerticalMenu.xcconfig */,
+				80649C1D09E1CE757A6EEAE4 /* Pods-Tarracopass-FCVerticalMenu-Private.xcconfig */,
+				567365198F930C81FF94FE12 /* Pods-Tarracopass-FCVerticalMenu-dummy.m */,
+				D58C27BFCACB68286236D3BD /* Pods-Tarracopass-FCVerticalMenu-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Tarracopass-FCVerticalMenu";
+			sourceTree = "<group>";
+		};
+		BA96ACD2AED231FA98B5C9BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE2CC512FCC63B635F782DE0 /* Base.lproj */,
+				99FA0ACC894DD76C789CF7DA /* PlatformNames.plist */,
+				E453BD0D3C1A3BE76387D073 /* bs.lproj */,
+				395BC1BAC2919BEAA47AA4F8 /* de.lproj */,
+				EE38839283348DD8CB11E74C /* en.lproj */,
+				B234FD8C31C845D36242D3FC /* hr-HR.lproj */,
+				0F6977890180110A1E44CC55 /* ja.lproj */,
+				2CE9349262F6DD33656AF190 /* ko.lproj */,
+				5C561BC7BA4A36D7D4FE4B5F /* ru.lproj */,
+				0CA0C1D74132E8BF02BA3382 /* sr.lproj */,
+				53F6A94D4AC5EC04BE413EAA /* ur.lproj */,
+				BC27E97CD127D509EB6C172F /* zh-Hans.lproj */,
+				929406B36C721936C90B162D /* zh-Hant.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BAB7D762D087C1ABD0368162 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2C09BFE2C906EE7FE21755D /* Pods-Tarracopass */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C388837706059A00A35D5F7E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				694ABD79BD26339449818B59 /* Pods-Tarracopass-SVWebViewController.xcconfig */,
+				1184E94EE2C40FE799252878 /* Pods-Tarracopass-SVWebViewController-Private.xcconfig */,
+				86132407E1ED8FF028A6ADB4 /* Pods-Tarracopass-SVWebViewController-dummy.m */,
+				2127A5A5327A81974076F933 /* Pods-Tarracopass-SVWebViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Tarracopass-SVWebViewController";
+			sourceTree = "<group>";
+		};
+		C50464F87B4E08DE1C3D1211 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				237CEA797EAF59C83ECCA6C3 /* Pods-Tarracopass-FTCoreText.xcconfig */,
+				10CEF8114E082ACD335148F5 /* Pods-Tarracopass-FTCoreText-Private.xcconfig */,
+				019DF179BA1A0C62568FF8D3 /* Pods-Tarracopass-FTCoreText-dummy.m */,
+				2ADC9C3B81165CC494BD3B50 /* Pods-Tarracopass-FTCoreText-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Tarracopass-FTCoreText";
+			sourceTree = "<group>";
+		};
+		C642B8AA8F26069D704A3FE9 /* EARestrictedScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				F40B20D555D267FD8118C5B3 /* EARestrictedScrollView.h */,
+				AC416C93856790B89855119F /* EARestrictedScrollView.m */,
+				CF6E3A09654148B4176635A5 /* Support Files */,
+			);
+			path = EARestrictedScrollView;
+			sourceTree = "<group>";
+		};
+		CF6E3A09654148B4176635A5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				371FBA2A4FDD701F52750F49 /* Pods-Tarracopass-EARestrictedScrollView.xcconfig */,
+				A507A4C1E5584AE66B5288CB /* Pods-Tarracopass-EARestrictedScrollView-Private.xcconfig */,
+				144F0C13AFB4E0F15AAD0F31 /* Pods-Tarracopass-EARestrictedScrollView-dummy.m */,
+				62CA45ABBFCF6FA00EE209D0 /* Pods-Tarracopass-EARestrictedScrollView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Tarracopass-EARestrictedScrollView";
+			sourceTree = "<group>";
+		};
+		D621D35795476DFDEBB34416 /* CZWeatherKit */ = {
+			isa = PBXGroup;
+			children = (
+				C283293D056BA5E6F566346C /* CZClimacons.h */,
+				D2B394564FD4A51C0068AA52 /* CZForecastioAPI.h */,
+				F2B641F6404E87335A56677E /* CZForecastioAPI.m */,
+				1DD0F509ACCB195BF21DDEBD /* CZForecastioRequest.h */,
+				96E91115BDB8DDCCAA10AB98 /* CZForecastioRequest.m */,
+				A16C752456383A29B2A0BCD6 /* CZForecastioRequest+Internal.h */,
+				4D613028E8AF03D82B2F33EC /* CZOpenWeatherMapAPI.h */,
+				3091AD74F3561687D10A73FF /* CZOpenWeatherMapAPI.m */,
+				94344FDBAF33C12C2E6EF19C /* CZOpenWeatherMapRequest.h */,
+				6D233086AB231BC1B3B1F31B /* CZOpenWeatherMapRequest.m */,
+				FC453C16BEB1C26EFF5B1C59 /* CZOpenWeatherMapRequest+Internal.h */,
+				4E460F944E394DC780914304 /* CZPINWeatherDataCache.h */,
+				6AC7A1CDD6D278A8775631BE /* CZPINWeatherDataCache.m */,
+				1EF162BB0D7C6CDCEA265611 /* CZWeatherAPI.h */,
+				F9CF00A14D7BBF7FCB579DC4 /* CZWeatherCurrentCondition.h */,
+				EDEB988BBA0026EA78A2E802 /* CZWeatherCurrentCondition.m */,
+				9335A5ADACB9A17C0CA81099 /* CZWeatherCurrentCondition+Internal.h */,
+				F2F56C73AB1E99099D792631 /* CZWeatherData.h */,
+				312CAB7C9534FBA4E663A787 /* CZWeatherData.m */,
+				BAD0BD22791327132464B98A /* CZWeatherData+Internal.h */,
+				DC4F20A9F60899797A7FBA2A /* CZWeatherDataCache.h */,
+				DD260B89E4D10F58EED2F1A5 /* CZWeatherForecastCondition.h */,
+				DD4EFAFDB2A730DB441FD6F0 /* CZWeatherForecastCondition.m */,
+				31323B889B1CD0C61FC28DE9 /* CZWeatherForecastCondition+Internal.h */,
+				D8F5EDE82B6F58D0C5630286 /* CZWeatherHourlyCondition.h */,
+				D9BC0418842DD9F2049E0DB6 /* CZWeatherHourlyCondition.m */,
+				46F70863D9699990492C4926 /* CZWeatherHourlyCondition+Internal.h */,
+				5C884EE9FC4A0656B5A6B34E /* CZWeatherKit.h */,
+				425997525DDC5499526E73B8 /* CZWeatherKitInternal.h */,
+				7E9C224AD6CA6ACCB5EC4AFD /* CZWeatherKitTypes.h */,
+				54B27F2BDA2BF194BD22B55F /* CZWeatherLocation.h */,
+				35076E30E5366308BF32BD44 /* CZWeatherLocation.m */,
+				27F46C8EE65726C493966511 /* CZWeatherLocation+Internal.h */,
+				562794EA22DA513000084554 /* CZWeatherRequest.h */,
+				684E6FE78B7ED7D15D3ED7A3 /* CZWeatherRequest.m */,
+				9B919B695C5C7AFCED6ABA1D /* CZWeatherRequest+Internal.h */,
+				35097DDE4CEF50E03D85004E /* CZWeatherService.h */,
+				74B415F4E9778E829473854A /* CZWeatherService.m */,
+				2FC0CF17F553086D4D90DDC1 /* CZWeatherService+Internal.h */,
+				52080C6D39737796BBFA2A26 /* CZWorldWeatherOnlineAPI.h */,
+				40E4C6CF10AB941378F51C3F /* CZWorldWeatherOnlineAPI.m */,
+				C23BC08A5C1F29594A94898D /* CZWorldWeatherOnlineRequest.h */,
+				60FCA47D92CEB15A3F7038CB /* CZWorldWeatherOnlineRequest.m */,
+				05C0F96C2922856E6FF98108 /* CZWundergroundAPI.h */,
+				F2F714837F4B7DF129FBC3AE /* CZWundergroundAPI.m */,
+				630A1BCDF14D8CCCC90FCF56 /* CZWundergroundRequest.h */,
+				F1A53DE4690F1E2F2C60FC36 /* CZWundergroundRequest.m */,
+				163590BFB6120FA2F8C77C60 /* CZWundergroundRequest+Internal.h */,
+				398B0B6EF7EBDA2F067A6A14 /* NSDictionary+Internal.h */,
+				712873F6A877677B5548D7DF /* NSDictionary+Internal.m */,
+				ECF62C2936DA0501721047AB /* Support Files */,
+			);
+			path = CZWeatherKit;
+			sourceTree = "<group>";
+		};
+		DEFC5535504B1F75435CE539 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E05E226BEF8A7DFADD88D72B /* SVIndefiniteAnimatedView.h */,
+				31B5D4BD9B690299188DD828 /* SVIndefiniteAnimatedView.m */,
+				9A8C5EACCDE9F2DA617BC998 /* SVProgressHUD.h */,
+				8070400D7D3828C3CA68F14F /* SVProgressHUD.m */,
+				0B9A32D1C8124A4725C82AFA /* Resources */,
+				58CCCAF1033CC7142776248B /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		ECF62C2936DA0501721047AB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4871E5E3D3291E46BC2F04A9 /* Pods-Tarracopass-CZWeatherKit.xcconfig */,
+				1CDCEF5B8C19908788A87B12 /* Pods-Tarracopass-CZWeatherKit-Private.xcconfig */,
+				CCA0464FDA017AECA3EA7CEE /* Pods-Tarracopass-CZWeatherKit-dummy.m */,
+				DDC123125BCD1900AC619413 /* Pods-Tarracopass-CZWeatherKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Tarracopass-CZWeatherKit";
+			sourceTree = "<group>";
+		};
+		F2C09BFE2C906EE7FE21755D /* Pods-Tarracopass */ = {
+			isa = PBXGroup;
+			children = (
+				A4DAD72ED9EB18909983F90A /* Pods-Tarracopass-acknowledgements.markdown */,
+				2DA8C2FA0A135740345263AD /* Pods-Tarracopass-acknowledgements.plist */,
+				B5756ED6A61168FC161A6DE9 /* Pods-Tarracopass-dummy.m */,
+				E9582E5CCBA2A524FBDE8C65 /* Pods-Tarracopass-environment.h */,
+				1A2AC4591FB8156A82594895 /* Pods-Tarracopass-resources.sh */,
+				C37D7AAFC959E61409904902 /* Pods-Tarracopass.debug.xcconfig */,
+				F31646565D87B77029FCAADB /* Pods-Tarracopass.release.xcconfig */,
+			);
+			name = "Pods-Tarracopass";
+			path = "Target Support Files/Pods-Tarracopass";
+			sourceTree = "<group>";
+		};
+		F5493B7DA8ACA202A60F2863 /* FTCoreText */ = {
+			isa = PBXGroup;
+			children = (
+				7BC6558CAD94DC50266BA41C /* FTCoreTextStyle.h */,
+				141A309226C3F486D96D5F76 /* FTCoreTextStyle.m */,
+				27D70D848F4FF910268D3B2D /* FTCoreTextView.h */,
+				C9BD16CAD6CE275E54D161AD /* FTCoreTextView.m */,
+				C50464F87B4E08DE1C3D1211 /* Support Files */,
+			);
+			path = FTCoreText;
+			sourceTree = "<group>";
+		};
+		FE9EF3A42960C6E9FA2DB358 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2E364BFCC770B78317A98B9D /* CoreText.framework */,
+				5E893F6BFB8C296EC35D5DDA /* Foundation.framework */,
+				7F1A4F7BC1D093DBB4AFC654 /* MessageUI.framework */,
+				3E119F801777547EAB9F899E /* QuartzCore.framework */,
+				2AF45C325BEEFAE26F2305C5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00E7A36A9B2927779C8DECBD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F168BA8703F0E476D0EB06D /* EAIntroPage.h in Headers */,
+				672A897371D6AF15A63F8066 /* EAIntroView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150F7B5B23A8D8640D853BE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37B856030F4E9A928E565F3 /* CZClimacons.h in Headers */,
+				CAE1DF17302F6D80DD8299F2 /* CZForecastioAPI.h in Headers */,
+				22D465505E93E7D2160DBC60 /* CZForecastioRequest+Internal.h in Headers */,
+				CDF26BA2385AAB78C7ED0B8A /* CZForecastioRequest.h in Headers */,
+				C89DC00405D6FB6172CBBC69 /* CZOpenWeatherMapAPI.h in Headers */,
+				57AE5676741483ADB301836E /* CZOpenWeatherMapRequest+Internal.h in Headers */,
+				53BFAB1B5CBCB192402D5806 /* CZOpenWeatherMapRequest.h in Headers */,
+				F5BE1866610BA6D58E81A30D /* CZPINWeatherDataCache.h in Headers */,
+				031899F6AD8F17A4F4C5F4A7 /* CZWeatherAPI.h in Headers */,
+				4B59BEEC03DFA2B14900E903 /* CZWeatherCurrentCondition+Internal.h in Headers */,
+				313C3B897382EF9A21518077 /* CZWeatherCurrentCondition.h in Headers */,
+				C39031EACE12479E593146B0 /* CZWeatherData+Internal.h in Headers */,
+				7AA441C6D87F56B3FA992E0C /* CZWeatherData.h in Headers */,
+				F9A621A1038BE3D83B6F64E7 /* CZWeatherDataCache.h in Headers */,
+				328331AE7C4C731FF5A41B60 /* CZWeatherForecastCondition+Internal.h in Headers */,
+				998BF8E00F4BF864DE707BE5 /* CZWeatherForecastCondition.h in Headers */,
+				1055AD9BC4E006CFB0D7F77B /* CZWeatherHourlyCondition+Internal.h in Headers */,
+				CFE6A926F352AD94CDEFB0E9 /* CZWeatherHourlyCondition.h in Headers */,
+				1ABD55B053390FB8570CD3CD /* CZWeatherKit.h in Headers */,
+				845DB84142B4FF207731D860 /* CZWeatherKitInternal.h in Headers */,
+				42CB3658FE787D24A2FBCED5 /* CZWeatherKitTypes.h in Headers */,
+				AA283FBCEF936EFF67C2C087 /* CZWeatherLocation+Internal.h in Headers */,
+				D065301AF332BC218CC431AE /* CZWeatherLocation.h in Headers */,
+				B23A225F5131983086D4DDAA /* CZWeatherRequest+Internal.h in Headers */,
+				47365BB497221B31792F56B1 /* CZWeatherRequest.h in Headers */,
+				B883B8C1766504FEC4E1E3CA /* CZWeatherService+Internal.h in Headers */,
+				6DA6C24CE061F35DEB0CDF50 /* CZWeatherService.h in Headers */,
+				42394DA0A09BF22839CABA2E /* CZWorldWeatherOnlineAPI.h in Headers */,
+				E8935C7C5CE838E6787E2000 /* CZWorldWeatherOnlineRequest.h in Headers */,
+				E4B55D926BDE4E159264759E /* CZWundergroundAPI.h in Headers */,
+				5F3816354BB1EE3F8B4B3619 /* CZWundergroundRequest+Internal.h in Headers */,
+				8C5E24C2D2A96A417E6511AF /* CZWundergroundRequest.h in Headers */,
+				FD53E27E613E55ED52EF3786 /* NSDictionary+Internal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BEE3A4BD15210DA6921E882 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7378C1CDBF04785888AA58AB /* FTCoreTextStyle.h in Headers */,
+				0CDBD9A81E78D6EE7DBE8B8E /* FTCoreTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572E3C070198E352DDFC26EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AEE1EB5B23DB45109AB7996 /* FCVerticalMenu.h in Headers */,
+				9C1B8E334ACD6405F755D7FC /* FCVerticalMenuItem.h in Headers */,
+				A32D5CDAA64C925A8619087E /* FCVerticalMenuItemCollectionViewCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4B37A7360A5963A9766E50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AC5B7FA66125D3E6C6BF7E /* CTFeedbackCell.h in Headers */,
+				6355D6C2DD86495F755792F2 /* CTFeedbackCellItem.h in Headers */,
+				4113CF35B636319644792D2A /* CTFeedbackTopicsViewController.h in Headers */,
+				4A6AAA21F69A0EED42AEAC5A /* CTFeedbackViewController.h in Headers */,
+				59FB11C10CAAC979BD9EDEA0 /* NSBundle+CTFeedback.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A80C0A33734A4EFD1928A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66773D17F0FFD98AA652B8F /* EARestrictedScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3D69A6438AF8AE92A6E113 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4037474AB3E3D2FFD6D262 /* Nullability.h in Headers */,
+				39CA7B9FBBF9384B464850C8 /* PINCache.h in Headers */,
+				E4E28A645FD29397CB1DE310 /* PINDiskCache.h in Headers */,
+				1B18296C21D2167697CB48D7 /* PINMemoryCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C790D9459BF41BB118A2A105 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C247068226D9D6BDE8D0635 /* SVModalWebViewController.h in Headers */,
+				E578431D8F6A90E5CF16A86D /* SVWebViewController.h in Headers */,
+				C47A125012DBD344E447EAEE /* SVWebViewControllerActivity.h in Headers */,
+				649EA9C2927F9A59475C999C /* SVWebViewControllerActivityChrome.h in Headers */,
+				CF3A88A048B91FE9F09C85F9 /* SVWebViewControllerActivitySafari.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D481872C228BDE09521BDA26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22EC6DB89070B949B031F14 /* SVIndefiniteAnimatedView.h in Headers */,
+				62B8D1D786F5C3F53135A00E /* SVProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		003B3198A6FE850AA638D666 /* Pods-Tarracopass-FCVerticalMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CACB1996871F07F4F73C2CA /* Build configuration list for PBXNativeTarget "Pods-Tarracopass-FCVerticalMenu" */;
+			buildPhases = (
+				63A81F8CFF4758B3867DB17F /* Sources */,
+				42C9A34BA3DB43B94CAF35F0 /* Frameworks */,
+				572E3C070198E352DDFC26EB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2740E3FF75BC4804DE68CE70 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tarracopass-FCVerticalMenu";
+			productName = "Pods-Tarracopass-FCVerticalMenu";
+			productReference = EA1D21C9F68EE2441516E7FD /* libPods-Tarracopass-FCVerticalMenu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		30515A4E9B0F37B3A5F5A408 /* Pods-Tarracopass-CTFeedback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00D3349A785CE50531084A8E /* Build configuration list for PBXNativeTarget "Pods-Tarracopass-CTFeedback" */;
+			buildPhases = (
+				B11C3EC2335B0EC5D47E2AFA /* Sources */,
+				02C2E4F9D9D2CAD0FE015323 /* Frameworks */,
+				5B4B37A7360A5963A9766E50 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C48B63C339BC00AB43D693FF /* PBXTargetDependency */,
+			);
+			name = "Pods-Tarracopass-CTFeedback";
+			productName = "Pods-Tarracopass-CTFeedback";
+			productReference = 480B61E1899DC78E9E5B5884 /* libPods-Tarracopass-CTFeedback.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		41F9111942C5A5B1797AFF8F /* Pods-Tarracopass-CTFeedback-CTFeedback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07A935AC6DFA5D7ACAB784D8 /* Build configuration list for PBXNativeTarget "Pods-Tarracopass-CTFeedback-CTFeedback" */;
+			buildPhases = (
+				7A607E0B66E26793D373B702 /* Sources */,
+				6EAFAE35EA21F72D86F2970A /* Frameworks */,
+				48FEA76BCC27676B65FE557A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tarracopass-CTFeedback-CTFeedback";
+			productName = "Pods-Tarracopass-CTFeedback-CTFeedback";
+			productReference = A1660038A81DEB392DA57AD8 /* CTFeedback.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6F2D3DB25E3324EA507B7A84 /* Pods-Tarracopass-FCVerticalMenu-FCVerticalMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E91B1801FBA69ED6DB142F9 /* Build configuration list for PBXNativeTarget "Pods-Tarracopass-FCVerticalMenu-FCVerticalMenu" */;
+			buildPhases = (
+				735319C14D6041C41EDE35E3 /* Sources */,
+				61BF67673C01F35A7C793FE4 /* Frameworks */,
+				05710F3B680F08C2F9F6372A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tarracopass-FCVerticalMenu-FCVerticalMenu";
+			productName = "Pods-Tarracopass-FCVerticalMenu-FCVerticalMenu";
+			productReference = F9B763E4410A50CD6FB1CAA8 /* FCVerticalMenu.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		775A51EC203EF3B1F879C614 /* Pods-Tarracopass-CZWeatherKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60D4D2667F6C2DEB46782823 /* Build configuration list for PBXNativeTarget "Pods-Tarracopass-CZWeatherKit" */;
+			buildPhases = (
+				BE6A71CD8E2812F4E3D558F4 /* Sources */,
+				6AE1A43B578089418669BA1E /* Frameworks */,
+				150F7B5B23A8D8640D853BE2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				558B30BF0A5C1BA049A1D616 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tarracopass-CZWeatherKit";
+			productName = "Pods-Tarracopass-CZWeatherKit";
+			productReference = DE6C26D30D4F37B8A0165617 /* libPods-Tarracopass-CZWeatherKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9C30BB6C536B65AC030798B4 /* Pods-Tarracopass-SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21792CC63E605927E93807AF /* Build configuration list for PBXNativeTarget "Pods-Tarracopass-SVProgressHUD" */;
+			buildPhases = (
+				7C28CFA7A8B19E305C9C2315 /* Sources */,
+				D036F8C1F2AAFF263E48CB72 /* Frameworks */,
+				D481872C228BDE09521BDA26 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tarracopass-SVProgressHUD";
+			productName = "Pods-Tarracopass-SVProgressHUD";
+			productReference = A946F2CBBEFC0BCEF039ADC9 /* libPods-Tarracopass-SVProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A1932ADE525117F5FCB07504 /* Pods-Tarracopass-EARestrictedScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 803C9A1D0755891941F09228 /* Build configuration list for PBXNativeTarget "Pods-Tarracopass-EARestrictedScrollView" */;
+			buildPhases = (
+				223F9C7A50D75F088879F31A /* Sources */,
+				4EA7B05E4C37F55709BC4745 /* Frameworks */,
+				71A80C0A33734A4EFD1928A5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tarracopass-EARestrictedScrollView";
+			productName = "Pods-Tarracopass-EARestrictedScrollView";
+			productReference = 9853C6421764F8FFE47A150B /* libPods-Tarracopass-EARestrictedScrollView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A9FA9A3CE8E5CAF58F9167FC /* Pods-Tarracopass-EAIntroView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E10ADD8D627CDD723AF9C5 /* Build configuration list for PBXNativeTarget "Pods-Tarracopass-EAIntroView" */;
+			buildPhases = (
+				F3EFF27CCBAD702C20FE227D /* Sources */,
+				57B0C11F4D2BE91A1A51C9C8 /* Frameworks */,
+				00E7A36A9B2927779C8DECBD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C09A8FE6C0D48233A97B734 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tarracopass-EAIntroView";
+			productName = "Pods-Tarracopass-EAIntroView";
+			productReference = D3DF8A25EB76A0A694DB219A /* libPods-Tarracopass-EAIntroView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C0E0720FB1729FBAA1F6C473 /* Pods-Tarracopass-FTCoreText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779CDAF093DA66BA2D86BAF3 /* Build configuration list for PBXNativeTarget "Pods-Tarracopass-FTCoreText" */;
+			buildPhases = (
+				6591575DE429ADEB4E0950EB /* Sources */,
+				9C3C1F0902337765C1E96F5F /* Frameworks */,
+				2BEE3A4BD15210DA6921E882 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tarracopass-FTCoreText";
+			productName = "Pods-Tarracopass-FTCoreText";
+			productReference = 5C545E31C7E809E541F4C309 /* libPods-Tarracopass-FTCoreText.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C79E4A8FA59C3A58F10DAC4D /* Pods-Tarracopass-PINCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AE66151EA3A150EC2559AF2 /* Build configuration list for PBXNativeTarget "Pods-Tarracopass-PINCache" */;
+			buildPhases = (
+				2C533B6AA3AA6B69AB6BF85A /* Sources */,
+				FA3E25C6C8688D23BF8FB9E8 /* Frameworks */,
+				7F3D69A6438AF8AE92A6E113 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tarracopass-PINCache";
+			productName = "Pods-Tarracopass-PINCache";
+			productReference = F2E8BEEB109F6961E94F790A /* libPods-Tarracopass-PINCache.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C8FEFB115F1FCAD19D2AB5CD /* Pods-Tarracopass-SVWebViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 625DEA6A41F9604814BADDD2 /* Build configuration list for PBXNativeTarget "Pods-Tarracopass-SVWebViewController" */;
+			buildPhases = (
+				FE3792DB9A4937E6CF02BBDB /* Sources */,
+				BA2C99D1CDEC8AE56A1295DA /* Frameworks */,
+				C790D9459BF41BB118A2A105 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tarracopass-SVWebViewController";
+			productName = "Pods-Tarracopass-SVWebViewController";
+			productReference = A1C9AA2E23FCB7D76DEE0B08 /* libPods-Tarracopass-SVWebViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F78FD4643DB2DD44E2AAC1FC /* Pods-Tarracopass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96AFD3D48544AD7B0ADDB5CD /* Build configuration list for PBXNativeTarget "Pods-Tarracopass" */;
+			buildPhases = (
+				CB4F252FF0375EAE71A37E5A /* Sources */,
+				E777243114D3ED1EE34C821A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B51506B59245E3BC280B3D12 /* PBXTargetDependency */,
+				D46D2077A76CC678317863B2 /* PBXTargetDependency */,
+				888C55F7B6EA97CD44E23123 /* PBXTargetDependency */,
+				C6CF9570FF554E4CA729B947 /* PBXTargetDependency */,
+				DE1DE1F6E8257FBF005E4BFD /* PBXTargetDependency */,
+				9A5CE8197B4940F34788C7CA /* PBXTargetDependency */,
+				4E40EA3FD279B394A17401F8 /* PBXTargetDependency */,
+				04A35F5DFADAFF4356B43229 /* PBXTargetDependency */,
+				4DA0117FC9BFA37EB19D1893 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tarracopass";
+			productName = "Pods-Tarracopass";
+			productReference = C00935C71109761B20A47A92 /* libPods-Tarracopass.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDAF2753107E60B53D9D4E27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 000F3EF66B4C6A03B89BCFF9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9A5031E9DB961269179289E9;
+			productRefGroup = A05FF10C0EF587F5C7BC0657 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F78FD4643DB2DD44E2AAC1FC /* Pods-Tarracopass */,
+				30515A4E9B0F37B3A5F5A408 /* Pods-Tarracopass-CTFeedback */,
+				41F9111942C5A5B1797AFF8F /* Pods-Tarracopass-CTFeedback-CTFeedback */,
+				775A51EC203EF3B1F879C614 /* Pods-Tarracopass-CZWeatherKit */,
+				A9FA9A3CE8E5CAF58F9167FC /* Pods-Tarracopass-EAIntroView */,
+				A1932ADE525117F5FCB07504 /* Pods-Tarracopass-EARestrictedScrollView */,
+				003B3198A6FE850AA638D666 /* Pods-Tarracopass-FCVerticalMenu */,
+				6F2D3DB25E3324EA507B7A84 /* Pods-Tarracopass-FCVerticalMenu-FCVerticalMenu */,
+				C0E0720FB1729FBAA1F6C473 /* Pods-Tarracopass-FTCoreText */,
+				C79E4A8FA59C3A58F10DAC4D /* Pods-Tarracopass-PINCache */,
+				9C30BB6C536B65AC030798B4 /* Pods-Tarracopass-SVProgressHUD */,
+				C8FEFB115F1FCAD19D2AB5CD /* Pods-Tarracopass-SVWebViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05710F3B680F08C2F9F6372A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48FEA76BCC27676B65FE557A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BBAE38F0E05A52BCB9DAE4A /* Base.lproj in Resources */,
+				27AD8C943E3C78A0DBB601B0 /* PlatformNames.plist in Resources */,
+				B1C0A9A8FA2DA5E1FC869D7A /* bs.lproj in Resources */,
+				EB571D2EAF0D268E9D59103F /* de.lproj in Resources */,
+				2501352030EC44CBCF52E3B0 /* en.lproj in Resources */,
+				7BDEA23BAE97D7AA0296EE5F /* hr-HR.lproj in Resources */,
+				54EE5E6B6FC0E07CC56856CA /* ja.lproj in Resources */,
+				A8929BD415D174FC4104E841 /* ko.lproj in Resources */,
+				E594F90F9CF1ECA317C4773F /* ru.lproj in Resources */,
+				C39825507E806D1CBC105EC5 /* sr.lproj in Resources */,
+				78A61402E06D41F1EC0F715B /* ur.lproj in Resources */,
+				E6559CEC8221D0FCC9C30594 /* zh-Hans.lproj in Resources */,
+				246BC96E89E9BF6754B227C6 /* zh-Hant.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		223F9C7A50D75F088879F31A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC00C56254EAE19DBA9B785 /* EARestrictedScrollView.m in Sources */,
+				70D6BDA779E28B59EBD5AEE8 /* Pods-Tarracopass-EARestrictedScrollView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C533B6AA3AA6B69AB6BF85A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8262D37EE7D90BD71CC86570 /* PINCache.m in Sources */,
+				147EA6F09EAC78BA6CE4C7B2 /* PINDiskCache.m in Sources */,
+				0901892251C44945A26CC096 /* PINMemoryCache.m in Sources */,
+				996D95A83D3EE02527C8D64D /* Pods-Tarracopass-PINCache-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A81F8CFF4758B3867DB17F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B753A412E09CC4080469015 /* FCVerticalMenu.m in Sources */,
+				D253B3D33054465E8CD2B50A /* FCVerticalMenuItem.m in Sources */,
+				161F5F02E55F3DFB3659F811 /* FCVerticalMenuItemCollectionViewCell.m in Sources */,
+				BB9991591F32463DFC391E7B /* Pods-Tarracopass-FCVerticalMenu-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6591575DE429ADEB4E0950EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1029959E10F659ED0C8528A6 /* FTCoreTextStyle.m in Sources */,
+				C8302D0667E1908194F670C8 /* FTCoreTextView.m in Sources */,
+				87D97C8CE95EE3F296DE762F /* Pods-Tarracopass-FTCoreText-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		735319C14D6041C41EDE35E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A607E0B66E26793D373B702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C28CFA7A8B19E305C9C2315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC49D27AF97EA671FA7D4C27 /* Pods-Tarracopass-SVProgressHUD-dummy.m in Sources */,
+				65E7C64576C9DEBAF4E95AA4 /* SVIndefiniteAnimatedView.m in Sources */,
+				3091605FC187D31DDD6D6C56 /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11C3EC2335B0EC5D47E2AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B73AD6E33878CBFD8CBC65 /* CTFeedbackCell.m in Sources */,
+				7FC9C2A65822F827DA9A586D /* CTFeedbackCellItem.m in Sources */,
+				0846AC715CEF309A12ACC9A3 /* CTFeedbackTopicsViewController.m in Sources */,
+				E11D3761DB3CB8825AB3450F /* CTFeedbackViewController.m in Sources */,
+				9274A4F66C86E9267502706C /* NSBundle+CTFeedback.m in Sources */,
+				ED7E337777775A16F63F9D10 /* Pods-Tarracopass-CTFeedback-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6A71CD8E2812F4E3D558F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14C7381363D17B2AD4F9B68 /* CZForecastioAPI.m in Sources */,
+				DF35A891905851B007154AE3 /* CZForecastioRequest.m in Sources */,
+				1DBC840C25D357629880D9C3 /* CZOpenWeatherMapAPI.m in Sources */,
+				AE531753BF9CB686C25011B1 /* CZOpenWeatherMapRequest.m in Sources */,
+				75425C471AFF4B753EFF3F62 /* CZPINWeatherDataCache.m in Sources */,
+				7036ED7102F500CA971F8262 /* CZWeatherCurrentCondition.m in Sources */,
+				7F2DB28334D2845CB5FC6CD0 /* CZWeatherData.m in Sources */,
+				80ADD6A0CDC00628CE0A9198 /* CZWeatherForecastCondition.m in Sources */,
+				ED83F62A483B6D8A227C5815 /* CZWeatherHourlyCondition.m in Sources */,
+				6EA9FC08B81A012A233595C8 /* CZWeatherLocation.m in Sources */,
+				9E1FB24C1524B1232EB80673 /* CZWeatherRequest.m in Sources */,
+				087DA9C6E262364692248398 /* CZWeatherService.m in Sources */,
+				73B1F0DE92ECEB2660DE48DC /* CZWorldWeatherOnlineAPI.m in Sources */,
+				20E9D0F1BAEE86D6A09357E8 /* CZWorldWeatherOnlineRequest.m in Sources */,
+				5890109F0CEC9A59013629D0 /* CZWundergroundAPI.m in Sources */,
+				C860A12994CA99527552B56B /* CZWundergroundRequest.m in Sources */,
+				1F1E966DAADF6536641A3AC1 /* NSDictionary+Internal.m in Sources */,
+				8F9A6828895A727EEE8ED3C2 /* Pods-Tarracopass-CZWeatherKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4F252FF0375EAE71A37E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6465BEB010C02CF25507248 /* Pods-Tarracopass-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EFF27CCBAD702C20FE227D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9474F54AD89EAEFB924601A5 /* EAIntroPage.m in Sources */,
+				6C2606F57040CBAD37F1011D /* EAIntroView.m in Sources */,
+				BBD1F79D9E6A969CFD01ECFD /* Pods-Tarracopass-EAIntroView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3792DB9A4937E6CF02BBDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B24FB361D477DDC9BFDC7E /* Pods-Tarracopass-SVWebViewController-dummy.m in Sources */,
+				3DBE62E743ABFAF5555C8F44 /* SVModalWebViewController.m in Sources */,
+				00B614E5B7DB97958982BCD9 /* SVWebViewController.m in Sources */,
+				4534866FABFC57B0D005CDB0 /* SVWebViewControllerActivity.m in Sources */,
+				DC7EA0029EB6F24EB301BEEA /* SVWebViewControllerActivityChrome.m in Sources */,
+				C268DDD5A161A7A55D895F93 /* SVWebViewControllerActivitySafari.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04A35F5DFADAFF4356B43229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tarracopass-SVProgressHUD";
+			target = 9C30BB6C536B65AC030798B4 /* Pods-Tarracopass-SVProgressHUD */;
+			targetProxy = 4B14392E71957AB7AB942DCC /* PBXContainerItemProxy */;
+		};
+		2740E3FF75BC4804DE68CE70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tarracopass-FCVerticalMenu-FCVerticalMenu";
+			target = 6F2D3DB25E3324EA507B7A84 /* Pods-Tarracopass-FCVerticalMenu-FCVerticalMenu */;
+			targetProxy = B415C5EB0A01FBBE3C9E1BB7 /* PBXContainerItemProxy */;
+		};
+		4DA0117FC9BFA37EB19D1893 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tarracopass-SVWebViewController";
+			target = C8FEFB115F1FCAD19D2AB5CD /* Pods-Tarracopass-SVWebViewController */;
+			targetProxy = 21D629F4F829AF6950DA148A /* PBXContainerItemProxy */;
+		};
+		4E40EA3FD279B394A17401F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tarracopass-PINCache";
+			target = C79E4A8FA59C3A58F10DAC4D /* Pods-Tarracopass-PINCache */;
+			targetProxy = 940C18DEAD8B7311BFF046A0 /* PBXContainerItemProxy */;
+		};
+		558B30BF0A5C1BA049A1D616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tarracopass-PINCache";
+			target = C79E4A8FA59C3A58F10DAC4D /* Pods-Tarracopass-PINCache */;
+			targetProxy = 68ACEAB56E8CEF49F5DAE9B5 /* PBXContainerItemProxy */;
+		};
+		888C55F7B6EA97CD44E23123 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tarracopass-EAIntroView";
+			target = A9FA9A3CE8E5CAF58F9167FC /* Pods-Tarracopass-EAIntroView */;
+			targetProxy = B67874B58465ABC005FC48D8 /* PBXContainerItemProxy */;
+		};
+		9A5CE8197B4940F34788C7CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tarracopass-FTCoreText";
+			target = C0E0720FB1729FBAA1F6C473 /* Pods-Tarracopass-FTCoreText */;
+			targetProxy = 28789DB2B9367EF73851BB0C /* PBXContainerItemProxy */;
+		};
+		9C09A8FE6C0D48233A97B734 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tarracopass-EARestrictedScrollView";
+			target = A1932ADE525117F5FCB07504 /* Pods-Tarracopass-EARestrictedScrollView */;
+			targetProxy = EE286DF49862A33C91AC65E3 /* PBXContainerItemProxy */;
+		};
+		B51506B59245E3BC280B3D12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tarracopass-CTFeedback";
+			target = 30515A4E9B0F37B3A5F5A408 /* Pods-Tarracopass-CTFeedback */;
+			targetProxy = 5C09EA041D5D84A063D8A114 /* PBXContainerItemProxy */;
+		};
+		C48B63C339BC00AB43D693FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tarracopass-CTFeedback-CTFeedback";
+			target = 41F9111942C5A5B1797AFF8F /* Pods-Tarracopass-CTFeedback-CTFeedback */;
+			targetProxy = 210FAD0865D9E6C3E7BBF82D /* PBXContainerItemProxy */;
+		};
+		C6CF9570FF554E4CA729B947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tarracopass-EARestrictedScrollView";
+			target = A1932ADE525117F5FCB07504 /* Pods-Tarracopass-EARestrictedScrollView */;
+			targetProxy = 885B473F2114288F90A84B36 /* PBXContainerItemProxy */;
+		};
+		D46D2077A76CC678317863B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tarracopass-CZWeatherKit";
+			target = 775A51EC203EF3B1F879C614 /* Pods-Tarracopass-CZWeatherKit */;
+			targetProxy = 6EFC6C5FF0F8E12EE54DE228 /* PBXContainerItemProxy */;
+		};
+		DE1DE1F6E8257FBF005E4BFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tarracopass-FCVerticalMenu";
+			target = 003B3198A6FE850AA638D666 /* Pods-Tarracopass-FCVerticalMenu */;
+			targetProxy = 32594CF59FE6FD8A1208B9F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01192327F597A5CF1CAEF6EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A56825A6A3FBC714333D208A /* Pods-Tarracopass-EAIntroView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tarracopass-EAIntroView/Pods-Tarracopass-EAIntroView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		030442F38ADA057EBF2D4389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A507A4C1E5584AE66B5288CB /* Pods-Tarracopass-EARestrictedScrollView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tarracopass-EARestrictedScrollView/Pods-Tarracopass-EARestrictedScrollView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0841C0B26A772F133259457F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1184E94EE2C40FE799252878 /* Pods-Tarracopass-SVWebViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tarracopass-SVWebViewController/Pods-Tarracopass-SVWebViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3597656DEBC3A6165433457E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F06B449E4F1F46CCF55757AF /* Pods-Tarracopass-SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tarracopass-SVProgressHUD/Pods-Tarracopass-SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3D0E38BB4337925321E861D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49FFD80F81966B075E7832E7 /* Pods-Tarracopass-PINCache-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tarracopass-PINCache/Pods-Tarracopass-PINCache-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4A72C29156E152A1B6A5F742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10CEF8114E082ACD335148F5 /* Pods-Tarracopass-FTCoreText-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tarracopass-FTCoreText/Pods-Tarracopass-FTCoreText-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		53F3E1A86F04B75199868C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80649C1D09E1CE757A6EEAE4 /* Pods-Tarracopass-FCVerticalMenu-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tarracopass-FCVerticalMenu/Pods-Tarracopass-FCVerticalMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5532E2AA2AB8546EA1A7B497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F31646565D87B77029FCAADB /* Pods-Tarracopass.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		64E299EE90E0F72CF2EFCA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A56825A6A3FBC714333D208A /* Pods-Tarracopass-EAIntroView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tarracopass-EAIntroView/Pods-Tarracopass-EAIntroView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6F6A6DFE13EFA6438B82D9B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C37D7AAFC959E61409904902 /* Pods-Tarracopass.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6FAFD8F08BA47E05BA2FA37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80649C1D09E1CE757A6EEAE4 /* Pods-Tarracopass-FCVerticalMenu-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tarracopass-FCVerticalMenu/Pods-Tarracopass-FCVerticalMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7377571FD0501DA2ADD06A16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1184E94EE2C40FE799252878 /* Pods-Tarracopass-SVWebViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tarracopass-SVWebViewController/Pods-Tarracopass-SVWebViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		86FB1703C912C2A30EA61139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CDCEF5B8C19908788A87B12 /* Pods-Tarracopass-CZWeatherKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tarracopass-CZWeatherKit/Pods-Tarracopass-CZWeatherKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9EE58E4B7A5E273BCC2DD240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80649C1D09E1CE757A6EEAE4 /* Pods-Tarracopass-FCVerticalMenu-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FCVerticalMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A1E9B1AB0F8DDD56913A3E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80649C1D09E1CE757A6EEAE4 /* Pods-Tarracopass-FCVerticalMenu-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FCVerticalMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A757D6D3F13C511AC18BB95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C06A8500A3DD8C9AB1796739 /* Pods-Tarracopass-CTFeedback-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CTFeedback;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B022160F63689BD24EC5EDE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C06A8500A3DD8C9AB1796739 /* Pods-Tarracopass-CTFeedback-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CTFeedback;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B9364746BBE1A3CAAFD877F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C06A8500A3DD8C9AB1796739 /* Pods-Tarracopass-CTFeedback-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tarracopass-CTFeedback/Pods-Tarracopass-CTFeedback-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BF2D5B41230182EA4347D235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBC371AB1C6B5AAF6C7E124F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E0AB4DA83D11C6C646E3DBB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10CEF8114E082ACD335148F5 /* Pods-Tarracopass-FTCoreText-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tarracopass-FTCoreText/Pods-Tarracopass-FTCoreText-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E623484449028C40094BE3EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F06B449E4F1F46CCF55757AF /* Pods-Tarracopass-SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tarracopass-SVProgressHUD/Pods-Tarracopass-SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E9086E4EFDA7709403FB2E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A507A4C1E5584AE66B5288CB /* Pods-Tarracopass-EARestrictedScrollView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tarracopass-EARestrictedScrollView/Pods-Tarracopass-EARestrictedScrollView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EF5C98537D54C7DD39067452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CDCEF5B8C19908788A87B12 /* Pods-Tarracopass-CZWeatherKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tarracopass-CZWeatherKit/Pods-Tarracopass-CZWeatherKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F1C060CFCBB53EF8BF682E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49FFD80F81966B075E7832E7 /* Pods-Tarracopass-PINCache-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tarracopass-PINCache/Pods-Tarracopass-PINCache-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F5C3FDC523C1F82933EF9830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C06A8500A3DD8C9AB1796739 /* Pods-Tarracopass-CTFeedback-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tarracopass-CTFeedback/Pods-Tarracopass-CTFeedback-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000F3EF66B4C6A03B89BCFF9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC371AB1C6B5AAF6C7E124F /* Debug */,
+				BF2D5B41230182EA4347D235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00D3349A785CE50531084A8E /* Build configuration list for PBXNativeTarget "Pods-Tarracopass-CTFeedback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9364746BBE1A3CAAFD877F6 /* Debug */,
+				F5C3FDC523C1F82933EF9830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07A935AC6DFA5D7ACAB784D8 /* Build configuration list for PBXNativeTarget "Pods-Tarracopass-CTFeedback-CTFeedback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B022160F63689BD24EC5EDE3 /* Debug */,
+				A757D6D3F13C511AC18BB95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CACB1996871F07F4F73C2CA /* Build configuration list for PBXNativeTarget "Pods-Tarracopass-FCVerticalMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F3E1A86F04B75199868C66 /* Debug */,
+				6FAFD8F08BA47E05BA2FA37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E91B1801FBA69ED6DB142F9 /* Build configuration list for PBXNativeTarget "Pods-Tarracopass-FCVerticalMenu-FCVerticalMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE58E4B7A5E273BCC2DD240 /* Debug */,
+				A1E9B1AB0F8DDD56913A3E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21792CC63E605927E93807AF /* Build configuration list for PBXNativeTarget "Pods-Tarracopass-SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3597656DEBC3A6165433457E /* Debug */,
+				E623484449028C40094BE3EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60D4D2667F6C2DEB46782823 /* Build configuration list for PBXNativeTarget "Pods-Tarracopass-CZWeatherKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86FB1703C912C2A30EA61139 /* Debug */,
+				EF5C98537D54C7DD39067452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		625DEA6A41F9604814BADDD2 /* Build configuration list for PBXNativeTarget "Pods-Tarracopass-SVWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0841C0B26A772F133259457F /* Debug */,
+				7377571FD0501DA2ADD06A16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E10ADD8D627CDD723AF9C5 /* Build configuration list for PBXNativeTarget "Pods-Tarracopass-EAIntroView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01192327F597A5CF1CAEF6EF /* Debug */,
+				64E299EE90E0F72CF2EFCA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779CDAF093DA66BA2D86BAF3 /* Build configuration list for PBXNativeTarget "Pods-Tarracopass-FTCoreText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0AB4DA83D11C6C646E3DBB7 /* Debug */,
+				4A72C29156E152A1B6A5F742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AE66151EA3A150EC2559AF2 /* Build configuration list for PBXNativeTarget "Pods-Tarracopass-PINCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C060CFCBB53EF8BF682E47 /* Debug */,
+				3D0E38BB4337925321E861D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		803C9A1D0755891941F09228 /* Build configuration list for PBXNativeTarget "Pods-Tarracopass-EARestrictedScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9086E4EFDA7709403FB2E0B /* Debug */,
+				030442F38ADA057EBF2D4389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96AFD3D48544AD7B0ADDB5CD /* Build configuration list for PBXNativeTarget "Pods-Tarracopass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F6A6DFE13EFA6438B82D9B8 /* Debug */,
+				5532E2AA2AB8546EA1A7B497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDAF2753107E60B53D9D4E27 /* Project object */;
+}

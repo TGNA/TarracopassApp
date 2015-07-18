@@ -31,6 +31,19 @@
     _comencar.tintColor = [UIColor colorWithRed:0.17 green:0.76 blue:0.42 alpha:1];
 }
 
+
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
+    [self viewWillDisappear:YES];
+    if([CLLocationManager authorizationStatus]==kCLAuthorizationStatusAuthorizedWhenInUse || [CLLocationManager authorizationStatus]==kCLAuthorizationStatusAuthorizedAlways) {
+        [_locationPermission setTitle:@"Permès" forState:UIControlStateNormal];
+        _locationPermission.tintColor = [UIColor greenColor];
+    }else {
+        [_locationPermission setTitle:@"Autoritzar" forState:UIControlStateNormal];
+        _locationPermission.tintColor = [UIColor colorWithRed:0.0 green:122.0/255.0 blue:1.0 alpha:1.0];
+    }
+    [self viewWillAppear:YES];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
