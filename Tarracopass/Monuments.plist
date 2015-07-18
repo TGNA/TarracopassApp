@@ -5,6 +5,8 @@
 	<dict>
 		<key>name</key>
 		<string>Amfiteatre romà</string>
+		<key>gratuit</key>
+		<false/>
 		<key>latitude</key>
 		<string>41.114576077700</string>
 		<key>longitude</key>
@@ -40,6 +42,8 @@
 	<dict>
 		<key>name</key>
 		<string>Pont del Diable</string>
+		<key>gratuit</key>
+		<true/>
 		<key>latitude</key>
 		<string>41.146029</string>
 		<key>longitude</key>
@@ -70,6 +74,8 @@
 	<dict>
 		<key>name</key>
 		<string>Arc de Berà</string>
+		<key>gratuit</key>
+		<true/>
 		<key>latitude</key>
 		<string>41.173294667500</string>
 		<key>longitude</key>
@@ -99,6 +105,8 @@
 	<dict>
 		<key>name</key>
 		<string>Catedral i Museu Diocesà</string>
+		<key>gratuit</key>
+		<false/>
 		<key>latitude</key>
 		<string>41.118558280200</string>
 		<key>longitude</key>
@@ -136,6 +144,8 @@
 	<dict>
 		<key>name</key>
 		<string>Conjunt paleocristià del Francolí</string>
+		<key>gratuit</key>
+		<true/>
 		<key>latitude</key>
 		<string>41.116793224600</string>
 		<key>longitude</key>
@@ -164,6 +174,8 @@
 	<dict>
 		<key>name</key>
 		<string>Fòrum de la Colònia</string>
+		<key>gratuit</key>
+		<false/>
 		<key>latitude</key>
 		<string>41.114735313800</string>
 		<key>longitude</key>
@@ -193,6 +205,8 @@
 	<dict>
 		<key>name</key>
 		<string>Fòrum Provincial</string>
+		<key>gratuit</key>
+		<true/>
 		<key>latitude</key>
 		<string>41.118125356000</string>
 		<key>longitude</key>
@@ -223,6 +237,8 @@
 	<dict>
 		<key>name</key>
 		<string>Muralles</string>
+		<key>gratuit</key>
+		<false/>
 		<key>latitude</key>
 		<string>41.118902799000</string>
 		<key>longitude</key>
@@ -255,8 +271,12 @@
 		</array>
 	</dict>
 	<dict>
+		<key>New item</key>
+		<date>2014-12-21T08:46:12Z</date>
 		<key>name</key>
 		<string>Pretori i Circ romans</string>
+		<key>gratuit</key>
+		<false/>
 		<key>latitude</key>
 		<string>41.116083551700</string>
 		<key>longitude</key>
@@ -288,6 +308,8 @@
 	<dict>
 		<key>name</key>
 		<string>Teatre romà</string>
+		<key>gratuit</key>
+		<true/>
 		<key>latitude</key>
 		<string>41.112814350300</string>
 		<key>longitude</key>
@@ -317,6 +339,8 @@
 	<dict>
 		<key>name</key>
 		<string>Torre dels Escipions</string>
+		<key>gratuit</key>
+		<true/>
 		<key>latitude</key>
 		<string>41.131996000900</string>
 		<key>longitude</key>

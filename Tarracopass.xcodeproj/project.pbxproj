@@ -26,6 +26,15 @@
 		0C2448E11A45CF5A0075A780 /* FCVerticalMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2448DC1A45CF5A0075A780 /* FCVerticalMenuItem.m */; };
 		0C2448E21A45CF5A0075A780 /* FCVerticalMenuItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2448DE1A45CF5A0075A780 /* FCVerticalMenuItemCollectionViewCell.m */; };
 		0C2448E51A45D0810075A780 /* FCNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2448E41A45D0810075A780 /* FCNavigationViewController.m */; };
+		0C3133071A46D38B00446F50 /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3133061A46D38B00446F50 /* TutorialViewController.m */; };
+		0C31330D1A46DCC500446F50 /* EAIntroPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C31330A1A46DCC500446F50 /* EAIntroPage.m */; };
+		0C31330E1A46DCC500446F50 /* EAIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C31330C1A46DCC500446F50 /* EAIntroView.m */; };
+		0C46CFBA1A474FC7008C1837 /* DBPrivacyHelperAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C46CFAB1A474FC7008C1837 /* DBPrivacyHelperAssets.xcassets */; };
+		0C46CFBB1A474FC7008C1837 /* DBPrivacyHelperLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C46CFAD1A474FC7008C1837 /* DBPrivacyHelperLocalizable.strings */; };
+		0C46CFBC1A474FC7008C1837 /* DBPrivateHelperCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C46CFB31A474FC7008C1837 /* DBPrivateHelperCell.m */; };
+		0C46CFBD1A474FC7008C1837 /* DBPrivateHelperController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C46CFB51A474FC7008C1837 /* DBPrivateHelperController.m */; };
+		0C46CFBE1A474FC7008C1837 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C46CFB71A474FC7008C1837 /* UIImage+ImageEffects.m */; };
+		0C46CFBF1A474FC7008C1837 /* UIViewController+DBPrivacyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C46CFB91A474FC7008C1837 /* UIViewController+DBPrivacyHelper.m */; };
 		0C7BDBA519CC79E1001C2907 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7BDBA419CC79E1001C2907 /* main.m */; };
 		0C7BDBA819CC79E1001C2907 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7BDBA719CC79E1001C2907 /* AppDelegate.m */; };
 		0C7BDBAE19CC79E1001C2907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7BDBAC19CC79E1001C2907 /* Main.storyboard */; };
@@ -187,6 +196,7 @@
 		0CD87F3019CC9B5C0038DD4F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD87F2F19CC9B5C0038DD4F /* MapKit.framework */; };
 		0CD87F3219CC9B630038DD4F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD87F3119CC9B630038DD4F /* CoreLocation.framework */; };
 		0CD87F3519CCB4540038DD4F /* MonumentsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD87F3419CCB4540038DD4F /* MonumentsDetailViewController.m */; };
+		0CF80B601A462BDF00BA6C11 /* DOPDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF80B5F1A462BDF00BA6C11 /* DOPDropDownMenu.m */; };
 		0CF9E66C19D611A3003CED6C /* MonumentAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF9E66B19D611A3003CED6C /* MonumentAudioViewController.m */; };
 		0CF9E66E19D611CD003CED6C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF9E66D19D611CD003CED6C /* MediaPlayer.framework */; };
 		0CF9E67019D611D3003CED6C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF9E66F19D611D3003CED6C /* AVFoundation.framework */; };
@@ -243,6 +253,25 @@
 		0C2448DE1A45CF5A0075A780 /* FCVerticalMenuItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCVerticalMenuItemCollectionViewCell.m; sourceTree = "<group>"; };
 		0C2448E31A45D0810075A780 /* FCNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCNavigationViewController.h; sourceTree = "<group>"; };
 		0C2448E41A45D0810075A780 /* FCNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCNavigationViewController.m; sourceTree = "<group>"; };
+		0C3133051A46D38B00446F50 /* TutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
+		0C3133061A46D38B00446F50 /* TutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialViewController.m; sourceTree = "<group>"; };
+		0C3133091A46DCC500446F50 /* EAIntroPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAIntroPage.h; sourceTree = "<group>"; };
+		0C31330A1A46DCC500446F50 /* EAIntroPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAIntroPage.m; sourceTree = "<group>"; };
+		0C31330B1A46DCC500446F50 /* EAIntroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAIntroView.h; sourceTree = "<group>"; };
+		0C31330C1A46DCC500446F50 /* EAIntroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAIntroView.m; sourceTree = "<group>"; };
+		0C46CFAB1A474FC7008C1837 /* DBPrivacyHelperAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = DBPrivacyHelperAssets.xcassets; sourceTree = "<group>"; };
+		0C46CFAE1A474FC7008C1837 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/DBPrivacyHelperLocalizable.strings; sourceTree = "<group>"; };
+		0C46CFAF1A474FC7008C1837 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/DBPrivacyHelperLocalizable.strings; sourceTree = "<group>"; };
+		0C46CFB01A474FC7008C1837 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/DBPrivacyHelperLocalizable.strings; sourceTree = "<group>"; };
+		0C46CFB11A474FC7008C1837 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/DBPrivacyHelperLocalizable.strings"; sourceTree = "<group>"; };
+		0C46CFB21A474FC7008C1837 /* DBPrivateHelperCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBPrivateHelperCell.h; sourceTree = "<group>"; };
+		0C46CFB31A474FC7008C1837 /* DBPrivateHelperCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBPrivateHelperCell.m; sourceTree = "<group>"; };
+		0C46CFB41A474FC7008C1837 /* DBPrivateHelperController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBPrivateHelperController.h; sourceTree = "<group>"; };
+		0C46CFB51A474FC7008C1837 /* DBPrivateHelperController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBPrivateHelperController.m; sourceTree = "<group>"; };
+		0C46CFB61A474FC7008C1837 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		0C46CFB71A474FC7008C1837 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		0C46CFB81A474FC7008C1837 /* UIViewController+DBPrivacyHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DBPrivacyHelper.h"; sourceTree = "<group>"; };
+		0C46CFB91A474FC7008C1837 /* UIViewController+DBPrivacyHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DBPrivacyHelper.m"; sourceTree = "<group>"; };
 		0C7BDB9F19CC79E1001C2907 /* Tarracopass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tarracopass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7BDBA319CC79E1001C2907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C7BDBA419CC79E1001C2907 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -484,6 +513,8 @@
 		0CD87F3119CC9B630038DD4F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		0CD87F3319CCB4540038DD4F /* MonumentsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonumentsDetailViewController.h; sourceTree = "<group>"; };
 		0CD87F3419CCB4540038DD4F /* MonumentsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonumentsDetailViewController.m; sourceTree = "<group>"; };
+		0CF80B5E1A462BDF00BA6C11 /* DOPDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOPDropDownMenu.h; sourceTree = "<group>"; };
+		0CF80B5F1A462BDF00BA6C11 /* DOPDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOPDropDownMenu.m; sourceTree = "<group>"; };
 		0CF9E66A19D611A3003CED6C /* MonumentAudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonumentAudioViewController.h; sourceTree = "<group>"; };
 		0CF9E66B19D611A3003CED6C /* MonumentAudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonumentAudioViewController.m; sourceTree = "<group>"; };
 		0CF9E66D19D611CD003CED6C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
@@ -575,6 +606,42 @@
 				0C2448DE1A45CF5A0075A780 /* FCVerticalMenuItemCollectionViewCell.m */,
 			);
 			path = FCVerticalMenu;
+			sourceTree = "<group>";
+		};
+		0C3133081A46DCC500446F50 /* EAIntroView */ = {
+			isa = PBXGroup;
+			children = (
+				0C3133091A46DCC500446F50 /* EAIntroPage.h */,
+				0C31330A1A46DCC500446F50 /* EAIntroPage.m */,
+				0C31330B1A46DCC500446F50 /* EAIntroView.h */,
+				0C31330C1A46DCC500446F50 /* EAIntroView.m */,
+			);
+			path = EAIntroView;
+			sourceTree = "<group>";
+		};
+		0C46CFAA1A474FC7008C1837 /* DBPrivacyHelper */ = {
+			isa = PBXGroup;
+			children = (
+				0C46CFAB1A474FC7008C1837 /* DBPrivacyHelperAssets.xcassets */,
+				0C46CFAC1A474FC7008C1837 /* DBPrivacyHelperLocalizations */,
+				0C46CFB21A474FC7008C1837 /* DBPrivateHelperCell.h */,
+				0C46CFB31A474FC7008C1837 /* DBPrivateHelperCell.m */,
+				0C46CFB41A474FC7008C1837 /* DBPrivateHelperController.h */,
+				0C46CFB51A474FC7008C1837 /* DBPrivateHelperController.m */,
+				0C46CFB61A474FC7008C1837 /* UIImage+ImageEffects.h */,
+				0C46CFB71A474FC7008C1837 /* UIImage+ImageEffects.m */,
+				0C46CFB81A474FC7008C1837 /* UIViewController+DBPrivacyHelper.h */,
+				0C46CFB91A474FC7008C1837 /* UIViewController+DBPrivacyHelper.m */,
+			);
+			path = DBPrivacyHelper;
+			sourceTree = "<group>";
+		};
+		0C46CFAC1A474FC7008C1837 /* DBPrivacyHelperLocalizations */ = {
+			isa = PBXGroup;
+			children = (
+				0C46CFAD1A474FC7008C1837 /* DBPrivacyHelperLocalizable.strings */,
+			);
+			path = DBPrivacyHelperLocalizations;
 			sourceTree = "<group>";
 		};
 		0C7BDB9619CC79E1001C2907 = {
@@ -745,7 +812,7 @@
 			name = "Museu Nacional Arqueològic";
 			sourceTree = "<group>";
 		};
-		0CB1867219E05536002E4AE5 /* Contacte */ = {
+		0CB1867219E05536002E4AE5 /* Configuracio */ = {
 			isa = PBXGroup;
 			children = (
 				0CB1866F19E05532002E4AE5 /* ConfiguracioTableViewController.h */,
@@ -755,7 +822,7 @@
 				0CB186DB19E06B9E002E4AE5 /* LicenciesTercersDetailViewController.h */,
 				0CB186DC19E06B9E002E4AE5 /* LicenciesTercersDetailViewController.m */,
 			);
-			name = Contacte;
+			name = Configuracio;
 			sourceTree = "<group>";
 		};
 		0CB1868719E060C3002E4AE5 /* SVWebViewController */ = {
@@ -943,13 +1010,15 @@
 			children = (
 				0C7BDBA619CC79E1001C2907 /* AppDelegate.h */,
 				0C7BDBA719CC79E1001C2907 /* AppDelegate.m */,
+				0C3133051A46D38B00446F50 /* TutorialViewController.h */,
+				0C3133061A46D38B00446F50 /* TutorialViewController.m */,
 				0CD6D68B19D86AE0002A8AC1 /* Menu */,
 				0CD6D68F19D86B0F002A8AC1 /* AgendaCultural */,
 				0CD6D68C19D86AE9002A8AC1 /* Monuments */,
 				0CD6D6A219D86DAA002A8AC1 /* Llocs */,
 				0CD6D68E19D86B04002A8AC1 /* Temps */,
 				0CD6D68D19D86AFC002A8AC1 /* Transport */,
-				0CB1867219E05536002E4AE5 /* Contacte */,
+				0CB1867219E05536002E4AE5 /* Configuracio */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -957,6 +1026,9 @@
 		0CD6D69119D86B54002A8AC1 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				0C46CFAA1A474FC7008C1837 /* DBPrivacyHelper */,
+				0C3133081A46DCC500446F50 /* EAIntroView */,
+				0CF80B5D1A462BDF00BA6C11 /* DOPDropDownMenu */,
 				0C2448D71A45CF5A0075A780 /* FCVerticalMenu */,
 				0CB186C519E062FF002E4AE5 /* CTFeedback */,
 				0CB1868719E060C3002E4AE5 /* SVWebViewController */,
@@ -1291,6 +1363,15 @@
 			path = Open_Sans;
 			sourceTree = "<group>";
 		};
+		0CF80B5D1A462BDF00BA6C11 /* DOPDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0CF80B5E1A462BDF00BA6C11 /* DOPDropDownMenu.h */,
+				0CF80B5F1A462BDF00BA6C11 /* DOPDropDownMenu.m */,
+			);
+			path = DOPDropDownMenu;
+			sourceTree = "<group>";
+		};
 		0CF9E69519D6D812003CED6C /* FTCoreText */ = {
 			isa = PBXGroup;
 			children = (
@@ -1377,6 +1458,7 @@
 				"zh-Hant",
 				ko,
 				ru,
+				it,
 			);
 			mainGroup = 0C7BDB9619CC79E1001C2907;
 			productRefGroup = 0C7BDBA019CC79E1001C2907 /* Products */;
@@ -1425,8 +1507,10 @@
 				0CD87F2919CC99350038DD4F /* OpenSans-Italic.ttf in Resources */,
 				0CD87F2519CC99350038DD4F /* OpenSans-Bold.ttf in Resources */,
 				0CB1864319E01071002E4AE5 /* casaCanals.jpg in Resources */,
+				0C46CFBB1A474FC7008C1837 /* DBPrivacyHelperLocalizable.strings in Resources */,
 				0CD6D70119D9DCD4002A8AC1 /* callJueu.jpg in Resources */,
 				0CD6D72E19DA0021002A8AC1 /* horariForumProvincial.txt in Resources */,
+				0C46CFBA1A474FC7008C1837 /* DBPrivacyHelperAssets.xcassets in Resources */,
 				0CD6D6E319D9CBFB002A8AC1 /* horariPontDiable.txt in Resources */,
 				0CD87F2719CC99350038DD4F /* OpenSans-ExtraBold.ttf in Resources */,
 				0CB1865E19E019B6002E4AE5 /* museuPortTarragona.jpg in Resources */,
@@ -1510,6 +1594,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C31330D1A46DCC500446F50 /* EAIntroPage.m in Sources */,
 				0CB186DD19E06B9E002E4AE5 /* LicenciesTercersDetailViewController.m in Sources */,
 				0CAE041319CCC93000CD9CB0 /* JPBFloatingTextViewController.m in Sources */,
 				0CD6D64319D75BBF002A8AC1 /* AFHTTPRequestOperationManager.m in Sources */,
@@ -1519,6 +1604,8 @@
 				0CB186AA19E060C3002E4AE5 /* SVWebViewController.m in Sources */,
 				0CAE08F119D0D4E400CD9CB0 /* SVProgressHUD.m in Sources */,
 				0C14C23D19D598D400197D4A /* MZFormSheetBackgroundWindow.m in Sources */,
+				0C46CFBC1A474FC7008C1837 /* DBPrivateHelperCell.m in Sources */,
+				0C46CFBD1A474FC7008C1837 /* DBPrivateHelperController.m in Sources */,
 				0CD6D64D19D75BBF002A8AC1 /* FSBasicImageSource.m in Sources */,
 				0CB186D819E069BF002E4AE5 /* LicenciesTercersTableViewController.m in Sources */,
 				0C14C24019D598D400197D4A /* MZFormSheetSegue.m in Sources */,
@@ -1528,6 +1615,7 @@
 				0CD6D6C619D87CEA002A8AC1 /* CZOpenWeatherMapService.m in Sources */,
 				0CD6D64419D75BBF002A8AC1 /* AFHTTPSessionManager.m in Sources */,
 				0CD6D64919D75BBF002A8AC1 /* AFURLResponseSerialization.m in Sources */,
+				0C3133071A46D38B00446F50 /* TutorialViewController.m in Sources */,
 				0CD6D64219D75BBF002A8AC1 /* AFHTTPRequestOperation.m in Sources */,
 				0CB186A819E060C3002E4AE5 /* SVModalWebViewController.m in Sources */,
 				0CF9E66C19D611A3003CED6C /* MonumentAudioViewController.m in Sources */,
@@ -1543,6 +1631,7 @@
 				0CAE08F619D1B98800CD9CB0 /* TransportDetailViewController.m in Sources */,
 				0C2448E51A45D0810075A780 /* FCNavigationViewController.m in Sources */,
 				0CD6D64F19D75BBF002A8AC1 /* FSImageScrollView.m in Sources */,
+				0C31330E1A46DCC500446F50 /* EAIntroView.m in Sources */,
 				0CD6D65119D75BBF002A8AC1 /* FSImageView.m in Sources */,
 				0CD6D64C19D75BBF002A8AC1 /* FSBasicImage.m in Sources */,
 				0C7BDBE119CC84EE001C2907 /* MonumentsTableViewController.m in Sources */,
@@ -1564,6 +1653,7 @@
 				0C2448E21A45CF5A0075A780 /* FCVerticalMenuItemCollectionViewCell.m in Sources */,
 				0C7BDBA519CC79E1001C2907 /* main.m in Sources */,
 				0CD6D65019D75BBF002A8AC1 /* FSImageTitleView.m in Sources */,
+				0C46CFBE1A474FC7008C1837 /* UIImage+ImageEffects.m in Sources */,
 				0CD6D6C119D87CEA002A8AC1 /* CZWeatherCondition.m in Sources */,
 				0CD6D64719D75BBF002A8AC1 /* AFURLConnectionOperation.m in Sources */,
 				0CD6D6C219D87CEA002A8AC1 /* NSString+CZWeatherKit_Substring.m in Sources */,
@@ -1581,9 +1671,11 @@
 				0C14C24A19D5991300197D4A /* NSInvocation+Copy.m in Sources */,
 				0CB186D119E062FF002E4AE5 /* CTFeedbackCellItem.m in Sources */,
 				0CB186D219E062FF002E4AE5 /* CTFeedbackTopicsViewController.m in Sources */,
+				0C46CFBF1A474FC7008C1837 /* UIViewController+DBPrivacyHelper.m in Sources */,
 				0CB186D019E062FF002E4AE5 /* CTFeedbackCell.m in Sources */,
 				0CD6D69E19D86D83002A8AC1 /* LlocsMapViewController.m in Sources */,
 				0CB186B119E060C3002E4AE5 /* SVWebViewControllerActivitySafari.m in Sources */,
+				0CF80B601A462BDF00BA6C11 /* DOPDropDownMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1606,6 +1698,17 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		0C46CFAD1A474FC7008C1837 /* DBPrivacyHelperLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C46CFAE1A474FC7008C1837 /* en */,
+				0C46CFAF1A474FC7008C1837 /* es */,
+				0C46CFB01A474FC7008C1837 /* it */,
+				0C46CFB11A474FC7008C1837 /* zh-Hant */,
+			);
+			name = DBPrivacyHelperLocalizable.strings;
+			sourceTree = "<group>";
+		};
 		0C7BDBAC19CC79E1001C2907 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1725,11 +1828,16 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tarracopass/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tarracopass/Tarracopass-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
 			};
@@ -1740,11 +1848,15 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Juan Jose Blanco (JW67TDEV4H)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tarracopass/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tarracopass/Tarracopass-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
 			};

@@ -10,6 +10,7 @@
 #import "CTFeedbackViewController.h"
 #import "SVModalWebViewController.h"
 #import "FCNavigationViewController.h"
+#import "UIViewController+DBPrivacyHelper.h"
 
 @interface ConfiguracioTableViewController ()
 
@@ -21,6 +22,7 @@
     [super viewDidLoad];
     
     self.title = @"Configuració";
+    self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
@@ -39,10 +41,24 @@
     UIBarButtonItem *barButton = [[UIBarButtonItem alloc] initWithCustomView:button];
     self.navigationItem.leftBarButtonItem = barButton;
 }
+- (void)tableView:(UITableView *)tableView willDisplayFooterView:(UIView *)view forSection:(NSInteger)section{
+    UITableViewHeaderFooterView *header = (UITableViewHeaderFooterView *)view;
+    [header.textLabel setTextColor:[UIColor whiteColor]];
+    
+    // Set the background color of our header/footer.
+    header.contentView.backgroundColor = [UIColor blackColor];
+    
+    // You can also do this to set the background color of our header/footer,
+    //    but the gradients/other effects will be retained.
+    // view.tintColor = [UIColor blackColor];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)tutorial:(id)sender {
+    [self showPrivacyHelperForType:DBPrivacyTypeLocation controller:^(DBPrivateHelperController *vc) {} didPresent:^{} didDismiss:^{} useDefaultSettingPane:YES];
 }
 
 - (IBAction)oscar:(id)sender {
@@ -55,7 +71,7 @@
 
 - (IBAction)feedback:(id)sender {
     CTFeedbackViewController *feedbackViewController = [CTFeedbackViewController controllerWithTopics:CTFeedbackViewController.defaultTopics localizedTopics:CTFeedbackViewController.defaultLocalizedTopics];
-    feedbackViewController.toRecipients = @[@"contacte@tarracopass.com"];
+    feedbackViewController.toRecipients = @[@"oscarblanco.projectes@gmail.com"];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:feedbackViewController];
     [self presentViewController:navigationController animated:YES completion:nil];
 }

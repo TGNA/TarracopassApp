@@ -19,15 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    [self.navigationController.navigationBar setBackgroundImage:[UIImage new]
-//                                                  forBarMetrics:UIBarMetricsDefault];
-//    self.navigationController.navigationBar.shadowImage = [UIImage new];
-//    self.navigationController.navigationBar.translucent = YES;
-//    self.navigationController.view.backgroundColor = [UIColor clearColor];
-//    
-    UIBarButtonItem *shareItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(updateWeather)];
-    
-    self.navigationItem.rightBarButtonItem = shareItem;
+    self.title = @"Temps";
     
     UIImage *iconMenu = [UIImage imageNamed:@"menu"];
     iconMenu = [iconMenu imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
@@ -40,7 +32,12 @@
     button.frame = CGRectMake(0 ,0, 33, 17);
     
     UIBarButtonItem *barButton = [[UIBarButtonItem alloc] initWithCustomView:button];
+    
+    UIBarButtonItem *update = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(updateWeather)];
+    
     self.navigationItem.leftBarButtonItem = barButton;
+    self.navigationItem.rightBarButtonItem = update;
+    
 }
 
 - (void)viewDidAppear:(BOOL)animated

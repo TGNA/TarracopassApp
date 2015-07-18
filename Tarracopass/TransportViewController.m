@@ -88,7 +88,7 @@
     
     // Build the url string we are going to sent to Google. NOTE: The kGOOGLE_API_KEY is a constant which should contain your own API key that you can obtain from Google. See this link for more info:
     // https://developers.google.com/maps/documentation/places/#Authentication
-    NSString *url = [NSString stringWithFormat:@"https://maps.googleapis.com/maps/api/place/search/json?location=%f,%f&radius=%@&types=%@&sensor=true&key=%@", currentCentre.latitude, currentCentre.longitude, [NSString stringWithFormat:@"%i", currenDist], googleType, kGOOGLE_API_KEY];
+    NSString *url = [NSString stringWithFormat:@"https://maps.googleapis.com/maps/api/place/search/json?location=%f,%f&radius=500&types=%@&sensor=true&key=%@", currentCentre.latitude, currentCentre.longitude, googleType, kGOOGLE_API_KEY];
     
     //Formulate the string as URL object.
     NSURL *googleRequestURL=[NSURL URLWithString:url];
@@ -227,8 +227,6 @@
             annotationView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:identifier];
             UIButton *rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
             annotationView.rightCalloutAccessoryView = rightButton;
-            UIImageView *myCustomImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bus.png"]];
-            annotationView.leftCalloutAccessoryView = myCustomImage;
         } else {
             annotationView.annotation = annotation;
         }

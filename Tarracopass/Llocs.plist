@@ -5,6 +5,8 @@
 	<dict>
 		<key>name</key>
 		<string>Casa de la Festa</string>
+		<key>gratuit</key>
+		<true/>
 		<key>latitude</key>
 		<string>41.115906940600</string>
 		<key>longitude</key>
@@ -40,6 +42,8 @@
 	<dict>
 		<key>name</key>
 		<string>Casa Canals</string>
+		<key>gratuit</key>
+		<false/>
 		<key>latitude</key>
 		<string>41.118236795100</string>
 		<key>longitude</key>
@@ -69,6 +73,8 @@
 	<dict>
 		<key>name</key>
 		<string>Casa Castellarnau</string>
+		<key>gratuit</key>
+		<false/>
 		<key>latitude</key>
 		<string>41.117853678100</string>
 		<key>longitude</key>
@@ -98,6 +104,8 @@
 	<dict>
 		<key>name</key>
 		<string>Voltes del carrer Merceria</string>
+		<key>gratuit</key>
+		<true/>
 		<key>latitude</key>
 		<string>41.118281249400</string>
 		<key>longitude</key>
@@ -127,6 +135,8 @@
 	<dict>
 		<key>name</key>
 		<string>Call jueu</string>
+		<key>gratuit</key>
+		<true/>
 		<key>latitude</key>
 		<string>41.117110069200</string>
 		<key>longitude</key>
@@ -155,6 +165,8 @@
 	<dict>
 		<key>name</key>
 		<string>Balcó del Mediterrani</string>
+		<key>gratuit</key>
+		<true/>
 		<key>latitude</key>
 		<string>41.113695826100</string>
 		<key>longitude</key>
@@ -185,6 +197,8 @@
 	<dict>
 		<key>name</key>
 		<string>Museu del Port de Tarragona</string>
+		<key>gratuit</key>
+		<false/>
 		<key>latitude</key>
 		<string>41.109891775200</string>
 		<key>longitude</key>
@@ -214,6 +228,8 @@
 	<dict>
 		<key>name</key>
 		<string>Museu Nacional Arqueològic</string>
+		<key>gratuit</key>
+		<false/>
 		<key>latitude</key>
 		<string>41.116705122100</string>
 		<key>longitude</key>
@@ -242,6 +258,8 @@
 	<dict>
 		<key>name</key>
 		<string>Castell de Tamarit</string>
+		<key>gratuit</key>
+		<false/>
 		<key>latitude</key>
 		<string>41.130112311900</string>
 		<key>longitude</key>
@@ -270,6 +288,8 @@
 	<dict>
 		<key>name</key>
 		<string>Hospital medieval</string>
+		<key>gratuit</key>
+		<true/>
 		<key>latitude</key>
 		<string>41.119036160600</string>
 		<key>longitude</key>
@@ -299,6 +319,8 @@
 	<dict>
 		<key>name</key>
 		<string>Pedrera del Mèdol</string>
+		<key>gratuit</key>
+		<true/>
 		<key>latitude</key>
 		<string>41.138491929500</string>
 		<key>longitude</key>
@@ -327,6 +349,8 @@
 	<dict>
 		<key>name</key>
 		<string>Portal de SantAntoni</string>
+		<key>gratuit</key>
+		<true/>
 		<key>latitude</key>
 		<string>41.118842180000</string>
 		<key>longitude</key>

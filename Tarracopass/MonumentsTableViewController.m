@@ -9,10 +9,15 @@
 #import "MonumentsTableViewController.h"
 #import "MonumentsDetailViewController.h"
 #import "MZFormSheetController.h"
+#import "DOPDropDownMenu.h"
 #import "FCNavigationViewController.h"
 
-@interface MonumentsTableViewController ()
-
+@interface MonumentsTableViewController ()<DOPDropDownMenuDataSource, DOPDropDownMenuDelegate>
+@property (nonatomic, copy) NSArray *prices;
+@property (nonatomic, copy) NSArray *horari;
+@property (nonatomic, copy) NSArray *epoca;
+@property (nonatomic, copy) NSArray *originalArray;
+@property (nonatomic, copy) NSArray *results;
 @end
 
 @implementation MonumentsTableViewController
@@ -29,8 +34,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.results = [NSArray arrayWithArray:self.monument];
+    self.originalArray = [NSArray arrayWithArray:self.monument];
     
     self.title = @"Monuments";
+    self.prices = @[@"Tots els preus", @"Gratuit", @"Pagament"];
+    self.horari = @[@"Tots el horaris", @"Obert", @"Tancat"];
+    self.epoca = @[@"Alfabeticament", @"Distància", @"Tancat"];
+    
+    DOPDropDownMenu *filter = [[DOPDropDownMenu alloc] initWithOrigin:CGPointMake(0, 0) andHeight:40];
+    filter.dataSource = self;
+    filter.delegate = self;
+    [self.view addSubview:filter];
     
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
@@ -47,55 +62,80 @@
     
     UIBarButtonItem *barButton = [[UIBarButtonItem alloc] initWithCustomView:button];
     self.navigationItem.leftBarButtonItem = barButton;
-
-    /*
-    UIImage *iconFilter = [UIImage imageNamed:@"filled_filter"];
-    iconFilter = [iconFilter imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
-    UIImage *filterBackground = iconFilter;
-    UIImage *filterBackgroundSelected = iconFilter;
-    UIButton *filter = [UIButton buttonWithType:UIButtonTypeSystem];
-    [filter addTarget:self action:@selector(filter:) forControlEvents:UIControlEventTouchUpInside]; //adding action
-    [filter setBackgroundImage:filterBackground forState:UIControlStateNormal];
-    [filter setBackgroundImage:filterBackgroundSelected forState:UIControlStateSelected];
-    filter.frame = CGRectMake(0 ,0, 24, 24);
-    
-    UIBarButtonItem *filterButton = [[UIBarButtonItem alloc] initWithCustomView:filter];
-    self.navigationItem.rightBarButtonItem = filterButton;*/
 }
 
-/*
-- (IBAction)filter:(id)sender {
-    
-    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:@"Seleccioni un filtre"
-                                                             delegate:self
-                                                    cancelButtonTitle:@"No vul filtrar."
-                                               destructiveButtonTitle:nil                                                    otherButtonTitles:@"Alfabetic", @"nose", nil];
-    [actionSheet showInView:self.view];
+- (NSInteger)numberOfColumnsInMenu:(DOPDropDownMenu *)menu {
+    return 1;
 }
 
--(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex{
-    if(buttonIndex == 0)
-    {
-        [self sortArray];
-    }
-    else if(buttonIndex == 1)
-    {
-        
-        NSLog(@"Create Button Clicked");
-        
+- (NSInteger)menu:(DOPDropDownMenu *)menu numberOfRowsInColumn:(NSInteger)column {
+    return 3;
+}
+
+- (NSString *)menu:(DOPDropDownMenu *)menu titleForRowAtIndexPath:(DOPIndexPath *)indexPath {
+    switch (indexPath.column) {
+        case 0: return self.prices[indexPath.row];
+            break;
+//        case 1: return self.horari[indexPath.row];
+//            break;
+        case 2: return self.epoca[indexPath.row];
+            break;
+        default:
+            return nil;
+            break;
     }
 }
 
-- (void)sortArray
-{
-    NSSortDescriptor *nameDescriptor = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:YES];
-    NSArray *sortDescriptors = [NSArray arrayWithObject:nameDescriptor];
-    NSArray *sortedArray = [_monument sortedArrayUsingDescriptors:sortDescriptors];
+- (void)menu:(DOPDropDownMenu *)menu didSelectRowAtIndexPath:(DOPIndexPath *)indexPath {
+    NSLog(@"column:%li row:%li", (long)indexPath.column, (long)indexPath.row);
+    NSLog(@"%@",[menu titleForRowAtIndexPath:indexPath]);
+//    NSString *title = [menu titleForRowAtIndexPath:indexPath];
     
-    _monument = nil;
-    _monument = [[NSMutableArray alloc] arrayByAddingObjectsFromArray:sortedArray];
+    static NSString *prediStr1 = @"name like '*'",
+    *prediStr2 = @"name like '*'",
+    *prediStr3 = @"name like '*'";
+    switch (indexPath.column) {
+        case 0:{
+            if (indexPath.row == 0) {
+                prediStr1 = @"name like '*'";
+            } else if(indexPath.row == 1){
+                prediStr1 = [NSString stringWithFormat:@"gratuit == YES"];
+            } else{
+                prediStr1 = [NSString stringWithFormat:@"gratuit == NO"];
+            }
+        }
+            break;
+//        case 1:{
+//            if (indexPath.row == 0) {
+//                prediStr2 = @"name like '*'";
+//            } else if(indexPath.row == 1){
+//                NSDate *currDate = [NSDate date];
+//                NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
+//                [dateFormatter setDateFormat:@"dd.MM.YY HH:mm:ss"];
+//                NSString *dateString = [dateFormatter stringFromDate:currDate];
+//                NSLog(@"%@",dateString);
+//                prediStr2 = [NSString stringWithFormat:@"gratuit == YES"];
+//            } else{
+//                prediStr2 = [NSString stringWithFormat:@"gratuit == NO"];
+//            }
+//        }
+//            break;
+//        case 2:{
+//            if (indexPath.row == 0) {
+//                prediStr3 = @"name like '*'";
+//            } else {
+//                prediStr3 = [NSString stringWithFormat:@"name like '*'", title];
+//            }
+//        }
+            
+        default:
+            break;
+    }
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:[NSString stringWithFormat:@"%@ AND %@ AND %@",prediStr1, prediStr2, prediStr3]];
+    NSLog(@"Predicate  ---- \n%@", predicate);
+    self.results = [self.originalArray filteredArrayUsingPredicate:predicate];
     [self.tableView reloadData];
-}*/
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -111,35 +151,15 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return [self.monument count];
+    return [self.results count];
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    CLLocationManager *locationManager = [[CLLocationManager alloc] init];
-    locationManager.delegate = self;
-    locationManager.distanceFilter = 10; //kCLDistanceFilterNone; // whenever we move
-    locationManager.desiredAccuracy = kCLLocationAccuracyBest; // The best you can get
-    
-    [locationManager startUpdatingLocation];
-    
-    CLLocation *userlocation = [[CLLocation alloc] initWithLatitude:locationManager.location.coordinate.latitude longitude:locationManager.location.coordinate.longitude];
-    MKDistanceFormatter *formatter = [[MKDistanceFormatter alloc] init];
-    formatter.units = MKDistanceFormatterUnitsMetric;
-    formatter.unitStyle = MKDistanceFormatterUnitStyleFull;
-    
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     
-    NSDictionary *item = (NSDictionary *)[self.monument objectAtIndex:indexPath.row];
-    
-    float latitude = [[item objectForKey:@"latitude"] floatValue];
-    float longitude = [[item objectForKey:@"longitude"] floatValue];
-    
-    CLLocation *monument = [[CLLocation alloc] initWithLatitude:latitude longitude:longitude];
-    CLLocationDistance distancenumber = [userlocation distanceFromLocation:monument];
-    
-    NSString *distance = [formatter stringFromDistance:distancenumber];
+    NSDictionary *item = (NSDictionary *)[self.results objectAtIndex:indexPath.row];
     
     UILabel *namelabel, *distancelabel;
     
@@ -147,33 +167,40 @@
     namelabel.text = [item objectForKey:@"name"];
     namelabel.adjustsFontSizeToFitWidth = YES;
     
-    distancelabel = (UILabel *)[cell viewWithTag:2];
-    distancelabel.text = distance;
-    distancelabel.adjustsFontSizeToFitWidth = YES;
+//    if([CLLocationManager authorizationStatus]==kCLAuthorizationStatusAuthorizedAlways || [CLLocationManager authorizationStatus]==kCLAuthorizationStatusAuthorizedWhenInUse) {
     
-    NSLog(@"User location: Latitude: %f longitude: %f", locationManager.location.coordinate.latitude, locationManager.location.coordinate.longitude);
-    NSLog(@"ID: %ld Name: %@ Latitude: %f Longitude: %f Distance %@", (long)indexPath.row, [item objectForKey:@"name"], latitude, longitude, distance);
-    
-    
+        CLLocationManager *locationManager = [[CLLocationManager alloc] init];
+        locationManager.delegate = self;
+        locationManager.distanceFilter = 10; //kCLDistanceFilterNone; // whenever we move
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest; // The best you can get
+        
+        [locationManager startUpdatingLocation];
+        
+        CLLocation *userlocation = [[CLLocation alloc] initWithLatitude:locationManager.location.coordinate.latitude longitude:locationManager.location.coordinate.longitude];
+        MKDistanceFormatter *formatter = [[MKDistanceFormatter alloc] init];
+        formatter.units = MKDistanceFormatterUnitsMetric;
+        formatter.unitStyle = MKDistanceFormatterUnitStyleFull;
+        
+        float latitude = [[item objectForKey:@"latitude"] floatValue];
+        float longitude = [[item objectForKey:@"longitude"] floatValue];
+        
+        CLLocation *monument = [[CLLocation alloc] initWithLatitude:latitude longitude:longitude];
+        CLLocationDistance distancenumber = [userlocation distanceFromLocation:monument];
+        
+        NSString *distance = [formatter stringFromDistance:distancenumber];
+        
+        distancelabel = (UILabel *)[cell viewWithTag:2];
+        distancelabel.text = distance;
+        distancelabel.adjustsFontSizeToFitWidth = YES;
+
+//    }
+
     UIImageView *imageView;
     
     imageView = (UIImageView*)[cell viewWithTag:4];
     imageView.image = [UIImage imageNamed:[NSString stringWithString:[item objectForKey:@"image_menu"]]];
     imageView.contentMode = UIViewContentModeScaleAspectFill;
     imageView.clipsToBounds = YES;
-    
-    UIView *blurimage;
-    
-    blurimage = (UIView *)[cell viewWithTag:3];
-    
-    UIVisualEffect *blurEffect;
-    blurEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
-    
-    UIVisualEffectView *visualEffectView;
-    visualEffectView = [[UIVisualEffectView alloc] initWithEffect:blurEffect];
-    
-    visualEffectView.frame = blurimage.bounds;
-    [blurimage addSubview:visualEffectView];
     
     return cell;
 }
@@ -187,7 +214,7 @@
     if ([segue.identifier isEqualToString:@"showMonumentDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         MonumentsDetailViewController *destViewController = segue.destinationViewController;
-        destViewController.monumentsName = [_monument objectAtIndex:indexPath.row];
+        destViewController.monumentsName = [self.results objectAtIndex:indexPath.row];
     }
 }
 

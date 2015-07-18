@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EAIntroView.h"
 
-@interface ConfiguracioTableViewController : UITableViewController
+@interface ConfiguracioTableViewController : UITableViewController <EAIntroDelegate>
+
 
 @end

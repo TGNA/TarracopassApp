@@ -18,6 +18,25 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+      
+//    if([[NSUserDefaults standardUserDefaults] objectForKey:@"showTutorialFirstTime"] == nil){
+//        
+//        [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"showTutorialFirstTime"];
+//        [[NSUserDefaults standardUserDefaults] synchronize];
+//        
+//        UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
+//        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+//        UIViewController *tutorial = [storyboard instantiateViewControllerWithIdentifier:@"TutorialViewController"];
+//        [navigationController pushViewController:tutorial animated:YES];
+//        
+//    }
+    
+    self.locationManager = [[CLLocationManager alloc] init];
+    [self.locationManager startUpdatingLocation];
+    if([CLLocationManager authorizationStatus]==kCLAuthorizationStatusDenied || [CLLocationManager authorizationStatus]==kCLAuthorizationStatusNotDetermined){
+        [self.locationManager requestWhenInUseAuthorization];
+    }
+    
     [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:0.17 green:0.76 blue:0.42 alpha:1]];
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:

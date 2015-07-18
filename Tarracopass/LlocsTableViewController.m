@@ -9,10 +9,14 @@
 #import "LlocsTableViewController.h"
 #import "LlocsDetailTableViewController.h"
 #import "MZFormSheetController.h"
+#import "DOPDropDownMenu.h"
 #import "FCNavigationViewController.h"
 
-@interface LlocsTableViewController ()
-
+@interface LlocsTableViewController ()<DOPDropDownMenuDataSource, DOPDropDownMenuDelegate>
+@property (nonatomic, copy) NSArray *prices;
+@property (nonatomic, copy) NSArray *horari;
+@property (nonatomic, copy) NSArray *originalArray;
+@property (nonatomic, copy) NSArray *results;
 @end
 
 @implementation LlocsTableViewController
@@ -29,8 +33,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.results = [NSArray arrayWithArray:self.lloc];
+    self.originalArray = [NSArray arrayWithArray:self.lloc];
     
     self.title = @"Llocs d'interès";
+    self.prices = @[@"Tots els preus", @"Gratuit", @"Pagament"];
+    self.horari = @[@"Tots el horaris", @"Obert", @"Tancat"];
+    
+    DOPDropDownMenu *filter = [[DOPDropDownMenu alloc] initWithOrigin:CGPointMake(0, 0) andHeight:40];
+    filter.dataSource = self;
+    filter.delegate = self;
+    [self.view addSubview:filter];
     
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
@@ -49,6 +62,79 @@
     self.navigationItem.leftBarButtonItem = barButton;
 }
 
+- (NSInteger)numberOfColumnsInMenu:(DOPDropDownMenu *)menu {
+    return 1;
+}
+
+- (NSInteger)menu:(DOPDropDownMenu *)menu numberOfRowsInColumn:(NSInteger)column {
+    return 3;
+}
+
+- (NSString *)menu:(DOPDropDownMenu *)menu titleForRowAtIndexPath:(DOPIndexPath *)indexPath {
+    switch (indexPath.column) {
+        case 0: return self.prices[indexPath.row];
+            break;
+            //        case 1: return self.horari[indexPath.row];
+            //            break;
+            //        case 2: return self.ages[indexPath.row];
+            //            break;
+        default:
+            return nil;
+            break;
+    }
+}
+
+- (void)menu:(DOPDropDownMenu *)menu didSelectRowAtIndexPath:(DOPIndexPath *)indexPath {
+    NSLog(@"column:%li row:%li", (long)indexPath.column, (long)indexPath.row);
+    NSLog(@"%@",[menu titleForRowAtIndexPath:indexPath]);
+    NSString *title = [menu titleForRowAtIndexPath:indexPath];
+    
+    static NSString *prediStr1 = @"name like '*'",
+    *prediStr2 = @"name like '*'",
+    *prediStr3 = @"name like '*'";
+    switch (indexPath.column) {
+        case 0:{
+            if (indexPath.row == 0) {
+                prediStr1 = @"name like '*'";
+            } else if(indexPath.row == 1){
+                prediStr1 = [NSString stringWithFormat:@"gratuit == YES"];
+            } else{
+                prediStr1 = [NSString stringWithFormat:@"gratuit == NO"];
+            }
+        }
+            break;
+            //        case 1:{
+            //            if (indexPath.row == 0) {
+            //                prediStr2 = @"name like '*'";
+            //            } else if(indexPath.row == 1){
+            //                NSDate *currDate = [NSDate date];
+            //                NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
+            //                [dateFormatter setDateFormat:@"dd.MM.YY HH:mm:ss"];
+            //                NSString *dateString = [dateFormatter stringFromDate:currDate];
+            //                NSLog(@"%@",dateString);
+            //                prediStr2 = [NSString stringWithFormat:@"gratuit == YES"];
+            //            } else{
+            //                prediStr2 = [NSString stringWithFormat:@"gratuit == NO"];
+            //            }
+            //        }
+            //            break;
+            //        case 2:{
+            //            if (indexPath.row == 0) {
+            //                prediStr3 = @"name like '*'";
+            //            } else {
+            //                prediStr3 = [NSString stringWithFormat:@"name like '*'", title];
+            //            }
+            //        }
+            
+        default:
+            break;
+    }
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:[NSString stringWithFormat:@"%@ AND %@ AND %@",prediStr1, prediStr2, prediStr3]];
+    NSLog(@"Predicate  ---- \n%@", predicate);
+    self.results = [self.originalArray filteredArrayUsingPredicate:predicate];
+    [self.tableView reloadData];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -63,7 +149,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return [self.lloc count];
+    return [self.results count];
 }
 
 
@@ -116,19 +202,7 @@
     imageView.contentMode = UIViewContentModeScaleAspectFill;
     imageView.clipsToBounds = YES;
     
-    UIView *blurimage;
-    
-    blurimage = (UIView *)[cell viewWithTag:3];
-    
-    UIVisualEffect *blurEffect;
-    blurEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
-    
-    UIVisualEffectView *visualEffectView;
-    visualEffectView = [[UIVisualEffectView alloc] initWithEffect:blurEffect];
-    
-    visualEffectView.frame = blurimage.bounds;
-    [blurimage addSubview:visualEffectView];
-    
+
     return cell;
 }
 

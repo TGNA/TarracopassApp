@@ -63,23 +63,21 @@
     locationManager.delegate = self;
     locationManager.distanceFilter = 10; //kCLDistanceFilterNone; // whenever we move
     locationManager.desiredAccuracy = kCLLocationAccuracyBest; // The best you can get
-    [locationManager requestWhenInUseAuthorization];
     [locationManager startUpdatingLocation];
-    
+ 
     CLLocation *userlocation = [[CLLocation alloc] initWithLatitude:locationManager.location.coordinate.latitude longitude:locationManager.location.coordinate.longitude];
     MKDistanceFormatter *formatter = [[MKDistanceFormatter alloc] init];
     formatter.units = MKDistanceFormatterUnitsMetric;
     formatter.unitStyle = MKDistanceFormatterUnitStyleFull;
     
-    self.title = [item objectForKey:@"name"];
-    
     float latitude = [[item objectForKey:@"latitude"] floatValue];
     float longitude = [[item objectForKey:@"longitude"] floatValue];
-    
     CLLocation *monument = [[CLLocation alloc] initWithLatitude:latitude longitude:longitude];
     CLLocationDistance distancenumber = [userlocation distanceFromLocation:monument];
-    
+        
     NSString *distance = [formatter stringFromDistance:distancenumber];
+    
+    self.title = [item objectForKey:@"name"];
     
     [self setHeaderImage:[UIImage imageNamed:[item objectForKey:@"image"]]];
     [self setTitleText:distance];
